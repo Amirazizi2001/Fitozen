@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "SupplementLand.Application/1.0.0": {
+        "dependencies": {
+          "SupplementLand.Domain": "1.0.0"
+        },
+        "runtime": {
+          "SupplementLand.Application.dll": {}
+        }
+      },
+      "SupplementLand.Domain/1.0.0": {
+        "runtime": {
+          "SupplementLand.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SupplementLand.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SupplementLand.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,6 @@
+@SupplementLand_HostAddress = http://localhost:5293
+
+GET {{SupplementLand_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
