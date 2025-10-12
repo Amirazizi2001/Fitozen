@@ -114,7 +114,8 @@ public class PortfolioService : IPortfolioService
                 Price = pi.Product.Price,
                 Quantity = pi.Quantity,
                 VariantId = pi.VariantId,
-                ImageUrl=pi.Product.ImageUrl1
+                DocumentIds=pi.Product.Documents.Select(pi=>pi.Id).ToList(),
+                
             })
             .ToListAsync();
 

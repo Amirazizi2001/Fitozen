@@ -1,0 +1,16 @@
+C:\Users\pc\Desktop\SuppLand\SupplementLand\SupplementLand.Application\bin\Release\net8.0\SupplementLand.Application.deps.json
+C:\Users\pc\Desktop\SuppLand\SupplementLand\SupplementLand.Application\bin\Release\net8.0\SupplementLand.Application.dll
+C:\Users\pc\Desktop\SuppLand\SupplementLand\SupplementLand.Application\bin\Release\net8.0\SupplementLand.Application.pdb
+C:\Users\pc\Desktop\SuppLand\SupplementLand\SupplementLand.Application\bin\Release\net8.0\SupplementLand.Domain.dll
+C:\Users\pc\Desktop\SuppLand\SupplementLand\SupplementLand.Application\bin\Release\net8.0\SupplementLand.Domain.pdb
+C:\Users\pc\Desktop\SuppLand\SupplementLand\SupplementLand.Application\obj\Release\net8.0\SupplementLand.Application.csproj.AssemblyReference.cache
+C:\Users\pc\Desktop\SuppLand\SupplementLand\SupplementLand.Application\obj\Release\net8.0\SupplementLand.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pc\Desktop\SuppLand\SupplementLand\SupplementLand.Application\obj\Release\net8.0\SupplementLand.Application.AssemblyInfoInputs.cache
+C:\Users\pc\Desktop\SuppLand\SupplementLand\SupplementLand.Application\obj\Release\net8.0\SupplementLand.Application.AssemblyInfo.cs
+C:\Users\pc\Desktop\SuppLand\SupplementLand\SupplementLand.Application\obj\Release\net8.0\SupplementLand.Application.csproj.CoreCompileInputs.cache
+C:\Users\pc\Desktop\SuppLand\SupplementLand\SupplementLand.Application\obj\Release\net8.0\SupplementLand.Application.sourcelink.json
+C:\Users\pc\Desktop\SuppLand\SupplementLand\SupplementLand.Application\obj\Release\net8.0\Suppleme.3AC5ABF8.Up2Date
+C:\Users\pc\Desktop\SuppLand\SupplementLand\SupplementLand.Application\obj\Release\net8.0\SupplementLand.Application.dll
+C:\Users\pc\Desktop\SuppLand\SupplementLand\SupplementLand.Application\obj\Release\net8.0\refint\SupplementLand.Application.dll
+C:\Users\pc\Desktop\SuppLand\SupplementLand\SupplementLand.Application\obj\Release\net8.0\SupplementLand.Application.pdb
+C:\Users\pc\Desktop\SuppLand\SupplementLand\SupplementLand.Application\obj\Release\net8.0\ref\SupplementLand.Application.dll

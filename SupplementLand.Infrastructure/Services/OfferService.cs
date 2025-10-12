@@ -98,7 +98,7 @@ public class OfferService:IOfferService
                 Id = r.Id,
                 Name = r.Name,
                 Price = r.Price,
-                Image = r.ImageUrl
+                DocumentIds=r.DocumentIds
             }).ToList()
         }).Skip((filter.Page - 1) * filter.PageSize).ToListAsync();
         

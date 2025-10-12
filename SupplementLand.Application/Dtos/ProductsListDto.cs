@@ -26,6 +26,6 @@ namespace SupplementLand.Application.Dtos
         public string Factory { get; set; }
         public string Category { get; set; }
         public int Stock {  get; set; }
-        public string ImageUrl { get; set; }
+        public List<Guid>? DocumentIds { get; set; }
     }
 }

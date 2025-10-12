@@ -31,7 +31,9 @@ public class UserService :IUserService
         {
             FullName = userDto.FullName,
             Mobile = userDto.Mobile,
-            Email = userDto.Email
+            Email = userDto.Email,
+            BirthDate = userDto.BirthDate,
+            
         };
 
         user.Password = _passwordHasher.HashPassword(user, userDto.Password);

@@ -9,3 +9,4 @@ C:\Users\pc\Desktop\SuppLand\SupplementLand\SupplementLand.Domain\obj\Debug\net8
 C:\Users\pc\Desktop\SuppLand\SupplementLand\SupplementLand.Domain\obj\Debug\net8.0\refint\SupplementLand.Domain.dll
 C:\Users\pc\Desktop\SuppLand\SupplementLand\SupplementLand.Domain\obj\Debug\net8.0\SupplementLand.Domain.pdb
 C:\Users\pc\Desktop\SuppLand\SupplementLand\SupplementLand.Domain\obj\Debug\net8.0\ref\SupplementLand.Domain.dll
+C:\Users\pc\Desktop\SuppLand\SupplementLand\SupplementLand.Domain\obj\Debug\net8.0\SupplementLand.Domain.sourcelink.json

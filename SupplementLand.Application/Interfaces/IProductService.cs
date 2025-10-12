@@ -27,7 +27,7 @@ namespace SupplementLand.Application.Interfaces
         // 🔹 ثبت نظر روی پیشنهاد ویژه
         
         Task<ProductDetailDto> GetProductDetail(int productId);
-        Task<OperationResult> AddProductImage(ProductImageDto dto);
+        
         Task<Product> GetProductById(int id);
         Task<OperationResult> AddProductVariant(ProductsVariantDto dto);
         Task<OperationResult> AddSupplementFact(SupplementFactsDto dto);

@@ -27,12 +27,14 @@ builder.Services.AddScoped<IFactoryService, FactoryService>();
 builder.Services.AddScoped<IPortfolioService, PortfolioService>();
 builder.Services.AddScoped<ICommentService, CommentService>();
 builder.Services.AddScoped<IRateService, RateService>();
-builder.Services.AddScoped<IOrderService,OrderService>();
+builder.Services.AddScoped<IOrderService, OrderService>();
 builder.Services.AddScoped<IOfferService, OfferService>();
-builder.Services.AddScoped<IDiscountService,DiscountService>();
+builder.Services.AddScoped<IDiscountService, DiscountService>();
 builder.Services.AddScoped<IPackageService, PackageService>();
 builder.Services.AddScoped<IContactService, ContactService>();
 builder.Services.AddScoped<IPasswordHasher<User>, PasswordHasher<User>>();
+builder.Services.AddScoped<IDocumentService, DocumentService>();    
+
 
 
 
@@ -42,25 +44,26 @@ builder.Services.AddDbContext<SupplementLandDb>(options =>
 options.UseSqlServer(connectionString));
 //Authentication
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
-    .AddJwtBearer(options=>
+    .AddJwtBearer(options =>
     {
-        var config=builder.Configuration;
+        var config = builder.Configuration;
         options.TokenValidationParameters = new TokenValidationParameters
         {
             ValidateIssuer = true,
-            ValidateAudience=true,
-            ValidateLifetime=true,
-            ValidateIssuerSigningKey=true,
+            ValidateAudience = true,
+            ValidateLifetime = true,
+            ValidateIssuerSigningKey = true,
             ValidIssuer = config["Jwt:Issuer"],
             ValidAudience = config["Jwt:Audience"],
-            IssuerSigningKey=new SymmetricSecurityKey(Encoding.UTF8.GetBytes(config["Jwt:Key"]))
+            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(config["Jwt:Key"]))
         };
     });
 builder.Services.AddAuthorization();
 
 //Swager Authorization button
 
-builder.Services.AddSwaggerGen(c => {
+builder.Services.AddSwaggerGen(c =>
+{
 
     c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
     {
@@ -87,26 +90,24 @@ builder.Services.AddSwaggerGen(c => {
     });
 
 });
-//Images
-var imageStoragePath = builder.Configuration["ImageSettings:StoragePath"];
-var imageRequestPath = builder.Configuration["ImageSettings:RequestPath"];
+
+
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
-app.UseStaticFiles(new StaticFileOptions
-{
-    FileProvider = new PhysicalFileProvider(imageStoragePath),
-    RequestPath = imageRequestPath
-});
 app.UseHttpsRedirection();
+app.UseStaticFiles();
+app.UseRouting();
 app.UseAuthentication();
 app.UseAuthorization();
+
+
+//if (app.Environment.IsDevelopment())
+//{
+//app.UseDeveloperExceptionPage();
+app.UseSwagger();
+    app.UseSwaggerUI();
+//}
 
 app.MapControllers();
 

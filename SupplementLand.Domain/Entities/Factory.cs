@@ -25,6 +25,8 @@ namespace SupplementLand.Domain.Entities
         [Required, MaxLength(50)]
         public string Country { get; set; }
         public ICollection<Product> Products { get; set; }
-        public string?  ImageUrl { get; set; }
+        public ICollection<Document>? Documents { get; set; }
+
+
     }
 }

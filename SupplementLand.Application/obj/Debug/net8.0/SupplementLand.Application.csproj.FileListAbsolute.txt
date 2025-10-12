@@ -13,3 +13,4 @@ C:\Users\pc\Desktop\SuppLand\SupplementLand\SupplementLand.Application\obj\Debug
 C:\Users\pc\Desktop\SuppLand\SupplementLand\SupplementLand.Application\obj\Debug\net8.0\refint\SupplementLand.Application.dll
 C:\Users\pc\Desktop\SuppLand\SupplementLand\SupplementLand.Application\obj\Debug\net8.0\SupplementLand.Application.pdb
 C:\Users\pc\Desktop\SuppLand\SupplementLand\SupplementLand.Application\obj\Debug\net8.0\ref\SupplementLand.Application.dll
+C:\Users\pc\Desktop\SuppLand\SupplementLand\SupplementLand.Application\obj\Debug\net8.0\SupplementLand.Application.sourcelink.json

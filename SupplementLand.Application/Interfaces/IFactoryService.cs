@@ -20,7 +20,7 @@ namespace SupplementLand.Application.Interfaces
             Task<OperationResult> DeleteFactory(int id);
             Task<DataResult<FacListDto>> GetFactoriesList(Filter filter);   
             Task<DataResult<ProductListDto>> GetFactoryProductsList(FactoryFilter filter);
-        Task<OperationResult> AddFactoryImage(FacImageDto dto);
+       
         
 
     }

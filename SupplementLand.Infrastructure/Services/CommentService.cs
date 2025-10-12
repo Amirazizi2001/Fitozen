@@ -37,7 +37,7 @@ public class CommentService : ICommentService
 
             return new OperationResult { Success = true, Message = "Comment added successfully" };
         }
-        catch (Exception ex)
+        catch 
         {
             return new OperationResult{Success=false,Message="Error adding comment"};
         }

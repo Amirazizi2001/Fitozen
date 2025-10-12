@@ -11,7 +11,7 @@ namespace SupplementLand.Application.Dtos
         public int Id { get; set; }
         public string Name { get; set; }
         public decimal Price { get; set; }
-        public string ImageUrl { get; set; }
+        public List<Guid>? DocumentIds { get; set; }
         public int FactoryId { get; set; }
     }
 }

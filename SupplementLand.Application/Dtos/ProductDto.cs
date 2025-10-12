@@ -60,7 +60,7 @@ public class RelatedProductDto
     public int Id { get; set; }
     public string Name { get; set; }
     public decimal Price { get; set; }
-    public string  Image { get; set; }
+    public List<Guid>? DocumentIds { get; set; }
 }
 
 public class ProductDetailDto
@@ -77,7 +77,7 @@ public class ProductDetailDto
     public string? Warning { get; set; }
 
     public string? FactoryName { get; set; }
-    public List<string>? Images { get; set; }
+    public List<Guid>? DocumentIds { get; set; }
     public List<ProductVariantDto>? Variants { get; set; }
     public List<SupplementFactDto>? SupplementFacts { get; set; }
     

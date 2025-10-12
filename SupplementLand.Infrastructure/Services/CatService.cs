@@ -140,16 +140,40 @@ public class CatService : ICatService
 
     public async Task<IEnumerable<CategoryListDto>> GetCategories()
     {
-        
-        var items= await _context.categories.Select(c => new CategoryListDto
+        var all = await _context.categories
+            .AsNoTracking()
+            .Select(c => new
+            {
+                c.Id,
+                c.Name,
+                c.ParentId
+            })
+            .ToListAsync();
+
+        // توجه: ParentId ممکنه nullable باشه
+        var lookup = all.ToLookup(x => x.ParentId);
+
+        List<CategoryListDto> BuildTree(int? parentId)
         {
-            Id = c.Id,
-            Name = c.Name,
-            Childern = c.Childern.Select(c => new CategoryDto { Id = c.Id, Name = c.Name, ParentId = c.ParentId }).ToList()
-        }).ToListAsync();
-        return items;
+            return lookup[parentId]
+               .Select(c =>
+               {
+                   var childern = BuildTree(c.Id);
+                   return new CategoryListDto
+                   {
+                       Id = c.Id,
+                       Name = c.Name,
+                       Childern = childern.Any() ? childern : null,
+                   };
+               }).ToList();
+                
+        }
+
+        // ریشه‌ها
+        return BuildTree(null);
     }
 
-    
-    
+
+
+
 }

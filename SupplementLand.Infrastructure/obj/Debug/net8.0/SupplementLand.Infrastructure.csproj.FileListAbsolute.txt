@@ -17,3 +17,4 @@ C:\Users\pc\Desktop\SuppLand\SupplementLand\SupplementLand.Infrastructure\obj\De
 C:\Users\pc\Desktop\SuppLand\SupplementLand\SupplementLand.Infrastructure\obj\Debug\net8.0\SupplementLand.Infrastructure.pdb
 C:\Users\pc\Desktop\SuppLand\SupplementLand\SupplementLand.Infrastructure\obj\Debug\net8.0\SupplementLand.Infrastructure.genruntimeconfig.cache
 C:\Users\pc\Desktop\SuppLand\SupplementLand\SupplementLand.Infrastructure\obj\Debug\net8.0\ref\SupplementLand.Infrastructure.dll
+C:\Users\pc\Desktop\SuppLand\SupplementLand\SupplementLand.Infrastructure\obj\Debug\net8.0\SupplementLand.Infrastructure.sourcelink.json

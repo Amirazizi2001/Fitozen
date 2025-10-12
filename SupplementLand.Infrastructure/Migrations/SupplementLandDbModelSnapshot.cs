@@ -527,6 +527,41 @@ namespace SupplementLand.Infrastructure.Migrations
                     b.ToTable("discounts");
                 });
 
+            modelBuilder.Entity("SupplementLand.Domain.Entities.Document", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("ContentType")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<byte[]>("Data")
+                        .IsRequired()
+                        .HasColumnType("varbinary(max)");
+
+                    b.Property<int?>("FactoryId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("FileName")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<int?>("ProductId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("FactoryId");
+
+                    b.HasIndex("ProductId");
+
+                    b.ToTable("documents");
+                });
+
             modelBuilder.Entity("SupplementLand.Domain.Entities.Factory", b =>
                 {
                     b.Property<int>("Id")
@@ -539,9 +574,6 @@ namespace SupplementLand.Infrastructure.Migrations
                         .IsRequired()
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
-
-                    b.Property<string>("ImageUrl")
-                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -1474,15 +1506,6 @@ namespace SupplementLand.Infrastructure.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("ImageUrl1")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("ImageUrl2")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("ImageUrl3")
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasMaxLength(60)
@@ -1587,8 +1610,7 @@ namespace SupplementLand.Infrastructure.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("ImageUrl")
-                        .IsRequired()
+                    b.PrimitiveCollection<string>("DocumentIds")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name")
@@ -1746,6 +1768,21 @@ namespace SupplementLand.Infrastructure.Migrations
                     b.Navigation("Product");
 
                     b.Navigation("User");
+                });
+
+            modelBuilder.Entity("SupplementLand.Domain.Entities.Document", b =>
+                {
+                    b.HasOne("SupplementLand.Domain.Entities.Factory", "Factory")
+                        .WithMany("Documents")
+                        .HasForeignKey("FactoryId");
+
+                    b.HasOne("SupplementLand.Domain.Entities.Product", "Product")
+                        .WithMany("Documents")
+                        .HasForeignKey("ProductId");
+
+                    b.Navigation("Factory");
+
+                    b.Navigation("Product");
                 });
 
             modelBuilder.Entity("SupplementLand.Domain.Entities.Offer", b =>
@@ -1911,6 +1948,8 @@ namespace SupplementLand.Infrastructure.Migrations
 
             modelBuilder.Entity("SupplementLand.Domain.Entities.Factory", b =>
                 {
+                    b.Navigation("Documents");
+
                     b.Navigation("Products");
                 });
 
@@ -1925,6 +1964,8 @@ namespace SupplementLand.Infrastructure.Migrations
             modelBuilder.Entity("SupplementLand.Domain.Entities.Product", b =>
                 {
                     b.Navigation("Comments");
+
+                    b.Navigation("Documents");
 
                     b.Navigation("Offers");
 

@@ -9,6 +9,9 @@ namespace SupplementLand.Application.Dtos
     public class FacImageDto
     {
         public int FactoryId { get; set; }
-        public string ImageUrl { get; set; }
+        public string FileName { get; set; }
+        public string ContentType { get; set; }
+        public byte[] Data { get; set; }
     }
+
 }

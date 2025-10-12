@@ -14,7 +14,7 @@ public class RelatedProduct
         public Product Product { get; set; }    // navigation property به محصول اصلی
         public string Name { get; set; }        // نام محصول مرتبط
         public decimal Price { get; set; }      // قیمت محصول مرتبط
-        public string ImageUrl { get; set; }    // تصویر محصول مرتبط
+        public List<Guid>? DocumentIds { get; set; }    // تصویر محصول مرتبط
     
 
 }

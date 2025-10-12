@@ -58,7 +58,7 @@ public class ProductService : IProductService
             Price = p.Price,
             Factory = p.Factory.Name,
             Category = p.Category.Name,
-            ImageUrl = p.ImageUrl1
+            DocumentIds=p.Documents.Select(p=>p.Id).ToList()
 
         })
         .Skip((filter.Page - 1) * filter.PageSize)
@@ -161,11 +161,8 @@ public class ProductService : IProductService
             CategoryName = product.Category?.Name,
             FactoryName = product.Factory?.Name,
             Warning = product.Warning,
-
-            Images = (product.ImageUrl1 == null && product.ImageUrl2 == null && product.ImageUrl3 == null)
-                ? new List<string>()
-                : new List<string?> { product.ImageUrl1, product.ImageUrl2, product.ImageUrl3 }
-                    .Where(x => x != null).ToList(),
+            DocumentIds=product.Documents.Select(p=>p.Id).ToList()
+            ,
 
             SupplementFacts = (product.supplementFacts ?? new List<SupplementFact>())
                 .Select(s => new SupplementFactDto { Label = s.Label, Value = s.Facts })
@@ -189,7 +186,7 @@ public class ProductService : IProductService
                     Id = r.Id,
                     Name = r.Name,
                     Price = r.Price,
-                    Image = r.ImageUrl
+                    DocumentIds=r.DocumentIds
                 }).ToList(),
 
             Comments = (product.Comments ?? new List<Comment>())
@@ -206,17 +203,7 @@ public class ProductService : IProductService
     }
 
 
-    public async Task<OperationResult> AddProductImage(ProductImageDto dto)
-    {
-        var existingProduct = await _context.products.FindAsync(dto.ProductId);
-        if (existingProduct == null) { return new OperationResult { Success = false, Message = "Product doesn't exist" }; }
-        existingProduct.Id = dto.ProductId;
-        existingProduct.ImageUrl1 = dto.ImageUrl1;
-        existingProduct.ImageUrl2 = dto.ImageUrl2;
-        existingProduct.ImageUrl3 = dto.ImageUrl3;
-        await _context.SaveChangesAsync();
-        return new OperationResult { Success = true, Message = "Image Added Successully" };
-    }
+    
 
     public async Task<Product> GetProductById(int id)
     {
