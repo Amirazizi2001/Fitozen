@@ -14,10 +14,10 @@ public class ProductDto
     public decimal Weight { get; set; }
     
     [MaxLength(300)]
-    public string Description { get; set; }
+    public string? Description { get; set; }
     [MaxLength(60)]
-    public string Size { get; set; }
-    public string Warning { get; set; }
+    public string? Size { get; set; }
+    public string? Warning { get; set; }
 
    
     public int CategoryId { get; set; }

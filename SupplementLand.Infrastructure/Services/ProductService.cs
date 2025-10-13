@@ -27,6 +27,8 @@ public class ProductService : IProductService
             FactoryId = dto.FactoryId,
             Stock = dto.Stock,
            Warning= dto.Warning,
+           Size=dto.Size,
+           Goals=string.Join("",dto.Goals),
         };
 
         await _context.products.AddAsync(product);
@@ -145,7 +147,8 @@ public class ProductService : IProductService
                 .ThenInclude(c => c.User)
             .Include(p => p.supplementFacts)
             .Include(p => p.ProductVariants)
-            .Include(p => p.Rates)
+            .Include(p => p.Rates).
+            Include(p=>p.Documents)
             .FirstOrDefaultAsync(p => p.Id == productId);
 
         if (product == null)
@@ -161,7 +164,7 @@ public class ProductService : IProductService
             CategoryName = product.Category?.Name,
             FactoryName = product.Factory?.Name,
             Warning = product.Warning,
-            DocumentIds=product.Documents.Select(p=>p.Id).ToList()
+            DocumentIds = product.Documents ?.Select(p => p.Id).ToList() ?? new List<Guid>()
             ,
 
             SupplementFacts = (product.supplementFacts ?? new List<SupplementFact>())
@@ -186,7 +189,7 @@ public class ProductService : IProductService
                     Id = r.Id,
                     Name = r.Name,
                     Price = r.Price,
-                    DocumentIds=r.DocumentIds
+                    DocumentIds = r.DocumentIds
                 }).ToList(),
 
             Comments = (product.Comments ?? new List<Comment>())

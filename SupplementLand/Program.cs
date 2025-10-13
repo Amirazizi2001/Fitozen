@@ -1,4 +1,4 @@
-using Microsoft.AspNet.Identity;
+﻿using Microsoft.AspNet.Identity;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -43,54 +43,39 @@ var connectionString = builder.Configuration.GetConnectionString("DefaultConnect
 builder.Services.AddDbContext<SupplementLandDb>(options =>
 options.UseSqlServer(connectionString));
 //Authentication
-builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
-    .AddJwtBearer(options =>
-    {
-        var config = builder.Configuration;
-        options.TokenValidationParameters = new TokenValidationParameters
-        {
-            ValidateIssuer = true,
-            ValidateAudience = true,
-            ValidateLifetime = true,
-            ValidateIssuerSigningKey = true,
-            ValidIssuer = config["Jwt:Issuer"],
-            ValidAudience = config["Jwt:Audience"],
-            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(config["Jwt:Key"]))
-        };
-    });
-builder.Services.AddAuthorization();
-
-//Swager Authorization button
-
-builder.Services.AddSwaggerGen(c =>
+builder.Services.AddAuthentication(options =>
 {
+    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+})
+.AddJwtBearer(options =>
+{
+    options.TokenValidationParameters = new TokenValidationParameters
+    {
+        ValidateIssuer = true,
+        ValidateAudience = true,
+        ValidateLifetime = true,
+        ValidateIssuerSigningKey = true,
+        ValidIssuer = builder.Configuration["Jwt:Issuer"],
+        ValidAudience = builder.Configuration["Jwt:Audience"],
+        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
+    };
 
-    c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+    // بخوان از کوکی به جای Header
+    options.Events = new JwtBearerEvents
     {
-        Name = "Authorization",
-        Type = SecuritySchemeType.ApiKey,
-        Scheme = "Bearer",
-        BearerFormat = "JWT",
-        In = ParameterLocation.Header,
-        Description = "please enter Token."
-    });
-    c.AddSecurityRequirement(new OpenApiSecurityRequirement
-    {
+        OnMessageReceived = context =>
         {
-            new Microsoft.OpenApi.Models.OpenApiSecurityScheme
+            if (context.Request.Cookies.ContainsKey("access_token"))
             {
-                Reference =new Microsoft.OpenApi.Models.OpenApiReference
-                {
-                    Type=Microsoft.OpenApi.Models.ReferenceType.SecurityScheme,
-                    Id="Bearer"
-                }
-            },
-            new string[]{}
+                context.Token = context.Request.Cookies["access_token"];
+            }
+            return Task.CompletedTask;
         }
-    });
-
+    };
 });
 
+builder.Services.AddAuthorization();
 
 
 var app = builder.Build();
@@ -98,6 +83,8 @@ var app = builder.Build();
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseRouting();
+
+
 app.UseAuthentication();
 app.UseAuthorization();
 
