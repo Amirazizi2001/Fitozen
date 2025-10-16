@@ -17,6 +17,7 @@ namespace SupplementLand.Domain.Entities
         public DateTime CreateDate { get; set; } = DateTime.Now;
         public int ProductId { get; set; }
         public Product Product { get; set; }
+        public int? ParentId { get; set; }
         public Comment? Parent { get; set; }
         public ICollection<Comment>? Children { get; set; }
         [Range(1,5,ErrorMessage ="must be between 1 & 5")]

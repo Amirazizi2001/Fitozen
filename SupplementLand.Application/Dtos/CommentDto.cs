@@ -15,6 +15,7 @@ namespace SupplementLand.Application.Dtos
         public DateTime CreateDate { get; set; } = DateTime.Now;
         public int ProductId { get; set; }
         public int Rate { get; set; }
+        public int? ParentId { get; set; }
     }
     public class CommentsDto
     {

@@ -100,7 +100,7 @@ public class OfferService:IOfferService
                 Price = r.Price,
                 DocumentIds=r.DocumentIds
             }).ToList()
-        }).Skip((filter.Page - 1) * filter.PageSize).ToListAsync();
+        }).Skip((filter.Page - 1) * filter.PageSize).AsNoTracking().ToListAsync();
         
             
 

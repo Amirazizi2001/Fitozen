@@ -4,6 +4,8 @@ using Microsoft.AspNetCore.Mvc;
 using SupplementLand.Application.Dtos;
 using SupplementLand.Application.Filters;
 using SupplementLand.Application.Interfaces;
+using SupplementLand.Infrastructure.Services;
+using System.Security.Claims;
 
 namespace SupplementLand.Controllers
 {
@@ -12,9 +14,11 @@ namespace SupplementLand.Controllers
     public class PortfolioController : ControllerBase
     {
         private readonly IPortfolioService _portfolioService;
-        public PortfolioController(IPortfolioService portfolioService)
+        private readonly IUserService _userService;
+        public PortfolioController(IPortfolioService portfolioService,IUserService userService)
         {
             _portfolioService = portfolioService;
+            _userService = userService;
         }
         
         [HttpPost("CreatePortfolio")]
@@ -77,6 +81,30 @@ namespace SupplementLand.Controllers
         {
             var price = await _portfolioService.PortfolioTotalSum(portfolioId);
             return Ok(price);
+        }
+        [HttpGet("GetCurrectPortfolio")]
+        [Authorize]
+        public async Task<IActionResult> GetCurrectPortfolio()
+        {
+            var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier);
+            if (userIdClaim == null)
+                return Unauthorized("Invalid token");
+
+            var userId = int.Parse(userIdClaim.Value);
+            var user = await _userService.GetUserById(userId);
+            if (user == null)
+                return NotFound("User not found");
+
+           var portfolio=await _portfolioService.GetUserPortfolio(userId);
+            return Ok(portfolio);
+        }
+        [HttpPut("UpdatePortfolioItem")]
+        [Authorize]
+        public async Task<IActionResult> UpdatePortfolioItem(UPortfolioItemDto dto)
+        {
+            var result = await _portfolioService.UpdatePortfolioItem(dto);
+            if (!result.Success) { return BadRequest(result.Message); }
+            return Ok(result.Message);
         }
     }
 }

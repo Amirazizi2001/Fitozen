@@ -59,6 +59,16 @@
   },
   {
     "ContainingType": "SupplementLand.Controllers.AuthController",
+    "Method": "Me",
+    "RelativePath": "api/Auth/Me",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SupplementLand.Controllers.AuthController",
     "Method": "RefreshToken",
     "RelativePath": "api/Auth/RefreshToken",
     "HttpMethod": "POST",
@@ -299,6 +309,22 @@
         "Name": "PageSize",
         "Type": "System.Int32",
         "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SupplementLand.Controllers.CommentController",
+    "Method": "ReplyToComment",
+    "RelativePath": "api/Comment/ReplyToComment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "SupplementLand.Application.Dtos.CommentDto",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -1110,6 +1136,16 @@
   },
   {
     "ContainingType": "SupplementLand.Controllers.PortfolioController",
+    "Method": "GetCurrectPortfolio",
+    "RelativePath": "api/Portfolio/GetCurrectPortfolio",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SupplementLand.Controllers.PortfolioController",
     "Method": "GetPortfolioById",
     "RelativePath": "api/Portfolio/GetPortfolioById/{id}",
     "HttpMethod": "GET",
@@ -1177,6 +1213,22 @@
       {
         "Name": "portfolioId",
         "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SupplementLand.Controllers.PortfolioController",
+    "Method": "UpdatePortfolioItem",
+    "RelativePath": "api/Portfolio/UpdatePortfolioItem",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "SupplementLand.Application.Dtos.UPortfolioItemDto",
         "IsRequired": true
       }
     ],
@@ -1262,11 +1314,6 @@
       {
         "Name": "Factory",
         "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "Price",
-        "Type": "System.Nullable\u00601[[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "IsRequired": false
       },
       {
@@ -1397,11 +1444,6 @@
       {
         "Name": "Factory",
         "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "Price",
-        "Type": "System.Nullable\u00601[[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "IsRequired": false
       },
       {
@@ -1638,22 +1680,6 @@
         "Name": "PageSize",
         "Type": "System.Int32",
         "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "SupplementLand.Controllers.UserController",
-    "Method": "GetUserById",
-    "RelativePath": "api/User/GetById/{id}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
       }
     ],
     "ReturnTypes": []

@@ -13,6 +13,7 @@ namespace SupplementLand.Application.Interfaces
         Task<OperationResult> AddComment(CommentDto dto);
         Task<OperationResult> EditComment(ComUpdateDto dto);
         Task<OperationResult> DeleteComment(int id);
+        Task<OperationResult> ReplyToComment(CommentDto dto);
         Task<Comment> GetCommentById(int id);
     }
 }

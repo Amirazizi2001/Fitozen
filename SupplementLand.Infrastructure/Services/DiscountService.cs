@@ -96,7 +96,7 @@ public class DiscountService:IDiscountService
             EndDate = d.EndDate
         })
         .Skip((filter.Page - 1) * filter.PageSize)
-        .Take(filter.PageSize)
+        .Take(filter.PageSize).AsNoTracking()
         .ToListAsync();
 
         return new DataResult<DiscountListDto>

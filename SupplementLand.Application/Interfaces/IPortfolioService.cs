@@ -4,6 +4,7 @@ using SupplementLand.Domain.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.NetworkInformation;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -20,5 +21,7 @@ namespace SupplementLand.Application.Interfaces
         Task<PortfolioItem> GetPortfolioItem(int portfolioItemId);
         Task<DataResult<PIListDto>> GetPortfolioItems(PortfolioItemFilter filter);
         Task<decimal> PortfolioTotalSum(int portfolioId);
+        Task<PortListDto> GetUserPortfolio(int userId);
+        Task<OperationResult> UpdatePortfolioItem(UPortfolioItemDto dto);
     }
 }

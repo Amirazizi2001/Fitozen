@@ -110,13 +110,14 @@ public class PortfolioService : IPortfolioService
             .Take(filter.PageSize)
             .Select(pi => new PIListDto
             {
+                Id = pi.Id,
                 Name = pi.Product.Name,
                 Price = pi.Product.Price,
                 Quantity = pi.Quantity,
                 VariantId = pi.VariantId,
                 DocumentIds=pi.Product.Documents.Select(pi=>pi.Id).ToList(),
                 
-            })
+            }).AsNoTracking()
             .ToListAsync();
 
         return new DataResult<PIListDto>
@@ -128,6 +129,36 @@ public class PortfolioService : IPortfolioService
         };
     }
 
+    public async Task<PortListDto> GetUserPortfolio(int userId)
+    {
+        var portfolio = await _context.portfolios.Include(po => po.PortfolioItems).Include(po => po.User).OrderByDescending(po => po.CreateDate)
+            .Select(po => new PortListDto
+            {
+                Id = po.Id,
+                CreateDate = po.CreateDate,
+                FullName = po.User.FullName,
+                Mobile = po.User.Mobile,
+                Name = po.Name,
+                DeleteDate = po.DeleteDate,
+                status = po.status.ToString(),
+                UserId = po.UserId,
+                PortfolioItemsList = po.PortfolioItems.Select(pi => new PIListDto
+                {
+                    Id=pi.Id,
+                    Name = pi.Product.Name,
+                    Price = pi.Product.Price,
+                    Quantity = pi.Quantity,
+                    VariantId = pi.VariantId,
+                    DocumentIds = pi.Product.Documents.Select(d => d.Id).ToList(),
+
+                })
+            }).FirstOrDefaultAsync(po=>po.UserId==userId&&po.status.ToString()=="Opened");    
+
+           
+        return portfolio;
+        
+    }
+
     public async Task<decimal> PortfolioTotalSum(int portfolioId)
     {
         var totalPrice = await _context.portfolioItems
@@ -136,6 +167,19 @@ public class PortfolioService : IPortfolioService
             .SumAsync(pi => pi.Product.Price * pi.Quantity);
 
         return totalPrice;
+    }
+
+    public async Task<OperationResult> UpdatePortfolioItem(UPortfolioItemDto dto)
+    {
+        var portItem=await _context.portfolioItems.SingleOrDefaultAsync(pi=>pi.Id==dto.Id);
+        if (portItem == null) { return new OperationResult { Success = false,Message="This item doesn't exist" }; }
+        portItem.VariantId = dto.VariantId;
+        portItem.ProductId = dto.ProductId;
+        portItem.Quantity = dto.Quantity;
+        portItem.PortfolioId = dto.PortfolioId;
+        await _context.SaveChangesAsync();
+        return new OperationResult { Success = true, Message = "Updated successfuly" };
+
     }
 }
 

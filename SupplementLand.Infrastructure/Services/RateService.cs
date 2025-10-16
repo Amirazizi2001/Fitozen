@@ -84,7 +84,7 @@ public class RateService : IRateService
                 FullName = r.User.FullName,
                 ProductName = r.Product.Name,
                 Score = r.Score
-            }).ToListAsync();
+            }).AsNoTracking().ToListAsync();
 
         return new DataResult<RateListDto>
         {

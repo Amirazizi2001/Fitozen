@@ -106,7 +106,7 @@ public class PackageService:IPackageService
                 Title = p.Title,
                 ProductNames = p.Products.Select(prod => prod.Name).ToList(),
                 DiscountTitle = p.Discount != null ? p.Discount.Title : null
-            })
+            }).AsNoTracking()
             .ToListAsync();
 
         return new DataResult<PackageListDto>

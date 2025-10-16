@@ -54,6 +54,13 @@ namespace SupplementLand.Controllers
             var comments = await _productService.GetProductComments(filter);
             return Ok(comments);
         }
+        [HttpPost("ReplyToComment")]
+        public async Task<IActionResult> ReplyToComment(CommentDto dto)
+        {
+            var result=await _commentService.ReplyToComment(dto);
+            if(!result.Success) {return BadRequest(result.Message);}
+            return Ok(result);  
+        }
 
     }
 }

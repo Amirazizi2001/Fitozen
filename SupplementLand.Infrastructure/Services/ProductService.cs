@@ -44,12 +44,20 @@ public class ProductService : IProductService
 
         if (!string.IsNullOrEmpty(filter.Name))
             query = query.Where(p => p.Name.Contains(filter.Name));
-
+        if (!string.IsNullOrEmpty(filter.Category))
+            query = query.Where(p => p.Category.Name.Contains(filter.Category));
+        if(!string.IsNullOrEmpty(filter.Category))
+            query=query.Where(p=>p.Factory.Name.Contains(filter.Factory));
+      
         if (filter.CategoryId != null)
             query = query.Where(p => p.CategoryId == filter.CategoryId);
 
         if (filter.FactoryId != null)
             query = query.Where(p => p.FactoryId == filter.FactoryId);
+        if(filter.MinPrice!=null)
+            query=query.Where(p=>p.Price>=filter.MinPrice);
+        if (filter.MaxPrice!=null)
+            query=query.Where(p=>p.Price<=filter.MaxPrice);
 
         var totalCount = await query.CountAsync();
 
@@ -64,7 +72,7 @@ public class ProductService : IProductService
 
         })
         .Skip((filter.Page - 1) * filter.PageSize)
-        .Take(filter.PageSize)
+        .Take(filter.PageSize).AsNoTracking()
         .ToListAsync();
 
         return new DataResult<ProductListsDto>
@@ -125,9 +133,11 @@ public class ProductService : IProductService
             CreateDate = c.CreateDate,
             Rate = c.Rate,
             FullName = c.User.FullName,
+            ProductName = c.Product.Name,
+            ParentId = c.ParentId,
             
 
-        }).Skip((filter.Page - 1) * filter.PageSize).Take(filter.PageSize).ToListAsync();
+        }).Skip((filter.Page - 1) * filter.PageSize).Take(filter.PageSize).AsNoTracking().ToListAsync();
         return new DataResult<ComListDto>
         {
             Items = items,
@@ -270,7 +280,7 @@ public class ProductService : IProductService
         {
             Name = p.Name,
             Price = p.Price,
-        }).ToListAsync();
+        }).AsNoTracking().ToListAsync();
         return products;
         
     }
@@ -292,7 +302,7 @@ public class ProductService : IProductService
             {
                 Name = g.Name,
                 Price = g.Price
-            })
+            }).AsNoTracking()
             .ToListAsync();
 
         return bestSellers;

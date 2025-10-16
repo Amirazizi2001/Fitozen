@@ -11,7 +11,7 @@ namespace SupplementLand.Application.Dtos
     {
         public int Id { get; set; }
         public int PortfolioId { get; set; }
-        public StatusO Status { get; set; }
+        public string Status { get; set; }
         public DateTime OrderDate { get; set; }
         public string PortfolioName { get; set; }
         public int UserId { get; set; }

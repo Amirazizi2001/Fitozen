@@ -80,7 +80,7 @@ public class FactoryService : IFactoryService
     {
         IQueryable<Factory> query = _context.factories.AsQueryable();
         var totalCount = await query.CountAsync();
-        var items = await query.Skip((filter.Page - 1) * filter.PageSize).Take(filter.PageSize).ToListAsync();
+        var items = await query.Skip((filter.Page - 1) * filter.PageSize).Take(filter.PageSize).AsNoTracking().ToListAsync();
         return new DataResult<Factory>
         {
             Items = items,
@@ -118,7 +118,7 @@ public class FactoryService : IFactoryService
             FactoryId = p.FactoryId,
             Category = p.Category.Name,
             Factory = p.Factory.Name
-        }).Skip((filter.Page - 1) * filter.PageSize).Take(filter.PageSize).ToListAsync();
+        }).Skip((filter.Page - 1) * filter.PageSize).Take(filter.PageSize).AsNoTracking().ToListAsync();
         return new DataResult<PListDto>
         {
             Items = items,
@@ -139,7 +139,7 @@ public class FactoryService : IFactoryService
             
 
             
-        }).Skip((filter.Page - 1) * filter.PageSize).Take(filter.PageSize).ToListAsync();
+        }).Skip((filter.Page - 1) * filter.PageSize).Take(filter.PageSize).AsNoTracking().ToListAsync();
         return new DataResult<FacListDto>
         {
             Items = items,
@@ -164,7 +164,7 @@ public class FactoryService : IFactoryService
             Price = p.Price,
             FactoryId=p.FactoryId,
             DocumentIds =p.Documents.Select(p=>p.Id).ToList(),
-        }).Skip((filter.Page - 1) * filter.PageSize).Take(filter.PageSize).ToListAsync();
+        }).Skip((filter.Page - 1) * filter.PageSize).Take(filter.PageSize).AsNoTracking().ToListAsync();
         return new DataResult<ProductListDto>
         {
             Items = items,

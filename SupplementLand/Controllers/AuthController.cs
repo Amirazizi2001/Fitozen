@@ -167,6 +167,40 @@ public class AuthController : ControllerBase
         var user=await _userService.GetUserProfile(userId);
         return Ok(user);
     }
+    [HttpGet("Me")]
+    [Authorize]
+    public async Task<IActionResult> Me()
+    {
+        try
+        {
+            
+            var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier);
+            if (userIdClaim == null)
+                return Unauthorized("Invalid token");
+
+            var userId = int.Parse(userIdClaim.Value);
+            var user = await _userService.GetUserById(userId);
+            if (user == null)
+                return NotFound("User not found");
+
+            // برگردوندن اطلاعات مهم بدون پسورد
+            var userInfo = new
+            {
+                user.Id,
+                user.FullName,
+                user.Email,
+                user.Mobile,
+                user.Role
+            };
+
+            return Ok(userInfo);
+        }
+        catch (Exception ex)
+        {
+            return StatusCode(500, $"Error: {ex.Message}");
+        }
+    }
+
 
     private string GenerateToken(User user)
     {

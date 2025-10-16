@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SupplementLand.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+087dd26c06950349b32ac1deab6522be69cb8ac9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1bda5ad4e6296d765489b65aaaa650954f786acf")]
 [assembly: System.Reflection.AssemblyProductAttribute("SupplementLand.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SupplementLand.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

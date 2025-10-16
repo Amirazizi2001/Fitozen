@@ -31,6 +31,8 @@ public class OrderService : IOrderService
             };
 
             await _context.orders.AddAsync(order);
+            var portfolio=await _portfolioService.GetPortfolioById(dto.PortfolioId);
+            portfolio.status =Status.Ordered;
             await _context.SaveChangesAsync();
 
             return new OperationResult { Success = true, Message = "Order created successfully" };
@@ -66,7 +68,7 @@ public class OrderService : IOrderService
                 Id = o.Id,
                 PortfolioId = o.PortfolioId,
                 PortfolioName = o.Portfolio.Name ?? string.Empty,
-                Status = o.Status,
+                Status = o.Status.ToString(),
                 OrderDate = o.OrderDate,
                 UserId = o.Portfolio.UserId,
                 CustomerName = o.Portfolio.User.FullName,
@@ -76,7 +78,7 @@ public class OrderService : IOrderService
                 Quantity = o.Portfolio.PortfolioItems != null
                            ? o.Portfolio.PortfolioItems.Sum(p => p.Quantity)
                            : 0
-            })
+            }).AsNoTracking()
             .ToListAsync();
 
         return new DataResult<OrderListDto>

@@ -79,7 +79,7 @@ namespace SupplementLand.Infrastructure.Services
                 CreateDate = c.CreateDate,
                 Reply=c.Reply
             }).Skip((filter.Page - 1) * filter.PageSize)
-            .Take(filter.PageSize).ToListAsync();
+            .Take(filter.PageSize).AsNoTracking().ToListAsync();
 
 
 

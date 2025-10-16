@@ -11,7 +11,6 @@ namespace SupplementLand.Infrastructure.Filters
     {
         public string? Category { get; set; }
         public string? Factory { get; set; }
-        public decimal? Price { get; set; }
         public string? Name { get; set; }
         public decimal? MinPrice { get; set; }
         public decimal? MaxPrice { get; set; }

@@ -126,7 +126,7 @@ public class CatService : ICatService
                 FactoryId = p.FactoryId,
                 Category = p.Category.Name,
                 Factory = p.Factory.Name
-            })
+            }).AsNoTracking()
             .ToListAsync();
 
         return new DataResult<PListDto>

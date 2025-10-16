@@ -138,7 +138,7 @@ public class UserService :IUserService
                 FullName = u.FullName,
                 Mobile = u.Mobile,
                 Email = u.Email
-            })
+            }).AsNoTracking()
             .ToListAsync();
 
         return new DataResult<UserListDto>
@@ -174,7 +174,7 @@ public class UserService :IUserService
                 Mobile = p.User.Mobile,
                 status = p.status.ToString(),
                 UserId = p.UserId
-            })
+            }).AsNoTracking()
             .ToListAsync();
 
         return new DataResult<PoListDto>
@@ -204,7 +204,7 @@ public class UserService :IUserService
                 Content = c.Content,
                
                 CreateDate = c.CreateDate
-            })
+            }).AsNoTracking()
             .ToListAsync();
 
         return new DataResult<ComListDto>

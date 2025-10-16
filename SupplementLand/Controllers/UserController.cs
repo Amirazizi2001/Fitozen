@@ -26,12 +26,7 @@ namespace SupplementLand.Controllers
             return Ok(users);
         }
 
-        [HttpGet("GetById/{id}")]
-        public async Task<IActionResult> GetUserById(int id)
-        {
-            var user = await _userService.GetUserById(id);
-            return Ok(user);
-        }
+       
 
         [HttpGet("Portfolios")]
         [Authorize]

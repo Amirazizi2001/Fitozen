@@ -22,7 +22,6 @@ namespace SupplementLand.Domain.Entities
     public enum Status
     {
         Opened,
-        Checkout,
-        cancelled
+       Ordered
     }
 }

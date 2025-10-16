@@ -12,10 +12,12 @@ namespace SupplementLand.Controllers
     public class OrderController : ControllerBase
     {
         private readonly IOrderService _orderService;
+        
 
-        public OrderController(IOrderService orderService)
+        public OrderController(IOrderService orderService, IPortfolioService portfolioService)
         {
             _orderService = orderService;
+            
         }
         [HttpGet("GetOrders")]
         [Authorize]
@@ -28,8 +30,13 @@ namespace SupplementLand.Controllers
         [Authorize]
         public async Task<IActionResult> AddOrder(OrderDto dto)
         {
-            await _orderService.AddOrder(dto);
-            return Ok("Order added successfully");
+            var result=await _orderService.AddOrder(dto);
+            if (!result.Success)
+            {
+                return BadRequest(result.Message);
+            }
+            return Ok(result);
+            
         }
     }
 }
