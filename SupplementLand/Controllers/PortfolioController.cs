@@ -25,13 +25,18 @@ namespace SupplementLand.Controllers
         [Authorize]
         public async Task<IActionResult> CreatePortfolio(PortfolioDto dto)
         {
-            await _portfolioService.CreatePortfolio(dto);
+            var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier);
+            if (userIdClaim == null)
+                return Unauthorized("Invalid token");
+
+            var userId = int.Parse(userIdClaim.Value);
+            await _portfolioService.CreatePortfolio(dto,userId);
             return Ok("Portfolio created successfully");
         }
         
         [HttpDelete("DeletePortfolio/{id}")]
         [Authorize]
-        public async Task<IActionResult> DeletePortfolio(int id)
+        public async Task<IActionResult> DeletePortfolio([FromBody]int id)
         {
             await _portfolioService.DeletePortfolio(id);
             return Ok("portfolio deleted successfully");
@@ -52,8 +57,9 @@ namespace SupplementLand.Controllers
             await _portfolioService.AddItem(dto);
             return Ok("PortfolioItem added successfully");
         }
-        [Authorize]
+       
         [HttpGet("GetPortfolioItemById/{id}")]
+        [Authorize]
         public async Task<IActionResult> GetPortfolioItemById(int id)
         {
             var portfolioItem = await _portfolioService.GetPortfolioItem(id);
@@ -62,7 +68,7 @@ namespace SupplementLand.Controllers
         
         [HttpDelete("deletePortfolioItem/{id}")]
         [Authorize]
-        public async Task<IActionResult> DeletePortfolioItem(int id)
+        public async Task<IActionResult> DeletePortfolioItem([FromBody] int id)
         {
             await _portfolioService.DeleteItem(id);
             return Ok("Item deleted successfully");

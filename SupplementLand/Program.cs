@@ -33,7 +33,7 @@ builder.Services.AddScoped<IDiscountService, DiscountService>();
 builder.Services.AddScoped<IPackageService, PackageService>();
 builder.Services.AddScoped<IContactService, ContactService>();
 builder.Services.AddScoped<IPasswordHasher<User>, PasswordHasher<User>>();
-builder.Services.AddScoped<IDocumentService, DocumentService>();    
+builder.Services.AddScoped<IDocumentService, DocumentService>();
 
 
 
@@ -74,6 +74,16 @@ builder.Services.AddAuthentication(options =>
         }
     };
 });
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAll", policy =>
+    {
+        policy
+            .AllowAnyOrigin()
+            .AllowAnyHeader()
+            .AllowAnyMethod(); // بسیار مهم
+    });
+});
 
 builder.Services.AddAuthorization();
 
@@ -81,21 +91,23 @@ builder.Services.AddAuthorization();
 var app = builder.Build();
 
 app.UseHttpsRedirection();
+app.UseDefaultFiles();
 app.UseStaticFiles();
 app.UseRouting();
-
+app.UseCors("AllowAll");
 
 app.UseAuthentication();
 app.UseAuthorization();
 
 
-//if (app.Environment.IsDevelopment())
-//{
-//app.UseDeveloperExceptionPage();
-app.UseSwagger();
+if (app.Environment.IsDevelopment())
+{
+    
+    app.UseSwagger();
     app.UseSwaggerUI();
-//}
+}
 
 app.MapControllers();
+app.MapFallbackToFile("index.html");
 
 app.Run();

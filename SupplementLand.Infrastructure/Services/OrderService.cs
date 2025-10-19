@@ -43,7 +43,7 @@ public class OrderService : IOrderService
         }
     }
 
-    public async Task<DataResult<OrderListDto>> GetOrders(OrderFilter filter)
+    public async Task<DataResult<OrderListDto>> GetOrders(OrderFilter filter,int userId)
     {
         IQueryable<Order> query = _context.orders
             .Include(o => o.Portfolio)
@@ -55,8 +55,8 @@ public class OrderService : IOrderService
         if (!string.IsNullOrEmpty(filter.Status))
             query = query.Where(o => o.Status.ToString() == filter.Status);
 
-        if (filter.UserId.HasValue)
-            query = query.Where(o => o.Portfolio.UserId == filter.UserId.Value);
+        if (userId!=null)
+            query = query.Where(o => o.Portfolio.UserId ==userId);
 
         var totalCount = await query.CountAsync();
 
@@ -103,7 +103,7 @@ public class OrderService : IOrderService
         {
             Id = order.Id,
             PortfolioId = order.PortfolioId,
-            Date = order.OrderDate,
+            OrderDate = order.OrderDate,
             Status = order.Status.ToString(),
             UserId = order.Portfolio.UserId
         };
@@ -123,4 +123,56 @@ public class OrderService : IOrderService
 
         return new OperationResult { Success = true, Message = "Order canceled successfully" };
     }
-}
+
+    public async Task<OrdersDetailDto> GetOrderProductDetail(int portfolioId)
+    {
+        var portfolio = await _context.portfolios.Include(p=>p.Order).Include(p=>p.User).FirstOrDefaultAsync(p => p.Id == portfolioId);
+        
+        
+            var product = await _context.portfolioItems.Include(pi => pi.Product).ThenInclude(p => p.ProductVariants).Include(pi=>pi.Product)
+            .ThenInclude(p=>p.Discount)
+            .Where(pi => pi.PortfolioId == portfolioId).
+                Select(pi => new OrderProductDto
+                {
+                    Id = pi.ProductId,
+                    Name = pi.Product.Name,
+                    Price = pi.Product.Price,
+                    Quantity = pi.Quantity,
+                    Variant = pi.Product.ProductVariants.Where(pv => pv.Id == pi.VariantId).Select(pv => new ProductsVariantDto
+                    {
+                        ProductId = pv.ProductId,
+                        Servings = pv.Serving,
+                        Stock = pv.Stock,
+                        Price = pv.Price,
+                        Name = pv.VariantName,
+
+                    }).FirstOrDefault(),
+                    DisCount=pi.Product.Discount.Percentage
+
+                }).FirstOrDefaultAsync();
+
+
+
+            var result = new OrdersDetailDto
+            {
+                Id = portfolio.Order.Id,
+                FullName=portfolio.User.FullName,
+                PortfolioName=portfolio.Name,
+                OrderDate = portfolio.Order.OrderDate,
+                Status = portfolio.Order.Status.ToString(),
+                PortfolioId = portfolio.Id,
+                UserId = portfolio.UserId,
+                ProductsDetail = product
+
+
+            };
+
+            return result;
+        }
+         
+        
+        
+    }
+
+    
+

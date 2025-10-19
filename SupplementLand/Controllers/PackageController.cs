@@ -32,7 +32,7 @@ namespace SupplementLand.Controllers
         }
 
         [HttpPut("UpdatePackage")]
-        public async Task<IActionResult> UpdatePackage(UPackageDto dto)
+        public async Task<IActionResult> UpdatePackage([FromBody] UPackageDto dto)
         {
             var package = await _packageService.GetPackageById(dto.Id);
             if (package == null) return NotFound();

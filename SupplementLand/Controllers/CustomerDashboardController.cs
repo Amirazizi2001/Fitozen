@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using SupplementLand.Application.Dtos;
 using SupplementLand.Application.Filters;
 using SupplementLand.Application.Interfaces;
+using System.Security.Claims;
 
 namespace SupplementLand.Controllers
 {
@@ -22,7 +23,12 @@ namespace SupplementLand.Controllers
         [Authorize]
         public async Task<IActionResult> GetUserOrders([FromQuery] OrderFilter filter)
         {
-            var orders = await _orderService.GetOrders(filter);
+            var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier);
+            if (userIdClaim == null)
+                return Unauthorized("Invalid token");
+
+            var userId = int.Parse(userIdClaim.Value);
+            var orders = await _orderService.GetOrders(filter, userId);
             return Ok(orders);
         }
         [HttpGet("GetOrderDetail/{id}")]
@@ -32,18 +38,28 @@ namespace SupplementLand.Controllers
             var order = await _orderService.GetOrderDetail(id);
             return Ok(order);
         }
-        [HttpGet("GetUserProfile/{id}")]
+        [HttpGet("GetUserProfile")]
         [Authorize]
-        public async Task<IActionResult> GetUserProfile(int id)
+        public async Task<IActionResult> GetUserProfile()
         {
-            var user = await _userService.GetUserProfile(id);
+            var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier);
+            if (userIdClaim == null)
+                return Unauthorized("Invalid token");
+
+            var userId = int.Parse(userIdClaim.Value);
+            var user = await _userService.GetUserProfile(userId);
             return Ok(user);
         }
         [HttpPut("UpdateProfile")]
         [Authorize]
         public async Task<IActionResult> UpdateUserProfile(UserProfileDto dto)
         {
-            var result = await _userService.UpdateUserProfile(dto);
+            var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier);
+            if (userIdClaim == null)
+                return Unauthorized("Invalid token");
+
+            var userId = int.Parse(userIdClaim.Value);
+            var result = await _userService.UpdateUserProfile(dto, userId);
             if (!result.Success) { return BadRequest(result.Message); }
             return Ok(result.Message);
 

@@ -12,8 +12,9 @@ namespace SupplementLand.Application.Interfaces
     public interface IOrderService
     {
         Task<OperationResult> AddOrder(OrderDto dto);
-        Task<DataResult<OrderListDto>> GetOrders(OrderFilter filter);
+        Task<DataResult<OrderListDto>> GetOrders(OrderFilter filter,int userId);
         Task<OrderDetailDto> GetOrderDetail(int orderId);
         Task<OperationResult> CancelOrder(int orderId);
+        Task<OrdersDetailDto> GetOrderProductDetail(int portfolioId);
     }
 }

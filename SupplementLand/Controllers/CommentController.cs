@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using SupplementLand.Application.Dtos;
 using SupplementLand.Application.Filters;
 using SupplementLand.Application.Interfaces;
+using System.Security.Claims;
 
 namespace SupplementLand.Controllers
 {
@@ -29,7 +30,12 @@ namespace SupplementLand.Controllers
         [HttpPost("addComment")]
         public async Task<IActionResult> AddComment(CommentDto dto)
         {
-            await _commentService.AddComment(dto);
+            var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier);
+            if (userIdClaim == null)
+                return Unauthorized("Invalid token");
+
+            var userId = int.Parse(userIdClaim.Value);
+            await _commentService.AddComment(dto,userId);
             return Ok("Comment added successfully");
         }
        
@@ -43,7 +49,7 @@ namespace SupplementLand.Controllers
         }
         
         [HttpPut("EditComment")]
-        public async Task<IActionResult> EditComment(ComUpdateDto dto)
+        public async Task<IActionResult> EditComment([FromBody]ComUpdateDto dto)
         {
             await _commentService.EditComment(dto);
             return Ok("Comment updated successfully");
@@ -57,7 +63,12 @@ namespace SupplementLand.Controllers
         [HttpPost("ReplyToComment")]
         public async Task<IActionResult> ReplyToComment(CommentDto dto)
         {
-            var result=await _commentService.ReplyToComment(dto);
+            var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier);
+            if (userIdClaim == null)
+                return Unauthorized("Invalid token");
+
+            var userId = int.Parse(userIdClaim.Value);
+            var result=await _commentService.ReplyToComment(dto,userId);
             if(!result.Success) {return BadRequest(result.Message);}
             return Ok(result);  
         }

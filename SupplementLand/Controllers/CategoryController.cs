@@ -46,7 +46,7 @@ namespace SupplementLand.Controllers
        
         [HttpPut("UpdateCategory")]
         [Authorize(Roles = "Admin")]
-        public async Task<IActionResult> UpdateCategory(CUpdateDto cUpdateDto)
+        public async Task<IActionResult> UpdateCategory([FromBody]CUpdateDto cUpdateDto)
         {
            var result= await _catService.UpdateCategory(cUpdateDto);
             if (!result.Success)

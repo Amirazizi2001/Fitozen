@@ -14,5 +14,6 @@ namespace SupplementLand.Application.Dtos
         public byte[] Data { get; set; }
         public int? FactoryId { get; set; }
         public int? ProductId { get; set; }
+        public bool IsDefault { get; set; }=false;
     }
 }

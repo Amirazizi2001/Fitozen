@@ -20,9 +20,9 @@ public class Product
     
     [MaxLength(60)]
     public string Size { get; set; }
-    [MaxLength(300)]
+    [MaxLength(3000)]
     public string  Description { get; set; }
-    [MaxLength(100)]
+    [MaxLength(1000)]
     public string Warning { get; set; }
 
 

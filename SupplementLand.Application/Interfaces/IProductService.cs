@@ -30,6 +30,8 @@ namespace SupplementLand.Application.Interfaces
         
         Task<Product> GetProductById(int id);
         Task<OperationResult> AddProductVariant(ProductsVariantDto dto);
+        Task<OperationResult> DeleteVariant(int id);
+        Task<OperationResult> DeleteSupplementFacts(int id);
         Task<OperationResult> AddSupplementFact(SupplementFactsDto dto);
         Task<IEnumerable<NewProductListDto>> GetNewProductList();
         Task<IEnumerable<NewProductListDto>> GetBestSellers();

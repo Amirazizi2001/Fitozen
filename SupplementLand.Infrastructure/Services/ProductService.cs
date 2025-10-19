@@ -178,7 +178,7 @@ public class ProductService : IProductService
             ,
 
             SupplementFacts = (product.supplementFacts ?? new List<SupplementFact>())
-                .Select(s => new SupplementFactDto { Label = s.Label, Value = s.Facts })
+                .Select(s => new SupplementsFactDto {Id=s.id, Label = s.Label, Value = s.Facts })
                 .ToList(),
 
             Variants = (product.ProductVariants ?? new List<ProductVariant>())
@@ -278,8 +278,10 @@ public class ProductService : IProductService
     {
         var products = await _context.products.OrderByDescending(p => p.Id).Take(4).Select(p => new NewProductListDto
         {
+            Id= p.Id,
             Name = p.Name,
             Price = p.Price,
+            DocumentIds=p.Documents.Where(d=>d.IsDefault).Select(d=>d.Id).ToList(),
         }).AsNoTracking().ToListAsync();
         return products;
         
@@ -287,27 +289,54 @@ public class ProductService : IProductService
     public async Task<IEnumerable<NewProductListDto>> GetBestSellers()
     {
         var bestSellers = await _context.portfolioItems
-            .Include(pi => pi.Product)
+            .Include(pi => pi.Product).ThenInclude(p=>p.Documents)
             .GroupBy(pi => new { pi.ProductId, pi.Product.Name, pi.Product.Price })
             .Select(g => new
             {
                 g.Key.ProductId,
                 g.Key.Name,
                 g.Key.Price,
+                
+                
                 TotalSold = g.Sum(x => x.Quantity)
             })
             .OrderByDescending(g => g.TotalSold)
             .Take(4)
-            .Select(g => new NewProductListDto
-            {
-                Name = g.Name,
-                Price = g.Price
-            }).AsNoTracking()
+            .AsNoTracking()
             .ToListAsync();
+        var result = bestSellers.Select(b =>
+        {
+            var doc = _context.products.SelectMany(p => p.Documents).Where(d=>d.IsDefault).Select(d => d.Id).ToList();
+            return new NewProductListDto
+            {
+                Id = b.ProductId,
+                Name = b.Name,
+                Price = b.Price,
+                DocumentIds = doc
+            };
+        }).ToList();
 
-        return bestSellers;
+
+        return result;
     }
 
+    public async Task<OperationResult> DeleteVariant(int id)
+    {
+        var variant =await _context.productVariants.FirstOrDefaultAsync(pv => pv.Id == id);
+        if(variant == null) {return new OperationResult { Success=false,Message="Variant not found"};}
+        _context.productVariants.Remove(variant);
+        _context.SaveChangesAsync();
+        return new OperationResult { Success = true, Message = "variant deleted successfully" };
+    }
+
+    public async Task<OperationResult> DeleteSupplementFacts(int id)
+    {
+        var supplefact=await _context.supplementFacts.FirstOrDefaultAsync(sf=>sf.id== id);
+        if (supplefact == null) { return new OperationResult { Success = false, Message = "not found" }; }
+            _context.supplementFacts.Remove(supplefact);
+        await _context.SaveChangesAsync();
+        return new OperationResult { Success = true, Message = "deleted successfully" };
+    }
 }
 
 

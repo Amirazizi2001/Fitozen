@@ -116,13 +116,13 @@ public class OfferService:IOfferService
         };
     }
 
-    public async Task<OperationResult> AddOfferComment(int productId, CommentDto dto)
+    public async Task<OperationResult> AddOfferComment(int productId, CommentDto dto,int userId)
     {
         var comment = new Comment
         {
             ProductId = productId,
             Content = dto.Content,
-            UserId = dto.UserId,
+            UserId = userId,
             CreateDate = DateTime.Now,
             Rate = dto.Rate
         };

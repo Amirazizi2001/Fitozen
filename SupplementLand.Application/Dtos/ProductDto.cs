@@ -29,11 +29,11 @@ public class ProductDto
 public class ProductsVariantDto
 {
    // public int Id { get; set; }
-    public string Name { get; set; }
-    public decimal Price { get; set; }
-    public int Stock { get; set; }
-    public int Servings { get; set; }
-    public int ProductId { get; set; }
+    public string? Name { get; set; }
+    public decimal? Price { get; set; }
+    public int? Stock { get; set; }
+    public int? Servings { get; set; }
+    public int? ProductId { get; set; }
 }
 public class ProductVariantDto
 {
@@ -55,12 +55,28 @@ public class SupplementFactDto
     public string Label { get; set; }
     public string Value { get; set; }
 }
+public class SupplementsFactDto
+{
+    public int Id { get; set; }
+    public string Label { get; set; }
+    public string Value { get; set; }
+}
 public class RelatedProductDto
 {
     public int Id { get; set; }
     public string Name { get; set; }
     public decimal Price { get; set; }
     public List<Guid>? DocumentIds { get; set; }
+}
+public class OrderProductDto
+{
+    public int Id { get; set; }
+    public string Name { get; set; }
+    public decimal Price { get; set; }
+    public int Quantity { get; set; }
+    public int? DisCount { get; set; }
+    public ProductsVariantDto? Variant { get; set; }
+
 }
 
 public class ProductDetailDto
@@ -79,7 +95,7 @@ public class ProductDetailDto
     public string? FactoryName { get; set; }
     public List<Guid>? DocumentIds { get; set; }
     public List<ProductVariantDto>? Variants { get; set; }
-    public List<SupplementFactDto>? SupplementFacts { get; set; }
+    public List<SupplementsFactDto>? SupplementFacts { get; set; }
     
     
     public List<RelatedProductDto>? Related { get; set; }

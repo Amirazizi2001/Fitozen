@@ -14,7 +14,7 @@ namespace SupplementLand.Application.Interfaces
     {
 
         Task<OperationResult> AddItem(portfolioItemDto dto);
-        Task<OperationResult> CreatePortfolio(PortfolioDto dto);
+        Task<OperationResult> CreatePortfolio(PortfolioDto dto,int userId);
         Task<OperationResult> DeleteItem(int portfolioItemId);
         Task<OperationResult> DeletePortfolio(int portfolioId);
         Task<Portfolio> GetPortfolioById(int id);

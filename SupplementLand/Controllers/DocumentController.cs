@@ -19,7 +19,7 @@ public class DocumentController : ControllerBase
     
     [HttpPost("upload")]
     [Authorize(Roles = "Admin")]
-    public async Task<IActionResult> UploadDocument(IFormFile file, int? factoryId, int? productId)
+    public async Task<IActionResult> UploadDocument(IFormFile file, int? factoryId, int? productId,bool isDefault)
     {
         if (file == null || file.Length == 0)
             return BadRequest("فایلی ارسال نشده است.");
@@ -33,7 +33,9 @@ public class DocumentController : ControllerBase
             ContentType = file.ContentType,
             Data = ms.ToArray(),
             FactoryId = factoryId,
-            ProductId = productId
+            ProductId = productId,
+            IsDefault= isDefault
+            
         };
 
         var result = await _documentService.AddDocumentAsync(dto);
@@ -71,5 +73,12 @@ public class DocumentController : ControllerBase
         Response.Headers.Add("Content-Disposition", contentDisposition.ToString());
 
         return File(doc.Data, doc.ContentType, doc.FileName);
+    }
+    [HttpDelete("DeleteDocument/{id}")]
+    public async Task<IActionResult> DeleteDocument(Guid id)
+    {
+        var result=await _documentService.DeleteDocument(id);
+        if (!result.Success) return BadRequest(result.Message);
+        return Ok(result.Message);
     }
 }

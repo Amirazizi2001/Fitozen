@@ -4,6 +4,8 @@ using Microsoft.AspNetCore.Mvc;
 using SupplementLand.Application.Dtos;
 using SupplementLand.Application.Filters;
 using SupplementLand.Application.Interfaces;
+using SupplementLand.Infrastructure.Services;
+using System.Security.Claims;
 
 namespace SupplementLand.Controllers
 {
@@ -23,7 +25,13 @@ namespace SupplementLand.Controllers
         [Authorize]
         public async Task<IActionResult> GetOrders([FromQuery]OrderFilter filter)
         {
-            var orders = await _orderService.GetOrders(filter);
+            var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier);
+            if (userIdClaim == null)
+                return Unauthorized("Invalid token");
+
+            var userId = int.Parse(userIdClaim.Value);
+            
+            var orders = await _orderService.GetOrders(filter,userId);
             return Ok(orders);
         }
         [HttpPost("AddOrder")]
@@ -37,6 +45,21 @@ namespace SupplementLand.Controllers
             }
             return Ok(result);
             
+        }
+        [HttpGet("GetOrderProductDetail/{portfolioId}")]
+        [Authorize]
+        public async Task<IActionResult> GetOrderProductDetail(int portfolioId)
+        {
+            var details=await _orderService.GetOrderProductDetail(portfolioId);
+            return Ok(details);
+        }
+        [HttpPut("CancelOrder/{orderId}")]
+        [Authorize]
+        public async Task<IActionResult> CancelOrder(int orderId)
+        {
+            var result = await _orderService.CancelOrder(orderId);
+            if (!result.Success) { return BadRequest(result.Message); }
+            return Ok(result.Message);
         }
     }
 }

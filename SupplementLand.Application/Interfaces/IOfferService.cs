@@ -16,7 +16,7 @@ namespace SupplementLand.Application.Interfaces
         Task<OperationResult> DeleteOffer(int id);
         Task<Offer> GetOfferById(int id);
         Task<DataResult<OffersDto>> GetSpecialOffers(Filter filter);
-        Task<OperationResult> AddOfferComment(int productId,CommentDto dto);
+        Task<OperationResult> AddOfferComment(int productId,CommentDto dto,int userId);
         Task<OfferDetailDto> GetOfferDetail(int id);
     }
 }

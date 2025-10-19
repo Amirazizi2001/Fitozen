@@ -89,7 +89,7 @@ public class UserService :IUserService
 
         return new UserProfileDto
         {
-            Id = user.Id,
+            
             FullName = user.FullName,
             Email = user.Email,
             Phone = user.Mobile,
@@ -97,9 +97,9 @@ public class UserService :IUserService
         };
     }
 
-    public async Task<OperationResult> UpdateUserProfile(UserProfileDto dto)
+    public async Task<OperationResult> UpdateUserProfile(UserProfileDto dto, int userId)
     {
-        var user = await _context.users.FindAsync(dto.Id);
+        var user = await _context.users.FindAsync(userId);
         if (user == null)
             return new OperationResult { Success = false, Message = "User not found" };
 
@@ -215,5 +215,51 @@ public class UserService :IUserService
             PageSize = filter.PageSize
         };
     }
-    
+    public async Task<OrdersDetailDto> GetOrderProductDetail(int portfolioId,int userId)
+    {
+        var portfolio = await _context.portfolios.Include(p => p.Order).Include(p => p.User).FirstOrDefaultAsync(p => p.Id == portfolioId);
+        if (portfolio.UserId != userId) { throw new NotImplementedException(); }
+
+
+        var product = await _context.portfolioItems.Include(pi => pi.Product).ThenInclude(p => p.ProductVariants).Include(pi => pi.Product)
+        .ThenInclude(p => p.Discount)
+        .Where(pi => pi.PortfolioId == portfolioId).
+            Select(pi => new OrderProductDto
+            {
+                Id = pi.ProductId,
+                Name = pi.Product.Name,
+                Price = pi.Product.Price,
+                Quantity = pi.Quantity,
+                Variant = pi.Product.ProductVariants.Where(pv => pv.Id == pi.VariantId).Select(pv => new ProductsVariantDto
+                {
+                    ProductId = pv.ProductId,
+                    Servings = pv.Serving,
+                    Stock = pv.Stock,
+                    Price = pv.Price,
+                    Name = pv.VariantName,
+
+                }).FirstOrDefault(),
+                DisCount = pi.Product.Discount.Percentage
+
+            }).FirstOrDefaultAsync();
+
+
+
+        var result = new OrdersDetailDto
+        {
+            Id = portfolio.Order.Id,
+            FullName = portfolio.User.FullName,
+            PortfolioName = portfolio.Name,
+            OrderDate = portfolio.Order.OrderDate,
+            Status = portfolio.Order.Status.ToString(),
+            PortfolioId = portfolio.Id,
+            UserId = portfolio.UserId,
+            ProductsDetail = product
+
+
+        };
+
+        return result;
+    }
+
 }

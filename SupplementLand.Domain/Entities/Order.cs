@@ -18,8 +18,8 @@ namespace SupplementLand.Domain.Entities
     }
     public enum StatusO
     {
-        CheckOut,
         NotPaid,
+        CheckOut,
         Canceled
     }
 }

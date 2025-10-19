@@ -21,13 +21,15 @@ namespace SupplementLand.Application.Interfaces
 
         
         Task<UserProfileDto> GetUserProfile(int userId);
-        Task<OperationResult> UpdateUserProfile(UserProfileDto dto);
+        Task<OperationResult> UpdateUserProfile(UserProfileDto dto,int userId);
        
 
         
         Task<DataResult<UserListDto>> GetAllUsers(UserFilter filter);
         Task<DataResult<PoListDto>> UserPortfolios(PortfolioFilter filter);
         Task<DataResult<ComListDto>> GetUserComments(UserCommentFilter filter);
+        Task<OrdersDetailDto> GetOrderProductDetail(int portfolioId,int userId);
+
 
     }
 }

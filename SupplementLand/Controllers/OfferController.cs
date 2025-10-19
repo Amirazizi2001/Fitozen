@@ -30,7 +30,7 @@ namespace SupplementLand.Controllers
 
         [HttpPut("UpdateOffer")]
         [Authorize(Roles = "Admin")]
-        public async Task<IActionResult> UpdateOffer(UOfferDto dto)
+        public async Task<IActionResult> UpdateOffer([FromBody]UOfferDto dto)
         {
             var offer = await _offerService.GetOfferById(dto.Id);
             if (offer == null) return NotFound();

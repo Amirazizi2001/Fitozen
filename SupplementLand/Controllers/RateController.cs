@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using SupplementLand.Application.Dtos;
 using SupplementLand.Application.Filters;
 using SupplementLand.Application.Interfaces;
+using System.Security.Claims;
 
 namespace SupplementLand.Controllers
 {
@@ -24,7 +25,12 @@ namespace SupplementLand.Controllers
         [HttpPost("AddRate")]
         public async Task<IActionResult> AddRate(RateDto dto)
         {
-            await _rateService.AddRate(dto);
+            var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier);
+            if (userIdClaim == null)
+                return Unauthorized("Invalid token");
+
+            var userId = int.Parse(userIdClaim.Value);
+            await _rateService.AddRate(dto,userId);
             return Ok("Rate added successfully");
         }
         [HttpDelete("DeleteRate/{id}")]
@@ -37,7 +43,7 @@ namespace SupplementLand.Controllers
             return Ok("Rate deleted successFully");
         }
         [HttpPut("UpdateRate")]
-        public async Task<IActionResult> UpdateRate(URateDto dto)
+        public async Task<IActionResult> UpdateRate([FromBody] URateDto dto)
         {
             var rate =await _rateService.GetRateById(dto.Id);
             if (rate == null) { return NotFound(); }

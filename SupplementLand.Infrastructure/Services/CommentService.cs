@@ -19,13 +19,13 @@ public class CommentService : ICommentService
     }
 
 
-    public async Task<OperationResult> AddComment(CommentDto dto)
+    public async Task<OperationResult> AddComment(CommentDto dto,int userId)
     {
         try
         {
             var comment = new Comment()
             {
-                UserId = dto.UserId,
+                UserId = userId,
                 ProductId = dto.ProductId,
                 Content = dto.Content,
                 CreateDate = DateTime.UtcNow,
@@ -37,7 +37,7 @@ public class CommentService : ICommentService
             if (!productExists)
                 return new OperationResult { Success = false, Message = "Invalid product ID" };
 
-            var userExists = await _context.users.AnyAsync(u=>u.Id==dto.UserId);
+            var userExists = await _context.users.AnyAsync(u=>u.Id==userId);
             if (!userExists)
                 return new OperationResult { Success = false, Message = "Invalid user ID" };
 
@@ -85,7 +85,7 @@ public class CommentService : ICommentService
     {
         return await _context.comments.FirstOrDefaultAsync(c=>c.Id==id);
     }
-    public async Task<OperationResult> ReplyToComment(CommentDto dto)
+    public async Task<OperationResult> ReplyToComment(CommentDto dto,int userId)
     {
         try
         {
@@ -104,7 +104,7 @@ public class CommentService : ICommentService
            
             var reply = new Comment
             {
-                UserId = dto.UserId,
+                UserId =userId,
                 ProductId = dto.ProductId,
                 ParentId = dto.ParentId, 
                 Content = dto.Content,

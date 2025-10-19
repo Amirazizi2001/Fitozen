@@ -9,7 +9,7 @@ namespace SupplementLand.Application.Dtos
 {
     public class CommentDto
     {
-        public int UserId { get; set; }
+        
         [Required, MaxLength(1000)]
         public string Content { get; set; }
         public DateTime CreateDate { get; set; } = DateTime.Now;

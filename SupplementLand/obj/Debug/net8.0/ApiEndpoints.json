@@ -427,11 +427,6 @@
         "IsRequired": false
       },
       {
-        "Name": "UserId",
-        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
-        "IsRequired": false
-      },
-      {
         "Name": "Page",
         "Type": "System.Int32",
         "IsRequired": false
@@ -447,17 +442,11 @@
   {
     "ContainingType": "SupplementLand.Controllers.CustomerDashboardController",
     "Method": "GetUserProfile",
-    "RelativePath": "api/CustomerDashboard/GetUserProfile/{id}",
+    "RelativePath": "api/CustomerDashboard/GetUserProfile",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
+    "Parameters": [],
     "ReturnTypes": []
   },
   {
@@ -503,6 +492,11 @@
       {
         "Name": "id",
         "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "",
         "IsRequired": true
       }
     ],
@@ -568,6 +562,22 @@
   },
   {
     "ContainingType": "SupplementLand.Controllers.DocumentController",
+    "Method": "DeleteDocument",
+    "RelativePath": "api/Document/DeleteDocument/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SupplementLand.Controllers.DocumentController",
     "Method": "Download",
     "RelativePath": "api/Document/download/{id}",
     "HttpMethod": "GET",
@@ -603,6 +613,11 @@
       {
         "Name": "productId",
         "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "isDefault",
+        "Type": "System.Boolean",
         "IsRequired": false
       }
     ],
@@ -929,6 +944,11 @@
         "Name": "id",
         "Type": "System.Int32",
         "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -967,6 +987,38 @@
   },
   {
     "ContainingType": "SupplementLand.Controllers.OrderController",
+    "Method": "CancelOrder",
+    "RelativePath": "api/Order/CancelOrder/{orderId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orderId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SupplementLand.Controllers.OrderController",
+    "Method": "GetOrderProductDetail",
+    "RelativePath": "api/Order/GetOrderProductDetail/{portfolioId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "portfolioId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SupplementLand.Controllers.OrderController",
     "Method": "GetOrders",
     "RelativePath": "api/Order/GetOrders",
     "HttpMethod": "GET",
@@ -976,11 +1028,6 @@
       {
         "Name": "Status",
         "Type": "System.String",
-        "IsRequired": false
-      },
-      {
-        "Name": "UserId",
-        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "IsRequired": false
       },
       {
@@ -1023,6 +1070,11 @@
       {
         "Name": "id",
         "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "",
         "IsRequired": true
       }
     ],
@@ -1114,6 +1166,11 @@
         "Name": "id",
         "Type": "System.Int32",
         "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -1129,6 +1186,11 @@
       {
         "Name": "id",
         "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "",
         "IsRequired": true
       }
     ],
@@ -1286,6 +1348,38 @@
     "ContainingType": "SupplementLand.Controllers.ProductController",
     "Method": "DeleteProduct",
     "RelativePath": "api/Product/DeleteProduct/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SupplementLand.Controllers.ProductController",
+    "Method": "DeleteSupplementFact",
+    "RelativePath": "api/Product/DeleteSupplementFact/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SupplementLand.Controllers.ProductController",
+    "Method": "DeleteVariant",
+    "RelativePath": "api/Product/DeleteVariant/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -1680,6 +1774,22 @@
         "Name": "PageSize",
         "Type": "System.Int32",
         "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SupplementLand.Controllers.UserController",
+    "Method": "GetOrderProductDetail",
+    "RelativePath": "api/User/GetOrderProductDetail/{portfolioId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "portfolioId",
+        "Type": "System.Int32",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []

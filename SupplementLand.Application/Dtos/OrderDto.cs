@@ -5,14 +5,24 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SupplementLand.Application.Dtos
+namespace SupplementLand.Application.Dtos;
+
+public class OrderDto
 {
-    public class OrderDto
-    {
-        public int PortfolioId { get; set; }
-        public DateTime OrderDate { get; set; }
-        public StatusO Status { get; set; }
-     
-        public int UserId { get; set; }
-    }
+    public int PortfolioId { get; set; }
+    public DateTime OrderDate { get; set; }
+    public StatusO Status { get; set; }
+ 
+    public int UserId { get; set; }
+}
+public class OrdersDetailDto
+{
+    public int Id { get; set; }
+    public string  FullName { get; set; }
+    public string PortfolioName { get; set; }
+    public string Status { get; set; }
+    public int PortfolioId { get; set; }
+    public int UserId { get; set; }
+    public DateTime OrderDate { get; set; }
+    public OrderProductDto? ProductsDetail { get; set; }
 }

@@ -38,14 +38,14 @@ public class PortfolioService : IPortfolioService
         }
     }
 
-    public async Task<OperationResult> CreatePortfolio(PortfolioDto dto)
+    public async Task<OperationResult> CreatePortfolio(PortfolioDto dto,int userId)
     {
         try
         {
             var portfolio = new Portfolio
             {
                 Name = dto.Name,
-                UserId = dto.UserId,
+                UserId =userId,
                 CreateDate = dto.CreateDate,
                 DeleteDate = dto.DeleteDate,
                 status = dto.status
@@ -115,7 +115,7 @@ public class PortfolioService : IPortfolioService
                 Price = pi.Product.Price,
                 Quantity = pi.Quantity,
                 VariantId = pi.VariantId,
-                DocumentIds=pi.Product.Documents.Select(pi=>pi.Id).ToList(),
+                DocumentIds=pi.Product.Documents.Select(d=>d.Id).ToList(),
                 
             }).AsNoTracking()
             .ToListAsync();
@@ -149,7 +149,7 @@ public class PortfolioService : IPortfolioService
                     Price = pi.Product.Price,
                     Quantity = pi.Quantity,
                     VariantId = pi.VariantId,
-                    DocumentIds = pi.Product.Documents.Select(d => d.Id).ToList(),
+                    DocumentIds = pi.Product.Documents.Where(d=>d.IsDefault).Select(d => d.Id).ToList(),
 
                 })
             }).FirstOrDefaultAsync(po=>po.UserId==userId&&po.status.ToString()=="Opened");    

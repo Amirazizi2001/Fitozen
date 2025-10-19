@@ -5,6 +5,7 @@ using SupplementLand.Application.Dtos;
 using SupplementLand.Application.Filters;
 using SupplementLand.Application.Interfaces;
 using System.Net.WebSockets;
+using System.Security.Claims;
 
 namespace SupplementLand.Controllers
 {
@@ -27,7 +28,12 @@ namespace SupplementLand.Controllers
         [Authorize]
         public async Task<IActionResult> AddOfferComment(int productId,CommentDto dto)
         {
-            var result=await _offerService.AddOfferComment(productId, dto);
+            var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier);
+            if (userIdClaim == null)
+                return Unauthorized("Invalid token");
+
+            var userId = int.Parse(userIdClaim.Value);
+            var result=await _offerService.AddOfferComment(productId, dto,userId);
             if (!result.Success) { return BadRequest(result.Message); }
             return Ok(result.Message);
 

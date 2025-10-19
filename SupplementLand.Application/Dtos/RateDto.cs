@@ -11,7 +11,7 @@ namespace SupplementLand.Application.Dtos
     {
         [Range(1, 5, ErrorMessage = "your score must be between 1,5")]
         public int Score { get; set; }
-        public int UserId { get; set; }
+        
         public int ProductId { get; set; }
         
     }

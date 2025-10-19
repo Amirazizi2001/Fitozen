@@ -12,6 +12,7 @@ namespace SupplementLand.Application.Interfaces
     {
         Task<OperationResult> AddDocumentAsync(DocumentDto dto);
         Task<DocumentDto?> GetDocumentAsync(Guid id);
+        Task<OperationResult> DeleteDocument(Guid id);
        
     }
 }

@@ -10,7 +10,7 @@ namespace SupplementLand.Application.Dtos
     public class PortfolioDto
     {
         public string Name { get; set; }
-        public int UserId { get; set; }
+       
         public Status status { get; set; }
         public DateTime CreateDate { get; set; }= DateTime.Now;
         public DateTime? DeleteDate { get; set; }

@@ -35,7 +35,7 @@ namespace SupplementLand.Controllers
 
         [HttpPut("UpdateDiscount")]
         [Authorize(Roles = "Admin")]
-        public async Task<IActionResult> UpdateDiscount(UDiscountDto dto)
+        public async Task<IActionResult> UpdateDiscount([FromBody]UDiscountDto dto)
         {
             var discount = await _discountService.GetDiscountById(dto.Id);
             if (discount == null) return NotFound();

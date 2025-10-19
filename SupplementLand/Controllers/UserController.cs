@@ -5,6 +5,7 @@ using SupplementLand.Application.Dtos;
 using SupplementLand.Application.Filters;
 using SupplementLand.Application.Interfaces;
 using SupplementLand.Domain.Entities;
+using System.Security.Claims;
 
 namespace SupplementLand.Controllers
 {
@@ -47,7 +48,7 @@ namespace SupplementLand.Controllers
 
         [HttpPut]
         [Authorize(Roles = "Admin")]
-        public async Task<IActionResult> UpdateUser(UpdateDto updateDto)
+        public async Task<IActionResult> UpdateUser([FromBody]UpdateDto updateDto)
         {
             var result = await _userService.UpdateUser(updateDto);
 
@@ -68,6 +69,17 @@ namespace SupplementLand.Controllers
             var result= await _userService.AddUser(dto);
             if (!result.Success) {return BadRequest(result.Message); }
             return Ok(result.Message);
+        }
+        [HttpGet("GetOrderProductDetail/{portfolioId}")]
+        public async Task<IActionResult> GetOrderProductDetail(int portfolioId)
+        {
+            var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier);
+            if (userIdClaim == null)
+                return Unauthorized("Invalid token");
+
+            var userId = int.Parse(userIdClaim.Value);
+            var detail = await _userService.GetOrderProductDetail(portfolioId,userId);
+            return Ok(detail);
         }
         
 

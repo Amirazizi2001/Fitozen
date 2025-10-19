@@ -46,7 +46,7 @@ namespace SupplementLand.Controllers
         
         [HttpPut("UpdateProduct")]
         [Authorize(Roles = "Admin")]
-        public async Task<IActionResult> UpdateUser(PUpdateDto pUpdateDto)
+        public async Task<IActionResult> UpdateUser([FromBody]PUpdateDto pUpdateDto)
         {
             var result=await _productService.UpdateProduct(pUpdateDto);
             if (!result.Success) { return BadRequest(result.Message); }
@@ -74,6 +74,20 @@ namespace SupplementLand.Controllers
             if (!result.Success) { return BadRequest(result.Message); }
             return Ok(result.Message);
         }
-        
+        [HttpDelete("DeleteVariant/{id}")]
+        public async Task<IActionResult> DeleteVariant(int id)
+        {
+            var result = await _productService.DeleteVariant(id);
+            if (!result.Success) { return BadRequest(result.Message); }
+            return Ok(result.Message);
+        }
+        [HttpDelete("DeleteSupplementFact/{id}")]
+        public async Task<IActionResult> DeleteSupplementFact(int id)
+        {
+            var result = await _productService.DeleteSupplementFacts(id);
+            if (!result.Success) { return BadRequest(result.Message); }
+            return Ok(result.Message);
+        }
+
     }
 }

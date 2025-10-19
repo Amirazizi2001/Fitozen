@@ -55,7 +55,7 @@ namespace SupplementLand.Controllers
         
         [HttpPut("UpdateFactory")]
         [Authorize(Roles = "Admin")]
-        public async Task<IActionResult> UpdateFactory(FUpdateDto facDto)
+        public async Task<IActionResult> UpdateFactory([FromBody]FUpdateDto facDto)
         {
             var result=await _factoryService.UpdateFactory(facDto);
             if (!result.Success) { return BadRequest(result.Message); }

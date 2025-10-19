@@ -20,7 +20,7 @@ public class RateService : IRateService
         _context = context;
     }
 
-    public async Task<OperationResult> AddRate(RateDto dto)
+    public async Task<OperationResult> AddRate(RateDto dto,int userId)
     {
         try
         {
@@ -28,7 +28,7 @@ public class RateService : IRateService
             {
                 Score = dto.Score,
                 ProductId = dto.ProductId,
-                UserId = dto.UserId
+                UserId =userId
             };
 
             await _context.rates.AddAsync(rate);

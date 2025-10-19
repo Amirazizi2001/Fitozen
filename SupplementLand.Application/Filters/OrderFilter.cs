@@ -9,6 +9,6 @@ namespace SupplementLand.Application.Filters
     public class OrderFilter:Filter
     {
         public string? Status { get; set; }
-        public int? UserId { get; set; }
+        
     }
 }
