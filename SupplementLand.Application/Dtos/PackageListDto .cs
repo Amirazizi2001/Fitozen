@@ -12,5 +12,6 @@ namespace SupplementLand.Application.Dtos
         public string Title { get; set; }
         public List<string> ProductNames { get; set; }
         public string? DiscountTitle { get; set; }
+        public decimal? TotalPrice { get; set; }
     }
 }

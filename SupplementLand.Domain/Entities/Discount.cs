@@ -13,10 +13,10 @@ namespace SupplementLand.Domain.Entities
         public string Title { get; set; }
         public string Code { get; set; }
         [Range(1,100,ErrorMessage ="Use between number 1,100")]
-        public int? Percentage { get; set; }
-        public decimal? DiscountedPrice { get; set; }
+        public decimal Percentage { get; set; }
         public DateTime StartDate { get; set; }
         public DateTime EndDate { get; set; }
+        public int? CountUsed { get; set; }
         public Product? Product { get; set; }
         public Package? Package { get; set; }
 

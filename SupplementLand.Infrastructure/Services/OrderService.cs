@@ -23,15 +23,19 @@ public class OrderService : IOrderService
     {
         try
         {
+            var portfolio = await _portfolioService.GetPortfolioById(dto.PortfolioId);
+            var totalPrice=await _portfolioService.PortfolioTotalSum(dto.PortfolioId);
+
             var order = new Order
             {
                 PortfolioId = dto.PortfolioId,
                 OrderDate = dto.OrderDate,
-                Status = dto.Status
+                Status = dto.Status,
+                TotalPrice = totalPrice,
             };
 
+
             await _context.orders.AddAsync(order);
-            var portfolio=await _portfolioService.GetPortfolioById(dto.PortfolioId);
             portfolio.status =Status.Ordered;
             await _context.SaveChangesAsync();
 
@@ -43,7 +47,7 @@ public class OrderService : IOrderService
         }
     }
 
-    public async Task<DataResult<OrderListDto>> GetOrders(OrderFilter filter,int userId)
+    public async Task<DataResult<OrderListDto>> GetOrders(OrderFilter filter,int? userId)
     {
         IQueryable<Order> query = _context.orders
             .Include(o => o.Portfolio)
@@ -129,7 +133,7 @@ public class OrderService : IOrderService
         var portfolio = await _context.portfolios.Include(p=>p.Order).Include(p=>p.User).FirstOrDefaultAsync(p => p.Id == portfolioId);
         
         
-            var product = await _context.portfolioItems.Include(pi => pi.Product).ThenInclude(p => p.ProductVariants).Include(pi=>pi.Product)
+            var products = await _context.portfolioItems.Include(pi => pi.Product).ThenInclude(p => p.ProductVariants).Include(pi=>pi.Product)
             .ThenInclude(p=>p.Discount)
             .Where(pi => pi.PortfolioId == portfolioId).
                 Select(pi => new OrderProductDto
@@ -138,6 +142,7 @@ public class OrderService : IOrderService
                     Name = pi.Product.Name,
                     Price = pi.Product.Price,
                     Quantity = pi.Quantity,
+                    DisCount=pi.Product.Discount.Percentage,
                     Variant = pi.Product.ProductVariants.Where(pv => pv.Id == pi.VariantId).Select(pv => new ProductsVariantDto
                     {
                         ProductId = pv.ProductId,
@@ -147,9 +152,9 @@ public class OrderService : IOrderService
                         Name = pv.VariantName,
 
                     }).FirstOrDefault(),
-                    DisCount=pi.Product.Discount.Percentage
+                    
 
-                }).FirstOrDefaultAsync();
+                }).ToListAsync();
 
 
 
@@ -162,17 +167,44 @@ public class OrderService : IOrderService
                 Status = portfolio.Order.Status.ToString(),
                 PortfolioId = portfolio.Id,
                 UserId = portfolio.UserId,
-                ProductsDetail = product
+                ProductsDetail = products,
+                TotalAmount=portfolio.Order.TotalPrice,
+                
 
 
             };
 
             return result;
         }
-         
-        
-        
+
+    public async Task<OrdersDto> GetOrder(int id)
+    {
+        var order=await _context.orders.FirstOrDefaultAsync(o => o.Id == id);
+        if (order == null) { throw new Exception(); }
+        return new OrdersDto
+        {
+            PortfolioId = order.PortfolioId,
+            Status = order.Status,
+            OrderDate = order.OrderDate,
+        };
     }
+
+    public async Task<OperationResult> ApplyOrderdiscount(string code, int orderId)
+    {
+       var discount=await _context.discounts.FirstOrDefaultAsync(d=>d.Code == code);
+        if (discount == null) {return new OperationResult { Success = false,Message="discount doesn't exist"};}
+        var order=await _context.orders.FirstOrDefaultAsync(o=>o.Id == orderId);
+        if (order == null || order.Status.ToString() == "NotPaid") { return new OperationResult { Success = false, Message = "order doesn't exist" }; }
+        var percentage = discount.Percentage;
+        var oldTotalPrice = order.TotalPrice;
+        var newPrice = oldTotalPrice - ((oldTotalPrice * percentage) / 100);
+        if (discount.EndDate >= DateTime.UtcNow||discount.CountUsed==0) { return new OperationResult { Success = false, Message = "discount has been expired" }; }
+        order.TotalPrice = newPrice;
+        discount.CountUsed--;
+        _context.SaveChanges();
+        return new OperationResult { Success = true, Message = "Discount has been applied" };
+    }
+}
 
     
 

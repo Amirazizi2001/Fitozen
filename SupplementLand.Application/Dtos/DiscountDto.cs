@@ -25,7 +25,7 @@ public class DiscountDto
     [Required]
     public DateTime EndDate { get; set; }
 
-    public decimal? DiscountedPrice { get; set; }
+    public int? CountUsed { get; set; }
 
 
 }

@@ -88,6 +88,13 @@ namespace SupplementLand.Controllers
             if (!result.Success) { return BadRequest(result.Message); }
             return Ok(result.Message);
         }
+        [HttpPut("ApplyProductDiscount")]
+        public async Task<IActionResult> ApplyProductDiscount(string code, int productId)
+        {
+            var result = await _productService.ApplyProductDiscount(code, productId);
+            if (!result.Success) { return BadRequest(result.Message); }
+            return Ok(result.Message);
+        }
 
     }
 }

@@ -35,7 +35,7 @@ namespace SupplementLand.Application.Interfaces
         Task<OperationResult> AddSupplementFact(SupplementFactsDto dto);
         Task<IEnumerable<NewProductListDto>> GetNewProductList();
         Task<IEnumerable<NewProductListDto>> GetBestSellers();
-
+        Task<OperationResult> ApplyProductDiscount(string code,int productId);
 
     }
 }

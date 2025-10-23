@@ -74,7 +74,7 @@ public class OrderProductDto
     public string Name { get; set; }
     public decimal Price { get; set; }
     public int Quantity { get; set; }
-    public int? DisCount { get; set; }
+    public decimal? DisCount { get; set; }
     public ProductsVariantDto? Variant { get; set; }
 
 }
@@ -96,10 +96,17 @@ public class ProductDetailDto
     public List<Guid>? DocumentIds { get; set; }
     public List<ProductVariantDto>? Variants { get; set; }
     public List<SupplementsFactDto>? SupplementFacts { get; set; }
-    
-    
+    public int FcatoryId { get; set; }
+    public int CategoryId { get; set; }
+    public int? DiscountId{ get; set; }
+    public decimal Weight { get; set; }
     public List<RelatedProductDto>? Related { get; set; }
     public List<ComListDto>? Comments { get; set; }
- 
+    public DateTime ProDate { get; set; }
+    public DateTime ExpDate { get; set; }
+    public string Size { get; set; }
+    public List<string> Goals { get; set; }
+
+
 
 }

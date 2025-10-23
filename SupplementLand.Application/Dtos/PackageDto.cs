@@ -11,7 +11,7 @@ namespace SupplementLand.Application.Dtos
     {
         [Required, MaxLength(100)]
         public string Title { get; set; }
-
+       
         public List<int> ProductIds { get; set; } = new List<int>();
 
         public int? DiscountId { get; set; }

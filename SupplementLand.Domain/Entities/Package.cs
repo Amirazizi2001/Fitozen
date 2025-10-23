@@ -17,8 +17,11 @@ namespace SupplementLand.Domain.Entities
         public int Id { get; set; }
         [Required,MaxLength(100)]
         public string Title { get; set; }
+        public decimal? TotalPrice { get; set; }
         public ICollection<Product> Products { get; set; }
         public int? DiscountId { get; set; }
         public Discount? Discount { get; set; }
+        
+        
     }
 }

@@ -96,7 +96,7 @@ public class PackageService:IPackageService
             query = query.Where(p => p.Title.Contains(filter.Title));
 
         var totalCount = await query.CountAsync();
-
+        
         var items = await query
             .Skip((filter.Page - 1) * filter.PageSize)
             .Take(filter.PageSize)
@@ -105,7 +105,8 @@ public class PackageService:IPackageService
                 Id = p.Id,
                 Title = p.Title,
                 ProductNames = p.Products.Select(prod => prod.Name).ToList(),
-                DiscountTitle = p.Discount != null ? p.Discount.Title : null
+                DiscountTitle = p.Discount != null ? p.Discount.Title : null,
+                TotalPrice=p.Products.Sum(p=>p.Price)
             }).AsNoTracking()
             .ToListAsync();
 
@@ -117,4 +118,17 @@ public class PackageService:IPackageService
             PageSize = filter.PageSize
         };
     }
+
+   /* public async Task<OperationResult> ApplyPackageDiscount(string code, int packageId)
+    {
+       var discount=await _context.discounts.FirstOrDefaultAsync(d=>d.Code==code);
+        if (discount == null) { return new OperationResult { Success = false,Message="Discount doesn't exist" }; }
+        var percentage=discount.Percentage;
+        var package=await _context.packages.FirstOrDefaultAsync(p=>p.Id==packageId);
+        if (package == null) { return new OperationResult { Success = false, Message = "package doesn,t exist" }; }
+        var products = package.Products;
+        var totalPrice = products.Sum(p => p.Price);
+        var discountedPrice=totalPrice-((totalPrice-percentage)/100);
+
+    }*/
 }

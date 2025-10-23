@@ -13,8 +13,9 @@ namespace SupplementLand.Domain.Entities
         public Portfolio Portfolio { get; set; }
         public StatusO Status { get; set; }
         public DateTime OrderDate { get; set; }
-        
-        
+        public decimal? TotalPrice { get; set; }
+
+
     }
     public enum StatusO
     {

@@ -30,7 +30,8 @@ public class DiscountService:IDiscountService
                 Code = dto.Code,
                 Percentage = dto.Percentage,
                 StartDate = dto.StartDate,
-                EndDate = dto.EndDate
+                EndDate = dto.EndDate,
+                CountUsed=dto.CountUsed
             };
 
             await _context.discounts.AddAsync(discount);
@@ -53,6 +54,7 @@ public class DiscountService:IDiscountService
         discount.Percentage = dto.Percentage;
         discount.StartDate = dto.StartDate;
         discount.EndDate = dto.EndDate;
+        discount.CountUsed = dto.CountUsed;
 
         await _context.SaveChangesAsync();
         return new OperationResult { Success = true, Message = "discount updated successfully" } ;
@@ -93,7 +95,8 @@ public class DiscountService:IDiscountService
             ProductName = d.Product != null ? d.Product.Name : null,
             PackageName = d.Package != null ? d.Package.Title : null,
             StartDate = d.StartDate,
-            EndDate = d.EndDate
+            EndDate = d.EndDate,
+            CountUse=d.CountUsed
         })
         .Skip((filter.Page - 1) * filter.PageSize)
         .Take(filter.PageSize).AsNoTracking()

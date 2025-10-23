@@ -3,12 +3,132 @@
   "WorkspaceRootPath": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{18DDAC5C-18F9-4C79-B4DB-52435E1F3FC0}|SupplementLand\\SupplementLand.csproj|c:\\users\\pc\\desktop\\suppland\\supplementland\\supplementland\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18DDAC5C-18F9-4C79-B4DB-52435E1F3FC0}|SupplementLand\\SupplementLand.csproj|solutionrelative:supplementland\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{427C4319-8B43-407B-B367-E3A23EA1B297}|SupplementLand.Infrastructure\\SupplementLand.Infrastructure.csproj|c:\\users\\pc\\desktop\\suppland\\supplementland\\supplementland.infrastructure\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{427C4319-8B43-407B-B367-E3A23EA1B297}|SupplementLand.Infrastructure\\SupplementLand.Infrastructure.csproj|solutionrelative:supplementland.infrastructure\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{427C4319-8B43-407B-B367-E3A23EA1B297}|SupplementLand.Infrastructure\\SupplementLand.Infrastructure.csproj|c:\\users\\pc\\desktop\\suppland\\supplementland\\supplementland.infrastructure\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{427C4319-8B43-407B-B367-E3A23EA1B297}|SupplementLand.Infrastructure\\SupplementLand.Infrastructure.csproj|solutionrelative:supplementland.infrastructure\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{427C4319-8B43-407B-B367-E3A23EA1B297}|SupplementLand.Infrastructure\\SupplementLand.Infrastructure.csproj|c:\\users\\pc\\desktop\\suppland\\supplementland\\supplementland.infrastructure\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{427C4319-8B43-407B-B367-E3A23EA1B297}|SupplementLand.Infrastructure\\SupplementLand.Infrastructure.csproj|solutionrelative:supplementland.infrastructure\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18DDAC5C-18F9-4C79-B4DB-52435E1F3FC0}|SupplementLand\\SupplementLand.csproj|c:\\users\\pc\\desktop\\suppland\\supplementland\\supplementland\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18DDAC5C-18F9-4C79-B4DB-52435E1F3FC0}|SupplementLand\\SupplementLand.csproj|solutionrelative:supplementland\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18DDAC5C-18F9-4C79-B4DB-52435E1F3FC0}|SupplementLand\\SupplementLand.csproj|c:\\users\\pc\\desktop\\suppland\\supplementland\\supplementland\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18DDAC5C-18F9-4C79-B4DB-52435E1F3FC0}|SupplementLand\\SupplementLand.csproj|solutionrelative:supplementland\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B5675E8-208D-4E25-A3DC-CB9711C81D4A}|SupplementLand.Application\\SupplementLand.Application.csproj|c:\\users\\pc\\desktop\\suppland\\supplementland\\supplementland.application\\dtos\\discountlistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B5675E8-208D-4E25-A3DC-CB9711C81D4A}|SupplementLand.Application\\SupplementLand.Application.csproj|solutionrelative:supplementland.application\\dtos\\discountlistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{427C4319-8B43-407B-B367-E3A23EA1B297}|SupplementLand.Infrastructure\\SupplementLand.Infrastructure.csproj|c:\\users\\pc\\desktop\\suppland\\supplementland\\supplementland.infrastructure\\services\\discountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{427C4319-8B43-407B-B367-E3A23EA1B297}|SupplementLand.Infrastructure\\SupplementLand.Infrastructure.csproj|solutionrelative:supplementland.infrastructure\\services\\discountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B5675E8-208D-4E25-A3DC-CB9711C81D4A}|SupplementLand.Application\\SupplementLand.Application.csproj|c:\\users\\pc\\desktop\\suppland\\supplementland\\supplementland.application\\dtos\\udiscountdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B5675E8-208D-4E25-A3DC-CB9711C81D4A}|SupplementLand.Application\\SupplementLand.Application.csproj|solutionrelative:supplementland.application\\dtos\\udiscountdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B5675E8-208D-4E25-A3DC-CB9711C81D4A}|SupplementLand.Application\\SupplementLand.Application.csproj|c:\\users\\pc\\desktop\\suppland\\supplementland\\supplementland.application\\dtos\\discountdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B5675E8-208D-4E25-A3DC-CB9711C81D4A}|SupplementLand.Application\\SupplementLand.Application.csproj|solutionrelative:supplementland.application\\dtos\\discountdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC6961D3-4C81-4499-8D98-5D19F02CD944}|SupplementLand.Domain\\SupplementLand.Domain.csproj|c:\\users\\pc\\desktop\\suppland\\supplementland\\supplementland.domain\\entities\\discount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC6961D3-4C81-4499-8D98-5D19F02CD944}|SupplementLand.Domain\\SupplementLand.Domain.csproj|solutionrelative:supplementland.domain\\entities\\discount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC6961D3-4C81-4499-8D98-5D19F02CD944}|SupplementLand.Domain\\SupplementLand.Domain.csproj|c:\\users\\pc\\desktop\\suppland\\supplementland\\supplementland.domain\\entities\\supplementfact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC6961D3-4C81-4499-8D98-5D19F02CD944}|SupplementLand.Domain\\SupplementLand.Domain.csproj|solutionrelative:supplementland.domain\\entities\\supplementfact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC6961D3-4C81-4499-8D98-5D19F02CD944}|SupplementLand.Domain\\SupplementLand.Domain.csproj|c:\\users\\pc\\desktop\\suppland\\supplementland\\supplementland.domain\\entities\\package.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC6961D3-4C81-4499-8D98-5D19F02CD944}|SupplementLand.Domain\\SupplementLand.Domain.csproj|solutionrelative:supplementland.domain\\entities\\package.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Infrastructure\\Migrations\\20251023061557_M8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SupplementLand.Infrastructure\\Migrations\\20251023061557_M8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B5675E8-208D-4E25-A3DC-CB9711C81D4A}|SupplementLand.Application\\SupplementLand.Application.csproj|c:\\users\\pc\\desktop\\suppland\\supplementland\\supplementland.application\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B5675E8-208D-4E25-A3DC-CB9711C81D4A}|SupplementLand.Application\\SupplementLand.Application.csproj|solutionrelative:supplementland.application\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B5675E8-208D-4E25-A3DC-CB9711C81D4A}|SupplementLand.Application\\SupplementLand.Application.csproj|c:\\users\\pc\\desktop\\suppland\\supplementland\\supplementland.application\\dtos\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B5675E8-208D-4E25-A3DC-CB9711C81D4A}|SupplementLand.Application\\SupplementLand.Application.csproj|solutionrelative:supplementland.application\\dtos\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC6961D3-4C81-4499-8D98-5D19F02CD944}|SupplementLand.Domain\\SupplementLand.Domain.csproj|c:\\users\\pc\\desktop\\suppland\\supplementland\\supplementland.domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC6961D3-4C81-4499-8D98-5D19F02CD944}|SupplementLand.Domain\\SupplementLand.Domain.csproj|solutionrelative:supplementland.domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{427C4319-8B43-407B-B367-E3A23EA1B297}|SupplementLand.Infrastructure\\SupplementLand.Infrastructure.csproj|c:\\users\\pc\\desktop\\suppland\\supplementland\\supplementland.infrastructure\\services\\portfolioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{427C4319-8B43-407B-B367-E3A23EA1B297}|SupplementLand.Infrastructure\\SupplementLand.Infrastructure.csproj|solutionrelative:supplementland.infrastructure\\services\\portfolioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC6961D3-4C81-4499-8D98-5D19F02CD944}|SupplementLand.Domain\\SupplementLand.Domain.csproj|c:\\users\\pc\\desktop\\suppland\\supplementland\\supplementland.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC6961D3-4C81-4499-8D98-5D19F02CD944}|SupplementLand.Domain\\SupplementLand.Domain.csproj|solutionrelative:supplementland.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC6961D3-4C81-4499-8D98-5D19F02CD944}|SupplementLand.Domain\\SupplementLand.Domain.csproj|c:\\users\\pc\\desktop\\suppland\\supplementland\\supplementland.domain\\entities\\portfolioitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC6961D3-4C81-4499-8D98-5D19F02CD944}|SupplementLand.Domain\\SupplementLand.Domain.csproj|solutionrelative:supplementland.domain\\entities\\portfolioitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC6961D3-4C81-4499-8D98-5D19F02CD944}|SupplementLand.Domain\\SupplementLand.Domain.csproj|c:\\users\\pc\\desktop\\suppland\\supplementland\\supplementland.domain\\entities\\portfolio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC6961D3-4C81-4499-8D98-5D19F02CD944}|SupplementLand.Domain\\SupplementLand.Domain.csproj|solutionrelative:supplementland.domain\\entities\\portfolio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B5675E8-208D-4E25-A3DC-CB9711C81D4A}|SupplementLand.Application\\SupplementLand.Application.csproj|c:\\users\\pc\\desktop\\suppland\\supplementland\\supplementland.application\\interfaces\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B5675E8-208D-4E25-A3DC-CB9711C81D4A}|SupplementLand.Application\\SupplementLand.Application.csproj|solutionrelative:supplementland.application\\interfaces\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{427C4319-8B43-407B-B367-E3A23EA1B297}|SupplementLand.Infrastructure\\SupplementLand.Infrastructure.csproj|c:\\users\\pc\\desktop\\suppland\\supplementland\\supplementland.infrastructure\\services\\packageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{427C4319-8B43-407B-B367-E3A23EA1B297}|SupplementLand.Infrastructure\\SupplementLand.Infrastructure.csproj|solutionrelative:supplementland.infrastructure\\services\\packageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B5675E8-208D-4E25-A3DC-CB9711C81D4A}|SupplementLand.Application\\SupplementLand.Application.csproj|c:\\users\\pc\\desktop\\suppland\\supplementland\\supplementland.application\\interfaces\\ipackageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B5675E8-208D-4E25-A3DC-CB9711C81D4A}|SupplementLand.Application\\SupplementLand.Application.csproj|solutionrelative:supplementland.application\\interfaces\\ipackageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC6961D3-4C81-4499-8D98-5D19F02CD944}|SupplementLand.Domain\\SupplementLand.Domain.csproj|c:\\users\\pc\\desktop\\suppland\\supplementland\\supplementland.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC6961D3-4C81-4499-8D98-5D19F02CD944}|SupplementLand.Domain\\SupplementLand.Domain.csproj|solutionrelative:supplementland.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B5675E8-208D-4E25-A3DC-CB9711C81D4A}|SupplementLand.Application\\SupplementLand.Application.csproj|c:\\users\\pc\\desktop\\suppland\\supplementland\\supplementland.application\\dtos\\packagelistdto .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B5675E8-208D-4E25-A3DC-CB9711C81D4A}|SupplementLand.Application\\SupplementLand.Application.csproj|solutionrelative:supplementland.application\\dtos\\packagelistdto .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B5675E8-208D-4E25-A3DC-CB9711C81D4A}|SupplementLand.Application\\SupplementLand.Application.csproj|c:\\users\\pc\\desktop\\suppland\\supplementland\\supplementland.application\\dtos\\packagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B5675E8-208D-4E25-A3DC-CB9711C81D4A}|SupplementLand.Application\\SupplementLand.Application.csproj|solutionrelative:supplementland.application\\dtos\\packagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B5675E8-208D-4E25-A3DC-CB9711C81D4A}|SupplementLand.Application\\SupplementLand.Application.csproj|c:\\users\\pc\\desktop\\suppland\\supplementland\\supplementland.application\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B5675E8-208D-4E25-A3DC-CB9711C81D4A}|SupplementLand.Application\\SupplementLand.Application.csproj|solutionrelative:supplementland.application\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B5675E8-208D-4E25-A3DC-CB9711C81D4A}|SupplementLand.Application\\SupplementLand.Application.csproj|c:\\users\\pc\\desktop\\suppland\\supplementland\\supplementland.application\\dtos\\pupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B5675E8-208D-4E25-A3DC-CB9711C81D4A}|SupplementLand.Application\\SupplementLand.Application.csproj|solutionrelative:supplementland.application\\dtos\\pupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B5675E8-208D-4E25-A3DC-CB9711C81D4A}|SupplementLand.Application\\SupplementLand.Application.csproj|c:\\users\\pc\\desktop\\suppland\\supplementland\\supplementland.application\\dtos\\newproductlistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B5675E8-208D-4E25-A3DC-CB9711C81D4A}|SupplementLand.Application\\SupplementLand.Application.csproj|solutionrelative:supplementland.application\\dtos\\newproductlistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B5675E8-208D-4E25-A3DC-CB9711C81D4A}|SupplementLand.Application\\SupplementLand.Application.csproj|c:\\users\\pc\\desktop\\suppland\\supplementland\\supplementland.application\\dtos\\orderlistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B5675E8-208D-4E25-A3DC-CB9711C81D4A}|SupplementLand.Application\\SupplementLand.Application.csproj|solutionrelative:supplementland.application\\dtos\\orderlistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{18DDAC5C-18F9-4C79-B4DB-52435E1F3FC0}|SupplementLand\\SupplementLand.csproj|c:\\users\\pc\\desktop\\suppland\\supplementland\\supplementland\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{18DDAC5C-18F9-4C79-B4DB-52435E1F3FC0}|SupplementLand\\SupplementLand.csproj|solutionrelative:supplementland\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18DDAC5C-18F9-4C79-B4DB-52435E1F3FC0}|SupplementLand\\SupplementLand.csproj|c:\\users\\pc\\desktop\\suppland\\supplementland\\supplementland\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18DDAC5C-18F9-4C79-B4DB-52435E1F3FC0}|SupplementLand\\SupplementLand.csproj|solutionrelative:supplementland\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{18DDAC5C-18F9-4C79-B4DB-52435E1F3FC0}|SupplementLand\\SupplementLand.csproj|c:\\users\\pc\\desktop\\suppland\\supplementland\\supplementland\\controllers\\categorymodalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,20 +163,12 @@
       "RelativeMoniker": "D:0:0:{18DDAC5C-18F9-4C79-B4DB-52435E1F3FC0}|SupplementLand\\SupplementLand.csproj|solutionrelative:supplementland\\controllers\\offercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18DDAC5C-18F9-4C79-B4DB-52435E1F3FC0}|SupplementLand\\SupplementLand.csproj|c:\\users\\pc\\desktop\\suppland\\supplementland\\supplementland\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18DDAC5C-18F9-4C79-B4DB-52435E1F3FC0}|SupplementLand\\SupplementLand.csproj|solutionrelative:supplementland\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{18DDAC5C-18F9-4C79-B4DB-52435E1F3FC0}|SupplementLand\\SupplementLand.csproj|c:\\users\\pc\\desktop\\suppland\\supplementland\\supplementland\\controllers\\packagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{18DDAC5C-18F9-4C79-B4DB-52435E1F3FC0}|SupplementLand\\SupplementLand.csproj|solutionrelative:supplementland\\controllers\\packagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{18DDAC5C-18F9-4C79-B4DB-52435E1F3FC0}|SupplementLand\\SupplementLand.csproj|c:\\users\\pc\\desktop\\suppland\\supplementland\\supplementland\\controllers\\portfoliocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{18DDAC5C-18F9-4C79-B4DB-52435E1F3FC0}|SupplementLand\\SupplementLand.csproj|solutionrelative:supplementland\\controllers\\portfoliocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18DDAC5C-18F9-4C79-B4DB-52435E1F3FC0}|SupplementLand\\SupplementLand.csproj|c:\\users\\pc\\desktop\\suppland\\supplementland\\supplementland\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18DDAC5C-18F9-4C79-B4DB-52435E1F3FC0}|SupplementLand\\SupplementLand.csproj|solutionrelative:supplementland\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{18DDAC5C-18F9-4C79-B4DB-52435E1F3FC0}|SupplementLand\\SupplementLand.csproj|c:\\users\\pc\\desktop\\suppland\\supplementland\\supplementland\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -75,40 +187,12 @@
       "RelativeMoniker": "D:0:0:{18DDAC5C-18F9-4C79-B4DB-52435E1F3FC0}|SupplementLand\\SupplementLand.csproj|solutionrelative:supplementland\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B5675E8-208D-4E25-A3DC-CB9711C81D4A}|SupplementLand.Application\\SupplementLand.Application.csproj|c:\\users\\pc\\desktop\\suppland\\supplementland\\supplementland.application\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B5675E8-208D-4E25-A3DC-CB9711C81D4A}|SupplementLand.Application\\SupplementLand.Application.csproj|solutionrelative:supplementland.application\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC6961D3-4C81-4499-8D98-5D19F02CD944}|SupplementLand.Domain\\SupplementLand.Domain.csproj|c:\\users\\pc\\desktop\\suppland\\supplementland\\supplementland.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC6961D3-4C81-4499-8D98-5D19F02CD944}|SupplementLand.Domain\\SupplementLand.Domain.csproj|solutionrelative:supplementland.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{427C4319-8B43-407B-B367-E3A23EA1B297}|SupplementLand.Infrastructure\\SupplementLand.Infrastructure.csproj|c:\\users\\pc\\desktop\\suppland\\supplementland\\supplementland.infrastructure\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{427C4319-8B43-407B-B367-E3A23EA1B297}|SupplementLand.Infrastructure\\SupplementLand.Infrastructure.csproj|solutionrelative:supplementland.infrastructure\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B5675E8-208D-4E25-A3DC-CB9711C81D4A}|SupplementLand.Application\\SupplementLand.Application.csproj|c:\\users\\pc\\desktop\\suppland\\supplementland\\supplementland.application\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B5675E8-208D-4E25-A3DC-CB9711C81D4A}|SupplementLand.Application\\SupplementLand.Application.csproj|solutionrelative:supplementland.application\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{18DDAC5C-18F9-4C79-B4DB-52435E1F3FC0}|SupplementLand\\SupplementLand.csproj|c:\\users\\pc\\desktop\\suppland\\supplementland\\supplementland\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{18DDAC5C-18F9-4C79-B4DB-52435E1F3FC0}|SupplementLand\\SupplementLand.csproj|solutionrelative:supplementland\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{427C4319-8B43-407B-B367-E3A23EA1B297}|SupplementLand.Infrastructure\\SupplementLand.Infrastructure.csproj|c:\\users\\pc\\desktop\\suppland\\supplementland\\supplementland.infrastructure\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{427C4319-8B43-407B-B367-E3A23EA1B297}|SupplementLand.Infrastructure\\SupplementLand.Infrastructure.csproj|solutionrelative:supplementland.infrastructure\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1B5675E8-208D-4E25-A3DC-CB9711C81D4A}|SupplementLand.Application\\SupplementLand.Application.csproj|c:\\users\\pc\\desktop\\suppland\\supplementland\\supplementland.application\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B5675E8-208D-4E25-A3DC-CB9711C81D4A}|SupplementLand.Application\\SupplementLand.Application.csproj|solutionrelative:supplementland.application\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B5675E8-208D-4E25-A3DC-CB9711C81D4A}|SupplementLand.Application\\SupplementLand.Application.csproj|c:\\users\\pc\\desktop\\suppland\\supplementland\\supplementland.application\\interfaces\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B5675E8-208D-4E25-A3DC-CB9711C81D4A}|SupplementLand.Application\\SupplementLand.Application.csproj|solutionrelative:supplementland.application\\interfaces\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{427C4319-8B43-407B-B367-E3A23EA1B297}|SupplementLand.Infrastructure\\SupplementLand.Infrastructure.csproj|c:\\users\\pc\\desktop\\suppland\\supplementland\\supplementland.infrastructure\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{427C4319-8B43-407B-B367-E3A23EA1B297}|SupplementLand.Infrastructure\\SupplementLand.Infrastructure.csproj|solutionrelative:supplementland.infrastructure\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1B5675E8-208D-4E25-A3DC-CB9711C81D4A}|SupplementLand.Application\\SupplementLand.Application.csproj|c:\\users\\pc\\desktop\\suppland\\supplementland\\supplementland.application\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -145,10 +229,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{1B5675E8-208D-4E25-A3DC-CB9711C81D4A}|SupplementLand.Application\\SupplementLand.Application.csproj|c:\\users\\pc\\desktop\\suppland\\supplementland\\supplementland.application\\filters\\portfolioitemfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B5675E8-208D-4E25-A3DC-CB9711C81D4A}|SupplementLand.Application\\SupplementLand.Application.csproj|solutionrelative:supplementland.application\\filters\\portfolioitemfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{427C4319-8B43-407B-B367-E3A23EA1B297}|SupplementLand.Infrastructure\\SupplementLand.Infrastructure.csproj|c:\\users\\pc\\desktop\\suppland\\supplementland\\supplementland.infrastructure\\services\\portfolioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{427C4319-8B43-407B-B367-E3A23EA1B297}|SupplementLand.Infrastructure\\SupplementLand.Infrastructure.csproj|solutionrelative:supplementland.infrastructure\\services\\portfolioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1B5675E8-208D-4E25-A3DC-CB9711C81D4A}|SupplementLand.Application\\SupplementLand.Application.csproj|c:\\users\\pc\\desktop\\suppland\\supplementland\\supplementland.application\\interfaces\\iportfolioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -199,18 +279,6 @@
       "RelativeMoniker": "D:0:0:{1B5675E8-208D-4E25-A3DC-CB9711C81D4A}|SupplementLand.Application\\SupplementLand.Application.csproj|solutionrelative:supplementland.application\\dtos\\commentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B5675E8-208D-4E25-A3DC-CB9711C81D4A}|SupplementLand.Application\\SupplementLand.Application.csproj|c:\\users\\pc\\desktop\\suppland\\supplementland\\supplementland.application\\dtos\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B5675E8-208D-4E25-A3DC-CB9711C81D4A}|SupplementLand.Application\\SupplementLand.Application.csproj|solutionrelative:supplementland.application\\dtos\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B5675E8-208D-4E25-A3DC-CB9711C81D4A}|SupplementLand.Application\\SupplementLand.Application.csproj|c:\\users\\pc\\desktop\\suppland\\supplementland\\supplementland.application\\dtos\\orderlistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B5675E8-208D-4E25-A3DC-CB9711C81D4A}|SupplementLand.Application\\SupplementLand.Application.csproj|solutionrelative:supplementland.application\\dtos\\orderlistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC6961D3-4C81-4499-8D98-5D19F02CD944}|SupplementLand.Domain\\SupplementLand.Domain.csproj|c:\\users\\pc\\desktop\\suppland\\supplementland\\supplementland.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC6961D3-4C81-4499-8D98-5D19F02CD944}|SupplementLand.Domain\\SupplementLand.Domain.csproj|solutionrelative:supplementland.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1B5675E8-208D-4E25-A3DC-CB9711C81D4A}|SupplementLand.Application\\SupplementLand.Application.csproj|c:\\users\\pc\\desktop\\suppland\\supplementland\\supplementland.application\\dtos\\documentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B5675E8-208D-4E25-A3DC-CB9711C81D4A}|SupplementLand.Application\\SupplementLand.Application.csproj|solutionrelative:supplementland.application\\dtos\\documentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -221,10 +289,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{1B5675E8-208D-4E25-A3DC-CB9711C81D4A}|SupplementLand.Application\\SupplementLand.Application.csproj|c:\\users\\pc\\desktop\\suppland\\supplementland\\supplementland.application\\dtos\\pilistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B5675E8-208D-4E25-A3DC-CB9711C81D4A}|SupplementLand.Application\\SupplementLand.Application.csproj|solutionrelative:supplementland.application\\dtos\\pilistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B5675E8-208D-4E25-A3DC-CB9711C81D4A}|SupplementLand.Application\\SupplementLand.Application.csproj|c:\\users\\pc\\desktop\\suppland\\supplementland\\supplementland.application\\dtos\\newproductlistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B5675E8-208D-4E25-A3DC-CB9711C81D4A}|SupplementLand.Application\\SupplementLand.Application.csproj|solutionrelative:supplementland.application\\dtos\\newproductlistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1B5675E8-208D-4E25-A3DC-CB9711C81D4A}|SupplementLand.Application\\SupplementLand.Application.csproj|c:\\users\\pc\\desktop\\suppland\\supplementland\\supplementland.application\\interfaces\\idocumentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -239,10 +303,6 @@
       "RelativeMoniker": "D:0:0:{FC6961D3-4C81-4499-8D98-5D19F02CD944}|SupplementLand.Domain\\SupplementLand.Domain.csproj|solutionrelative:supplementland.domain\\entities\\productvariant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FC6961D3-4C81-4499-8D98-5D19F02CD944}|SupplementLand.Domain\\SupplementLand.Domain.csproj|c:\\users\\pc\\desktop\\suppland\\supplementland\\supplementland.domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC6961D3-4C81-4499-8D98-5D19F02CD944}|SupplementLand.Domain\\SupplementLand.Domain.csproj|solutionrelative:supplementland.domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1B5675E8-208D-4E25-A3DC-CB9711C81D4A}|SupplementLand.Application\\SupplementLand.Application.csproj|c:\\users\\pc\\desktop\\suppland\\supplementland\\supplementland.application\\dtos\\portfolioitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B5675E8-208D-4E25-A3DC-CB9711C81D4A}|SupplementLand.Application\\SupplementLand.Application.csproj|solutionrelative:supplementland.application\\dtos\\portfolioitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -251,20 +311,8 @@
       "RelativeMoniker": "D:0:0:{1B5675E8-208D-4E25-A3DC-CB9711C81D4A}|SupplementLand.Application\\SupplementLand.Application.csproj|solutionrelative:supplementland.application\\dtos\\polistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FC6961D3-4C81-4499-8D98-5D19F02CD944}|SupplementLand.Domain\\SupplementLand.Domain.csproj|c:\\users\\pc\\desktop\\suppland\\supplementland\\supplementland.domain\\entities\\portfolio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC6961D3-4C81-4499-8D98-5D19F02CD944}|SupplementLand.Domain\\SupplementLand.Domain.csproj|solutionrelative:supplementland.domain\\entities\\portfolio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{427C4319-8B43-407B-B367-E3A23EA1B297}|SupplementLand.Infrastructure\\SupplementLand.Infrastructure.csproj|c:\\users\\pc\\desktop\\suppland\\supplementland\\supplementland.infrastructure\\services\\packageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{427C4319-8B43-407B-B367-E3A23EA1B297}|SupplementLand.Infrastructure\\SupplementLand.Infrastructure.csproj|solutionrelative:supplementland.infrastructure\\services\\packageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{427C4319-8B43-407B-B367-E3A23EA1B297}|SupplementLand.Infrastructure\\SupplementLand.Infrastructure.csproj|c:\\users\\pc\\desktop\\suppland\\supplementland\\supplementland.infrastructure\\services\\factoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{427C4319-8B43-407B-B367-E3A23EA1B297}|SupplementLand.Infrastructure\\SupplementLand.Infrastructure.csproj|solutionrelative:supplementland.infrastructure\\services\\factoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{427C4319-8B43-407B-B367-E3A23EA1B297}|SupplementLand.Infrastructure\\SupplementLand.Infrastructure.csproj|c:\\users\\pc\\desktop\\suppland\\supplementland\\supplementland.infrastructure\\services\\discountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{427C4319-8B43-407B-B367-E3A23EA1B297}|SupplementLand.Infrastructure\\SupplementLand.Infrastructure.csproj|solutionrelative:supplementland.infrastructure\\services\\discountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{427C4319-8B43-407B-B367-E3A23EA1B297}|SupplementLand.Infrastructure\\SupplementLand.Infrastructure.csproj|c:\\users\\pc\\desktop\\suppland\\supplementland\\supplementland.infrastructure\\services\\contactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -367,10 +415,6 @@
       "RelativeMoniker": "D:0:0:{FC6961D3-4C81-4499-8D98-5D19F02CD944}|SupplementLand.Domain\\SupplementLand.Domain.csproj|solutionrelative:supplementland.domain\\entities\\offer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B5675E8-208D-4E25-A3DC-CB9711C81D4A}|SupplementLand.Application\\SupplementLand.Application.csproj|c:\\users\\pc\\desktop\\suppland\\supplementland\\supplementland.application\\dtos\\pupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B5675E8-208D-4E25-A3DC-CB9711C81D4A}|SupplementLand.Application\\SupplementLand.Application.csproj|solutionrelative:supplementland.application\\dtos\\pupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1B5675E8-208D-4E25-A3DC-CB9711C81D4A}|SupplementLand.Application\\SupplementLand.Application.csproj|c:\\users\\pc\\desktop\\suppland\\supplementland\\supplementland.application\\filters\\offerfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B5675E8-208D-4E25-A3DC-CB9711C81D4A}|SupplementLand.Application\\SupplementLand.Application.csproj|solutionrelative:supplementland.application\\filters\\offerfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -381,14 +425,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{1B5675E8-208D-4E25-A3DC-CB9711C81D4A}|SupplementLand.Application\\SupplementLand.Application.csproj|c:\\users\\pc\\desktop\\suppland\\supplementland\\supplementland.application\\dtos\\updatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B5675E8-208D-4E25-A3DC-CB9711C81D4A}|SupplementLand.Application\\SupplementLand.Application.csproj|solutionrelative:supplementland.application\\dtos\\updatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC6961D3-4C81-4499-8D98-5D19F02CD944}|SupplementLand.Domain\\SupplementLand.Domain.csproj|c:\\users\\pc\\desktop\\suppland\\supplementland\\supplementland.domain\\entities\\portfolioitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC6961D3-4C81-4499-8D98-5D19F02CD944}|SupplementLand.Domain\\SupplementLand.Domain.csproj|solutionrelative:supplementland.domain\\entities\\portfolioitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC6961D3-4C81-4499-8D98-5D19F02CD944}|SupplementLand.Domain\\SupplementLand.Domain.csproj|c:\\users\\pc\\desktop\\suppland\\supplementland\\supplementland.domain\\entities\\supplementfact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC6961D3-4C81-4499-8D98-5D19F02CD944}|SupplementLand.Domain\\SupplementLand.Domain.csproj|solutionrelative:supplementland.domain\\entities\\supplementfact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1B5675E8-208D-4E25-A3DC-CB9711C81D4A}|SupplementLand.Application\\SupplementLand.Application.csproj|c:\\users\\pc\\desktop\\suppland\\supplementland\\supplementland.application\\dtos\\contactlistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -403,18 +439,6 @@
       "RelativeMoniker": "D:0:0:{FC6961D3-4C81-4499-8D98-5D19F02CD944}|SupplementLand.Domain\\SupplementLand.Domain.csproj|solutionrelative:supplementland.domain\\entities\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B5675E8-208D-4E25-A3DC-CB9711C81D4A}|SupplementLand.Application\\SupplementLand.Application.csproj|c:\\users\\pc\\desktop\\suppland\\supplementland\\supplementland.application\\dtos\\discountlistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B5675E8-208D-4E25-A3DC-CB9711C81D4A}|SupplementLand.Application\\SupplementLand.Application.csproj|solutionrelative:supplementland.application\\dtos\\discountlistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B5675E8-208D-4E25-A3DC-CB9711C81D4A}|SupplementLand.Application\\SupplementLand.Application.csproj|c:\\users\\pc\\desktop\\suppland\\supplementland\\supplementland.application\\dtos\\discountdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B5675E8-208D-4E25-A3DC-CB9711C81D4A}|SupplementLand.Application\\SupplementLand.Application.csproj|solutionrelative:supplementland.application\\dtos\\discountdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC6961D3-4C81-4499-8D98-5D19F02CD944}|SupplementLand.Domain\\SupplementLand.Domain.csproj|c:\\users\\pc\\desktop\\suppland\\supplementland\\supplementland.domain\\entities\\discount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC6961D3-4C81-4499-8D98-5D19F02CD944}|SupplementLand.Domain\\SupplementLand.Domain.csproj|solutionrelative:supplementland.domain\\entities\\discount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1B5675E8-208D-4E25-A3DC-CB9711C81D4A}|SupplementLand.Application\\SupplementLand.Application.csproj|c:\\users\\pc\\desktop\\suppland\\supplementland\\supplementland.application\\dtos\\ratelistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B5675E8-208D-4E25-A3DC-CB9711C81D4A}|SupplementLand.Application\\SupplementLand.Application.csproj|solutionrelative:supplementland.application\\dtos\\ratelistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -425,18 +449,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{1B5675E8-208D-4E25-A3DC-CB9711C81D4A}|SupplementLand.Application\\SupplementLand.Application.csproj|c:\\users\\pc\\desktop\\suppland\\supplementland\\supplementland.application\\dtos\\userlistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B5675E8-208D-4E25-A3DC-CB9711C81D4A}|SupplementLand.Application\\SupplementLand.Application.csproj|solutionrelative:supplementland.application\\dtos\\userlistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B5675E8-208D-4E25-A3DC-CB9711C81D4A}|SupplementLand.Application\\SupplementLand.Application.csproj|c:\\users\\pc\\desktop\\suppland\\supplementland\\supplementland.application\\dtos\\packagelistdto .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B5675E8-208D-4E25-A3DC-CB9711C81D4A}|SupplementLand.Application\\SupplementLand.Application.csproj|solutionrelative:supplementland.application\\dtos\\packagelistdto .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B5675E8-208D-4E25-A3DC-CB9711C81D4A}|SupplementLand.Application\\SupplementLand.Application.csproj|c:\\users\\pc\\desktop\\suppland\\supplementland\\supplementland.application\\dtos\\packagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B5675E8-208D-4E25-A3DC-CB9711C81D4A}|SupplementLand.Application\\SupplementLand.Application.csproj|solutionrelative:supplementland.application\\dtos\\packagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B5675E8-208D-4E25-A3DC-CB9711C81D4A}|SupplementLand.Application\\SupplementLand.Application.csproj|c:\\users\\pc\\desktop\\suppland\\supplementland\\supplementland.application\\interfaces\\ipackageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B5675E8-208D-4E25-A3DC-CB9711C81D4A}|SupplementLand.Application\\SupplementLand.Application.csproj|solutionrelative:supplementland.application\\interfaces\\ipackageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1B5675E8-208D-4E25-A3DC-CB9711C81D4A}|SupplementLand.Application\\SupplementLand.Application.csproj|c:\\users\\pc\\desktop\\suppland\\supplementland\\supplementland.application\\filters\\categoryfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -491,14 +503,6 @@
       "RelativeMoniker": "D:0:0:{1B5675E8-208D-4E25-A3DC-CB9711C81D4A}|SupplementLand.Application\\SupplementLand.Application.csproj|solutionrelative:supplementland.application\\dtos\\upackagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FC6961D3-4C81-4499-8D98-5D19F02CD944}|SupplementLand.Domain\\SupplementLand.Domain.csproj|c:\\users\\pc\\desktop\\suppland\\supplementland\\supplementland.domain\\entities\\package.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC6961D3-4C81-4499-8D98-5D19F02CD944}|SupplementLand.Domain\\SupplementLand.Domain.csproj|solutionrelative:supplementland.domain\\entities\\package.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B5675E8-208D-4E25-A3DC-CB9711C81D4A}|SupplementLand.Application\\SupplementLand.Application.csproj|c:\\users\\pc\\desktop\\suppland\\supplementland\\supplementland.application\\dtos\\udiscountdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B5675E8-208D-4E25-A3DC-CB9711C81D4A}|SupplementLand.Application\\SupplementLand.Application.csproj|solutionrelative:supplementland.application\\dtos\\udiscountdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FC6961D3-4C81-4499-8D98-5D19F02CD944}|SupplementLand.Domain\\SupplementLand.Domain.csproj|c:\\users\\pc\\desktop\\suppland\\supplementland\\supplementland.domain\\entities\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FC6961D3-4C81-4499-8D98-5D19F02CD944}|SupplementLand.Domain\\SupplementLand.Domain.csproj|solutionrelative:supplementland.domain\\entities\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -550,644 +554,307 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ContactController.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand\\Controllers\\ContactController.cs",
-              "RelativeDocumentMoniker": "SupplementLand\\Controllers\\ContactController.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand\\Controllers\\ContactController.cs",
-              "RelativeToolTip": "SupplementLand\\Controllers\\ContactController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACAAAABCAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "DiscountListDto.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Dtos\\DiscountListDto.cs",
+              "RelativeDocumentMoniker": "SupplementLand.Application\\Dtos\\DiscountListDto.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Dtos\\DiscountListDto.cs",
+              "RelativeToolTip": "SupplementLand.Application\\Dtos\\DiscountListDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBEAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-01T19:39:01.487Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CommentController.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand\\Controllers\\CommentController.cs",
-              "RelativeDocumentMoniker": "SupplementLand\\Controllers\\CommentController.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand\\Controllers\\CommentController.cs",
-              "RelativeToolTip": "SupplementLand\\Controllers\\CommentController.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAYwEYAAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T04:51:09.969Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CategoryModalController.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand\\Controllers\\CategoryModalController.cs",
-              "RelativeDocumentMoniker": "SupplementLand\\Controllers\\CategoryModalController.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand\\Controllers\\CategoryModalController.cs",
-              "RelativeToolTip": "SupplementLand\\Controllers\\CategoryModalController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-03T12:11:37.188Z",
+              "WhenOpened": "2025-09-29T06:55:26.617Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand\\Controllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "SupplementLand\\Controllers\\CategoryController.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand\\Controllers\\CategoryController.cs",
-              "RelativeToolTip": "SupplementLand\\Controllers\\CategoryController.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAA5wDAAAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T19:47:58.351Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "SupplementLand\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "SupplementLand\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAGQAAAAAAAAAAAAkwLQAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T08:37:55.537Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CustomerDashboardController.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand\\Controllers\\CustomerDashboardController.cs",
-              "RelativeDocumentMoniker": "SupplementLand\\Controllers\\CustomerDashboardController.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand\\Controllers\\CustomerDashboardController.cs",
-              "RelativeToolTip": "SupplementLand\\Controllers\\CustomerDashboardController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAMwD0AAABJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-03T21:13:52.88Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DiscountController.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand\\Controllers\\DiscountController.cs",
-              "RelativeDocumentMoniker": "SupplementLand\\Controllers\\DiscountController.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand\\Controllers\\DiscountController.cs",
-              "RelativeToolTip": "SupplementLand\\Controllers\\DiscountController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T07:03:04.321Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DocumentController.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand\\Controllers\\DocumentController.cs",
-              "RelativeDocumentMoniker": "SupplementLand\\Controllers\\DocumentController.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand\\Controllers\\DocumentController.cs",
-              "RelativeToolTip": "SupplementLand\\Controllers\\DocumentController.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAwwFIAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T03:15:47.574Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "FactoryController.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand\\Controllers\\FactoryController.cs",
-              "RelativeDocumentMoniker": "SupplementLand\\Controllers\\FactoryController.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand\\Controllers\\FactoryController.cs",
-              "RelativeToolTip": "SupplementLand\\Controllers\\FactoryController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAiwDAAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T05:15:33.346Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "OfferController.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand\\Controllers\\OfferController.cs",
-              "RelativeDocumentMoniker": "SupplementLand\\Controllers\\OfferController.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand\\Controllers\\OfferController.cs",
-              "RelativeToolTip": "SupplementLand\\Controllers\\OfferController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACsAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T19:25:58.28Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "OrderController.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand\\Controllers\\OrderController.cs",
-              "RelativeDocumentMoniker": "SupplementLand\\Controllers\\OrderController.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand\\Controllers\\OrderController.cs",
-              "RelativeToolTip": "SupplementLand\\Controllers\\OrderController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAD4vxkAAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T20:00:56.287Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "PackageController.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand\\Controllers\\PackageController.cs",
-              "RelativeDocumentMoniker": "SupplementLand\\Controllers\\PackageController.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand\\Controllers\\PackageController.cs",
-              "RelativeToolTip": "SupplementLand\\Controllers\\PackageController.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAYwCwAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T19:37:07.91Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "PortfolioController.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand\\Controllers\\PortfolioController.cs",
-              "RelativeDocumentMoniker": "SupplementLand\\Controllers\\PortfolioController.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand\\Controllers\\PortfolioController.cs",
-              "RelativeToolTip": "SupplementLand\\Controllers\\PortfolioController.cs",
-              "ViewState": "AgIAAFAAAAAAAAAAAAAMwE4AAABLAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T05:13:47.166Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "SupplementLand\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "SupplementLand\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAcwFkAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T05:10:52.209Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ProductsController.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand\\Controllers\\ProductsController.cs",
-              "RelativeDocumentMoniker": "SupplementLand\\Controllers\\ProductsController.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand\\Controllers\\ProductsController.cs",
-              "RelativeToolTip": "SupplementLand\\Controllers\\ProductsController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAIAwwCwAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-02T04:42:36.664Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "RateController.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand\\Controllers\\RateController.cs",
-              "RelativeDocumentMoniker": "SupplementLand\\Controllers\\RateController.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand\\Controllers\\RateController.cs",
-              "RelativeToolTip": "SupplementLand\\Controllers\\RateController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAzwCQAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T04:56:02.563Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "SpecialOffersController.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand\\Controllers\\SpecialOffersController.cs",
-              "RelativeDocumentMoniker": "SupplementLand\\Controllers\\SpecialOffersController.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand\\Controllers\\SpecialOffersController.cs",
-              "RelativeToolTip": "SupplementLand\\Controllers\\SpecialOffersController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAjwCMAAABQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-03T21:31:48.581Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "SupplementLand\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand\\Controllers\\UserController.cs",
-              "RelativeToolTip": "SupplementLand\\Controllers\\UserController.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAwCkAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T05:08:15.024Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ProductDto.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Dtos\\ProductDto.cs",
-              "RelativeDocumentMoniker": "SupplementLand.Application\\Dtos\\ProductDto.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Dtos\\ProductDto.cs",
-              "RelativeToolTip": "SupplementLand.Application\\Dtos\\ProductDto.cs",
-              "ViewState": "AgIAAFYAAAAAAAAAAAA2wGEAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T06:16:16.865Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Domain\\Entities\\Product.cs",
-              "RelativeDocumentMoniker": "SupplementLand.Domain\\Entities\\Product.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Domain\\Entities\\Product.cs",
-              "RelativeToolTip": "SupplementLand.Domain\\Entities\\Product.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAiwBgAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T04:35:59.394Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
               "Title": "ProductService.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Infrastructure\\Services\\ProductService.cs",
               "RelativeDocumentMoniker": "SupplementLand.Infrastructure\\Services\\ProductService.cs",
               "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Infrastructure\\Services\\ProductService.cs",
               "RelativeToolTip": "SupplementLand.Infrastructure\\Services\\ProductService.cs",
-              "ViewState": "AgIAAJwAAAAAAAAAAAArwJQAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAF8BAAAAAAAAAAAjwHUBAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-24T05:06:57.631Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "IProductService.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Interfaces\\IProductService.cs",
-              "RelativeDocumentMoniker": "SupplementLand.Application\\Interfaces\\IProductService.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Interfaces\\IProductService.cs",
-              "RelativeToolTip": "SupplementLand.Application\\Interfaces\\IProductService.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAawCEAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-03T04:37:47.005Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand\\Program.cs",
-              "RelativeDocumentMoniker": "SupplementLand\\Program.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand\\Program.cs",
-              "RelativeToolTip": "SupplementLand\\Program.cs",
-              "ViewState": "AgIAAFUAAAAAAAAAAAAmwHAAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T05:21:24.587Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Interfaces\\IUserService.cs",
-              "RelativeDocumentMoniker": "SupplementLand.Application\\Interfaces\\IUserService.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Interfaces\\IUserService.cs",
-              "RelativeToolTip": "SupplementLand.Application\\Interfaces\\IUserService.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAIAzwCMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T04:34:21.19Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "IOrderService.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Interfaces\\IOrderService.cs",
-              "RelativeDocumentMoniker": "SupplementLand.Application\\Interfaces\\IOrderService.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Interfaces\\IOrderService.cs",
-              "RelativeToolTip": "SupplementLand.Application\\Interfaces\\IOrderService.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAuwBEAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T19:44:26.884Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Infrastructure\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "SupplementLand.Infrastructure\\Services\\UserService.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Infrastructure\\Services\\UserService.cs",
-              "RelativeToolTip": "SupplementLand.Infrastructure\\Services\\UserService.cs",
-              "ViewState": "AgIAAM8AAAAAAAAAAAAiwNwAAABQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T05:02:51.199Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 2,
               "Title": "OrderService.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Infrastructure\\Services\\OrderService.cs",
               "RelativeDocumentMoniker": "SupplementLand.Infrastructure\\Services\\OrderService.cs",
               "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Infrastructure\\Services\\OrderService.cs",
               "RelativeToolTip": "SupplementLand.Infrastructure\\Services\\OrderService.cs",
-              "ViewState": "AgIAAHQAAAAAAAAAAAAuwK4AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAmwMgAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T19:52:24.743Z"
+              "WhenOpened": "2025-09-29T19:52:24.743Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "UserDto.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Dtos\\UserDto.cs",
-              "RelativeDocumentMoniker": "SupplementLand.Application\\Dtos\\UserDto.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Dtos\\UserDto.cs",
-              "RelativeToolTip": "SupplementLand.Application\\Dtos\\UserDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAARAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "SupplementLand\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "SupplementLand\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAA4wE8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-01T06:30:51.591Z"
+              "WhenOpened": "2025-09-29T20:00:56.287Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "UserCommentFilter.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Filters\\UserCommentFilter.cs",
-              "RelativeDocumentMoniker": "SupplementLand.Application\\Filters\\UserCommentFilter.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Filters\\UserCommentFilter.cs",
-              "RelativeToolTip": "SupplementLand.Application\\Filters\\UserCommentFilter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "SupplementLand\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "SupplementLand\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAAAF4AAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T18:51:09.105Z"
+              "WhenOpened": "2025-09-24T05:10:52.209Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "PortfolioFilter.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Filters\\PortfolioFilter.cs",
-              "RelativeDocumentMoniker": "SupplementLand.Application\\Filters\\PortfolioFilter.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Filters\\PortfolioFilter.cs",
-              "RelativeToolTip": "SupplementLand.Application\\Filters\\PortfolioFilter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Infrastructure\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "SupplementLand.Infrastructure\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Infrastructure\\Services\\UserService.cs",
+              "RelativeToolTip": "SupplementLand.Infrastructure\\Services\\UserService.cs",
+              "ViewState": "AgIAANgAAAAAAAAAAAAiwAMBAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T18:35:29.47Z"
+              "WhenOpened": "2025-09-24T05:02:51.199Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "RateService.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Infrastructure\\Services\\RateService.cs",
-              "RelativeDocumentMoniker": "SupplementLand.Infrastructure\\Services\\RateService.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Infrastructure\\Services\\RateService.cs",
-              "RelativeToolTip": "SupplementLand.Infrastructure\\Services\\RateService.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAwB4AAAAeAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "DiscountService.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Infrastructure\\Services\\DiscountService.cs",
+              "RelativeDocumentMoniker": "SupplementLand.Infrastructure\\Services\\DiscountService.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Infrastructure\\Services\\DiscountService.cs",
+              "RelativeToolTip": "SupplementLand.Infrastructure\\Services\\DiscountService.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAcwFgAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T04:29:50.049Z"
+              "WhenOpened": "2025-09-29T06:57:54.096Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "IRateService.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Interfaces\\IRateService.cs",
-              "RelativeDocumentMoniker": "SupplementLand.Application\\Interfaces\\IRateService.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Interfaces\\IRateService.cs",
-              "RelativeToolTip": "SupplementLand.Application\\Interfaces\\IRateService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAxAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "UDiscountDto.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Dtos\\UDiscountDto.cs",
+              "RelativeDocumentMoniker": "SupplementLand.Application\\Dtos\\UDiscountDto.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Dtos\\UDiscountDto.cs",
+              "RelativeToolTip": "SupplementLand.Application\\Dtos\\UDiscountDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T04:33:31.712Z"
+              "WhenOpened": "2025-09-29T06:54:48.395Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "RateDto.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Dtos\\RateDto.cs",
-              "RelativeDocumentMoniker": "SupplementLand.Application\\Dtos\\RateDto.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Dtos\\RateDto.cs",
-              "RelativeToolTip": "SupplementLand.Application\\Dtos\\RateDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "DiscountDto.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Dtos\\DiscountDto.cs",
+              "RelativeDocumentMoniker": "SupplementLand.Application\\Dtos\\DiscountDto.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Dtos\\DiscountDto.cs",
+              "RelativeToolTip": "SupplementLand.Application\\Dtos\\DiscountDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T04:34:57.457Z"
+              "WhenOpened": "2025-09-29T06:54:04.409Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "RateFilter.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Filters\\RateFilter.cs",
-              "RelativeDocumentMoniker": "SupplementLand.Application\\Filters\\RateFilter.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Filters\\RateFilter.cs",
-              "RelativeToolTip": "SupplementLand.Application\\Filters\\RateFilter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "Discount.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Domain\\Entities\\Discount.cs",
+              "RelativeDocumentMoniker": "SupplementLand.Domain\\Entities\\Discount.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Domain\\Entities\\Discount.cs",
+              "RelativeToolTip": "SupplementLand.Domain\\Entities\\Discount.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAgwBMAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T04:49:00.454Z"
+              "WhenOpened": "2025-09-27T06:38:30.386Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "CommentFilter.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Filters\\CommentFilter.cs",
-              "RelativeDocumentMoniker": "SupplementLand.Application\\Filters\\CommentFilter.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Filters\\CommentFilter.cs",
-              "RelativeToolTip": "SupplementLand.Application\\Filters\\CommentFilter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "SupplementFact.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Domain\\Entities\\SupplementFact.cs",
+              "RelativeDocumentMoniker": "SupplementLand.Domain\\Entities\\SupplementFact.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Domain\\Entities\\SupplementFact.cs",
+              "RelativeToolTip": "SupplementLand.Domain\\Entities\\SupplementFact.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T02:31:45.647Z"
+              "WhenOpened": "2025-10-03T20:24:21.279Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "PortfolioItemFilter.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Filters\\PortfolioItemFilter.cs",
-              "RelativeDocumentMoniker": "SupplementLand.Application\\Filters\\PortfolioItemFilter.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Filters\\PortfolioItemFilter.cs",
-              "RelativeToolTip": "SupplementLand.Application\\Filters\\PortfolioItemFilter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "Package.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Domain\\Entities\\Package.cs",
+              "RelativeDocumentMoniker": "SupplementLand.Domain\\Entities\\Package.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Domain\\Entities\\Package.cs",
+              "RelativeToolTip": "SupplementLand.Domain\\Entities\\Package.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T19:04:17.951Z"
+              "WhenOpened": "2025-09-27T06:43:09.109Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "PortfolioService.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Infrastructure\\Services\\PortfolioService.cs",
-              "RelativeDocumentMoniker": "SupplementLand.Infrastructure\\Services\\PortfolioService.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Infrastructure\\Services\\PortfolioService.cs",
-              "RelativeToolTip": "SupplementLand.Infrastructure\\Services\\PortfolioService.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAYwC8AAAAeAAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "20251023061557_M8.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Infrastructure\\Migrations\\20251023061557_M8.cs",
+              "RelativeDocumentMoniker": "SupplementLand.Infrastructure\\Migrations\\20251023061557_M8.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Infrastructure\\Migrations\\20251023061557_M8.cs",
+              "RelativeToolTip": "SupplementLand.Infrastructure\\Migrations\\20251023061557_M8.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T20:46:42.091Z"
+              "WhenOpened": "2025-10-23T06:15:57.891Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "IPortfolioService.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Interfaces\\IPortfolioService.cs",
-              "RelativeDocumentMoniker": "SupplementLand.Application\\Interfaces\\IPortfolioService.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Interfaces\\IPortfolioService.cs",
-              "RelativeToolTip": "SupplementLand.Application\\Interfaces\\IPortfolioService.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAABEAAAA+AAAAAAAAAA==",
+              "DocumentIndex": 13,
+              "Title": "ProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Dtos\\ProductDto.cs",
+              "RelativeDocumentMoniker": "SupplementLand.Application\\Dtos\\ProductDto.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Dtos\\ProductDto.cs",
+              "RelativeToolTip": "SupplementLand.Application\\Dtos\\ProductDto.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAqwEwAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T20:48:02.788Z"
+              "WhenOpened": "2025-09-21T06:16:16.865Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "PortfolioDto.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Dtos\\PortfolioDto.cs",
-              "RelativeDocumentMoniker": "SupplementLand.Application\\Dtos\\PortfolioDto.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Dtos\\PortfolioDto.cs",
-              "RelativeToolTip": "SupplementLand.Application\\Dtos\\PortfolioDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T20:42:40.968Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "OrderFilter.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Filters\\OrderFilter.cs",
-              "RelativeDocumentMoniker": "SupplementLand.Application\\Filters\\OrderFilter.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Filters\\OrderFilter.cs",
-              "RelativeToolTip": "SupplementLand.Application\\Filters\\OrderFilter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T19:53:18.952Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "HomePageController.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand\\Controllers\\HomePageController.cs",
-              "RelativeDocumentMoniker": "SupplementLand\\Controllers\\HomePageController.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand\\Controllers\\HomePageController.cs",
-              "RelativeToolTip": "SupplementLand\\Controllers\\HomePageController.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAADgvyAAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-04T19:43:54.74Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "FactoriesController.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand\\Controllers\\FactoriesController.cs",
-              "RelativeDocumentMoniker": "SupplementLand\\Controllers\\FactoriesController.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand\\Controllers\\FactoriesController.cs",
-              "RelativeToolTip": "SupplementLand\\Controllers\\FactoriesController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAuwBwAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-01T19:08:46.704Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "IOfferService.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Interfaces\\IOfferService.cs",
-              "RelativeDocumentMoniker": "SupplementLand.Application\\Interfaces\\IOfferService.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Interfaces\\IOfferService.cs",
-              "RelativeToolTip": "SupplementLand.Application\\Interfaces\\IOfferService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T06:02:29.424Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "OfferService.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Infrastructure\\Services\\OfferService.cs",
-              "RelativeDocumentMoniker": "SupplementLand.Infrastructure\\Services\\OfferService.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Infrastructure\\Services\\OfferService.cs",
-              "RelativeToolTip": "SupplementLand.Infrastructure\\Services\\OfferService.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAIAwwHwAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T19:23:48.355Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "CommentService.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Infrastructure\\Services\\CommentService.cs",
-              "RelativeDocumentMoniker": "SupplementLand.Infrastructure\\Services\\CommentService.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Infrastructure\\Services\\CommentService.cs",
-              "RelativeToolTip": "SupplementLand.Infrastructure\\Services\\CommentService.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAnwAwAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T04:37:21.995Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "ICommentService.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Interfaces\\ICommentService.cs",
-              "RelativeDocumentMoniker": "SupplementLand.Application\\Interfaces\\ICommentService.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Interfaces\\ICommentService.cs",
-              "RelativeToolTip": "SupplementLand.Application\\Interfaces\\ICommentService.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAuwBMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T04:32:13.663Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "ContactFilter.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Filters\\ContactFilter.cs",
-              "RelativeDocumentMoniker": "SupplementLand.Application\\Filters\\ContactFilter.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Filters\\ContactFilter.cs",
-              "RelativeToolTip": "SupplementLand.Application\\Filters\\ContactFilter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-01T19:26:01.204Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "ContactDto.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Dtos\\ContactDto.cs",
-              "RelativeDocumentMoniker": "SupplementLand.Application\\Dtos\\ContactDto.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Dtos\\ContactDto.cs",
-              "RelativeToolTip": "SupplementLand.Application\\Dtos\\ContactDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-01T19:23:58.095Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "CommentDto.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Dtos\\CommentDto.cs",
-              "RelativeDocumentMoniker": "SupplementLand.Application\\Dtos\\CommentDto.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Dtos\\CommentDto.cs",
-              "RelativeToolTip": "SupplementLand.Application\\Dtos\\CommentDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T04:41:10.295Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 14,
               "Title": "OrderDto.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Dtos\\OrderDto.cs",
               "RelativeDocumentMoniker": "SupplementLand.Application\\Dtos\\OrderDto.cs",
               "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Dtos\\OrderDto.cs",
               "RelativeToolTip": "SupplementLand.Application\\Dtos\\OrderDto.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAwBYAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA1wBsAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T19:43:25.765Z"
+              "WhenOpened": "2025-09-29T19:43:25.765Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
-              "Title": "OrderListDto.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Dtos\\OrderListDto.cs",
-              "RelativeDocumentMoniker": "SupplementLand.Application\\Dtos\\OrderListDto.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Dtos\\OrderListDto.cs",
-              "RelativeToolTip": "SupplementLand.Application\\Dtos\\OrderListDto.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAUwB0AAAAHAAAAAAAAAA==",
+              "DocumentIndex": 15,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Domain\\Entities\\Order.cs",
+              "RelativeDocumentMoniker": "SupplementLand.Domain\\Entities\\Order.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Domain\\Entities\\Order.cs",
+              "RelativeToolTip": "SupplementLand.Domain\\Entities\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T19:51:14.602Z"
+              "WhenOpened": "2025-10-17T09:49:07.398Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 16,
+              "Title": "PortfolioService.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Infrastructure\\Services\\PortfolioService.cs",
+              "RelativeDocumentMoniker": "SupplementLand.Infrastructure\\Services\\PortfolioService.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Infrastructure\\Services\\PortfolioService.cs",
+              "RelativeToolTip": "SupplementLand.Infrastructure\\Services\\PortfolioService.cs",
+              "ViewState": "AgIAAI0AAAAAAAAAAAAIwKIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T20:46:42.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Domain\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "SupplementLand.Domain\\Entities\\Product.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Domain\\Entities\\Product.cs",
+              "RelativeToolTip": "SupplementLand.Domain\\Entities\\Product.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAACwAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T04:35:59.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PortfolioItem.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Domain\\Entities\\PortfolioItem.cs",
+              "RelativeDocumentMoniker": "SupplementLand.Domain\\Entities\\PortfolioItem.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Domain\\Entities\\PortfolioItem.cs",
+              "RelativeToolTip": "SupplementLand.Domain\\Entities\\PortfolioItem.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T21:08:49.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Portfolio.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Domain\\Entities\\Portfolio.cs",
+              "RelativeDocumentMoniker": "SupplementLand.Domain\\Entities\\Portfolio.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Domain\\Entities\\Portfolio.cs",
+              "RelativeToolTip": "SupplementLand.Domain\\Entities\\Portfolio.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAowAYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T20:09:08.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IOrderService.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Interfaces\\IOrderService.cs",
+              "RelativeDocumentMoniker": "SupplementLand.Application\\Interfaces\\IOrderService.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Interfaces\\IOrderService.cs",
+              "RelativeToolTip": "SupplementLand.Application\\Interfaces\\IOrderService.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAuwBMAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T19:44:26.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "PackageService.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Infrastructure\\Services\\PackageService.cs",
+              "RelativeDocumentMoniker": "SupplementLand.Infrastructure\\Services\\PackageService.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Infrastructure\\Services\\PackageService.cs",
+              "RelativeToolTip": "SupplementLand.Infrastructure\\Services\\PackageService.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAswIQAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T19:33:54.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IPackageService.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Interfaces\\IPackageService.cs",
+              "RelativeDocumentMoniker": "SupplementLand.Application\\Interfaces\\IPackageService.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Interfaces\\IPackageService.cs",
+              "RelativeToolTip": "SupplementLand.Application\\Interfaces\\IPackageService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T06:00:56.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Domain\\Entities\\User.cs",
               "RelativeDocumentMoniker": "SupplementLand.Domain\\Entities\\User.cs",
@@ -1199,7 +866,547 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "PackageListDto .cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Dtos\\PackageListDto .cs",
+              "RelativeDocumentMoniker": "SupplementLand.Application\\Dtos\\PackageListDto .cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Dtos\\PackageListDto .cs",
+              "RelativeToolTip": "SupplementLand.Application\\Dtos\\PackageListDto .cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T05:34:52.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "PackageDto.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Dtos\\PackageDto.cs",
+              "RelativeDocumentMoniker": "SupplementLand.Application\\Dtos\\PackageDto.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Dtos\\PackageDto.cs",
+              "RelativeToolTip": "SupplementLand.Application\\Dtos\\PackageDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T19:31:12.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Interfaces\\IProductService.cs",
+              "RelativeDocumentMoniker": "SupplementLand.Application\\Interfaces\\IProductService.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Interfaces\\IProductService.cs",
+              "RelativeToolTip": "SupplementLand.Application\\Interfaces\\IProductService.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAIA1wCMAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T04:37:47.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "PUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Dtos\\PUpdateDto.cs",
+              "RelativeDocumentMoniker": "SupplementLand.Application\\Dtos\\PUpdateDto.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Dtos\\PUpdateDto.cs",
+              "RelativeToolTip": "SupplementLand.Application\\Dtos\\PUpdateDto.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T06:11:21.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "NewProductListDto.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Dtos\\NewProductListDto.cs",
+              "RelativeDocumentMoniker": "SupplementLand.Application\\Dtos\\NewProductListDto.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Dtos\\NewProductListDto.cs",
+              "RelativeToolTip": "SupplementLand.Application\\Dtos\\NewProductListDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T03:02:53.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "OrderListDto.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Dtos\\OrderListDto.cs",
+              "RelativeDocumentMoniker": "SupplementLand.Application\\Dtos\\OrderListDto.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Dtos\\OrderListDto.cs",
+              "RelativeToolTip": "SupplementLand.Application\\Dtos\\OrderListDto.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAswB0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T19:51:14.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "SupplementLand\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "SupplementLand\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAgwDAAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T19:47:58.351Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "SupplementLand\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "SupplementLand\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAkwLQAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T08:37:55.537Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "CategoryModalController.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand\\Controllers\\CategoryModalController.cs",
+              "RelativeDocumentMoniker": "SupplementLand\\Controllers\\CategoryModalController.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand\\Controllers\\CategoryModalController.cs",
+              "RelativeToolTip": "SupplementLand\\Controllers\\CategoryModalController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T12:11:37.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "CommentController.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand\\Controllers\\CommentController.cs",
+              "RelativeDocumentMoniker": "SupplementLand\\Controllers\\CommentController.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand\\Controllers\\CommentController.cs",
+              "RelativeToolTip": "SupplementLand\\Controllers\\CommentController.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAYwEYAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T04:51:09.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ContactController.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand\\Controllers\\ContactController.cs",
+              "RelativeDocumentMoniker": "SupplementLand\\Controllers\\ContactController.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand\\Controllers\\ContactController.cs",
+              "RelativeToolTip": "SupplementLand\\Controllers\\ContactController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACAAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T19:39:01.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "CustomerDashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand\\Controllers\\CustomerDashboardController.cs",
+              "RelativeDocumentMoniker": "SupplementLand\\Controllers\\CustomerDashboardController.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand\\Controllers\\CustomerDashboardController.cs",
+              "RelativeToolTip": "SupplementLand\\Controllers\\CustomerDashboardController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAMwD0AAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T21:13:52.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "DiscountController.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand\\Controllers\\DiscountController.cs",
+              "RelativeDocumentMoniker": "SupplementLand\\Controllers\\DiscountController.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand\\Controllers\\DiscountController.cs",
+              "RelativeToolTip": "SupplementLand\\Controllers\\DiscountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T07:03:04.321Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "DocumentController.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand\\Controllers\\DocumentController.cs",
+              "RelativeDocumentMoniker": "SupplementLand\\Controllers\\DocumentController.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand\\Controllers\\DocumentController.cs",
+              "RelativeToolTip": "SupplementLand\\Controllers\\DocumentController.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAwwFIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T03:15:47.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "FactoryController.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand\\Controllers\\FactoryController.cs",
+              "RelativeDocumentMoniker": "SupplementLand\\Controllers\\FactoryController.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand\\Controllers\\FactoryController.cs",
+              "RelativeToolTip": "SupplementLand\\Controllers\\FactoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAiwDAAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T05:15:33.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "OfferController.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand\\Controllers\\OfferController.cs",
+              "RelativeDocumentMoniker": "SupplementLand\\Controllers\\OfferController.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand\\Controllers\\OfferController.cs",
+              "RelativeToolTip": "SupplementLand\\Controllers\\OfferController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACsAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T19:25:58.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "PackageController.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand\\Controllers\\PackageController.cs",
+              "RelativeDocumentMoniker": "SupplementLand\\Controllers\\PackageController.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand\\Controllers\\PackageController.cs",
+              "RelativeToolTip": "SupplementLand\\Controllers\\PackageController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwCwAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T19:37:07.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "PortfolioController.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand\\Controllers\\PortfolioController.cs",
+              "RelativeDocumentMoniker": "SupplementLand\\Controllers\\PortfolioController.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand\\Controllers\\PortfolioController.cs",
+              "RelativeToolTip": "SupplementLand\\Controllers\\PortfolioController.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAMwE4AAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T05:13:47.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "SupplementLand\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "SupplementLand\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIAwwCwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T04:42:36.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "RateController.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand\\Controllers\\RateController.cs",
+              "RelativeDocumentMoniker": "SupplementLand\\Controllers\\RateController.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand\\Controllers\\RateController.cs",
+              "RelativeToolTip": "SupplementLand\\Controllers\\RateController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAzwCQAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T04:56:02.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "SpecialOffersController.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand\\Controllers\\SpecialOffersController.cs",
+              "RelativeDocumentMoniker": "SupplementLand\\Controllers\\SpecialOffersController.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand\\Controllers\\SpecialOffersController.cs",
+              "RelativeToolTip": "SupplementLand\\Controllers\\SpecialOffersController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAjwCMAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T21:31:48.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "SupplementLand\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand\\Controllers\\UserController.cs",
+              "RelativeToolTip": "SupplementLand\\Controllers\\UserController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwCkAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T05:08:15.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand\\Program.cs",
+              "RelativeDocumentMoniker": "SupplementLand\\Program.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand\\Program.cs",
+              "RelativeToolTip": "SupplementLand\\Program.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAmwHAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T05:21:24.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "SupplementLand.Application\\Interfaces\\IUserService.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "SupplementLand.Application\\Interfaces\\IUserService.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAIAzwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T04:34:21.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Dtos\\UserDto.cs",
+              "RelativeDocumentMoniker": "SupplementLand.Application\\Dtos\\UserDto.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Dtos\\UserDto.cs",
+              "RelativeToolTip": "SupplementLand.Application\\Dtos\\UserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T06:30:51.591Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "UserCommentFilter.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Filters\\UserCommentFilter.cs",
+              "RelativeDocumentMoniker": "SupplementLand.Application\\Filters\\UserCommentFilter.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Filters\\UserCommentFilter.cs",
+              "RelativeToolTip": "SupplementLand.Application\\Filters\\UserCommentFilter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T18:51:09.105Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "PortfolioFilter.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Filters\\PortfolioFilter.cs",
+              "RelativeDocumentMoniker": "SupplementLand.Application\\Filters\\PortfolioFilter.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Filters\\PortfolioFilter.cs",
+              "RelativeToolTip": "SupplementLand.Application\\Filters\\PortfolioFilter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T18:35:29.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "RateService.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Infrastructure\\Services\\RateService.cs",
+              "RelativeDocumentMoniker": "SupplementLand.Infrastructure\\Services\\RateService.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Infrastructure\\Services\\RateService.cs",
+              "RelativeToolTip": "SupplementLand.Infrastructure\\Services\\RateService.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAwB4AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T04:29:50.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "IRateService.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Interfaces\\IRateService.cs",
+              "RelativeDocumentMoniker": "SupplementLand.Application\\Interfaces\\IRateService.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Interfaces\\IRateService.cs",
+              "RelativeToolTip": "SupplementLand.Application\\Interfaces\\IRateService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T04:33:31.712Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 53,
+              "Title": "RateDto.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Dtos\\RateDto.cs",
+              "RelativeDocumentMoniker": "SupplementLand.Application\\Dtos\\RateDto.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Dtos\\RateDto.cs",
+              "RelativeToolTip": "SupplementLand.Application\\Dtos\\RateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T04:34:57.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "RateFilter.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Filters\\RateFilter.cs",
+              "RelativeDocumentMoniker": "SupplementLand.Application\\Filters\\RateFilter.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Filters\\RateFilter.cs",
+              "RelativeToolTip": "SupplementLand.Application\\Filters\\RateFilter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T04:49:00.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "CommentFilter.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Filters\\CommentFilter.cs",
+              "RelativeDocumentMoniker": "SupplementLand.Application\\Filters\\CommentFilter.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Filters\\CommentFilter.cs",
+              "RelativeToolTip": "SupplementLand.Application\\Filters\\CommentFilter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T02:31:45.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "PortfolioItemFilter.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Filters\\PortfolioItemFilter.cs",
+              "RelativeDocumentMoniker": "SupplementLand.Application\\Filters\\PortfolioItemFilter.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Filters\\PortfolioItemFilter.cs",
+              "RelativeToolTip": "SupplementLand.Application\\Filters\\PortfolioItemFilter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T19:04:17.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "IPortfolioService.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Interfaces\\IPortfolioService.cs",
+              "RelativeDocumentMoniker": "SupplementLand.Application\\Interfaces\\IPortfolioService.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Interfaces\\IPortfolioService.cs",
+              "RelativeToolTip": "SupplementLand.Application\\Interfaces\\IPortfolioService.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAABEAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T20:48:02.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "PortfolioDto.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Dtos\\PortfolioDto.cs",
+              "RelativeDocumentMoniker": "SupplementLand.Application\\Dtos\\PortfolioDto.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Dtos\\PortfolioDto.cs",
+              "RelativeToolTip": "SupplementLand.Application\\Dtos\\PortfolioDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T20:42:40.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "OrderFilter.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Filters\\OrderFilter.cs",
+              "RelativeDocumentMoniker": "SupplementLand.Application\\Filters\\OrderFilter.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Filters\\OrderFilter.cs",
+              "RelativeToolTip": "SupplementLand.Application\\Filters\\OrderFilter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T19:53:18.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "HomePageController.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand\\Controllers\\HomePageController.cs",
+              "RelativeDocumentMoniker": "SupplementLand\\Controllers\\HomePageController.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand\\Controllers\\HomePageController.cs",
+              "RelativeToolTip": "SupplementLand\\Controllers\\HomePageController.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAADgvyAAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T19:43:54.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "FactoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand\\Controllers\\FactoriesController.cs",
+              "RelativeDocumentMoniker": "SupplementLand\\Controllers\\FactoriesController.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand\\Controllers\\FactoriesController.cs",
+              "RelativeToolTip": "SupplementLand\\Controllers\\FactoriesController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwBwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T19:08:46.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "IOfferService.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Interfaces\\IOfferService.cs",
+              "RelativeDocumentMoniker": "SupplementLand.Application\\Interfaces\\IOfferService.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Interfaces\\IOfferService.cs",
+              "RelativeToolTip": "SupplementLand.Application\\Interfaces\\IOfferService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T06:02:29.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "OfferService.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Infrastructure\\Services\\OfferService.cs",
+              "RelativeDocumentMoniker": "SupplementLand.Infrastructure\\Services\\OfferService.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Infrastructure\\Services\\OfferService.cs",
+              "RelativeToolTip": "SupplementLand.Infrastructure\\Services\\OfferService.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAIAwwHwAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T19:23:48.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "CommentService.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Infrastructure\\Services\\CommentService.cs",
+              "RelativeDocumentMoniker": "SupplementLand.Infrastructure\\Services\\CommentService.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Infrastructure\\Services\\CommentService.cs",
+              "RelativeToolTip": "SupplementLand.Infrastructure\\Services\\CommentService.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAnwAwAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T04:37:21.995Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "ICommentService.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Interfaces\\ICommentService.cs",
+              "RelativeDocumentMoniker": "SupplementLand.Application\\Interfaces\\ICommentService.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Interfaces\\ICommentService.cs",
+              "RelativeToolTip": "SupplementLand.Application\\Interfaces\\ICommentService.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAuwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T04:32:13.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "ContactFilter.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Filters\\ContactFilter.cs",
+              "RelativeDocumentMoniker": "SupplementLand.Application\\Filters\\ContactFilter.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Filters\\ContactFilter.cs",
+              "RelativeToolTip": "SupplementLand.Application\\Filters\\ContactFilter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T19:26:01.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "ContactDto.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Dtos\\ContactDto.cs",
+              "RelativeDocumentMoniker": "SupplementLand.Application\\Dtos\\ContactDto.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Dtos\\ContactDto.cs",
+              "RelativeToolTip": "SupplementLand.Application\\Dtos\\ContactDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-01T19:23:58.095Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "CommentDto.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Dtos\\CommentDto.cs",
+              "RelativeDocumentMoniker": "SupplementLand.Application\\Dtos\\CommentDto.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Dtos\\CommentDto.cs",
+              "RelativeToolTip": "SupplementLand.Application\\Dtos\\CommentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T04:41:10.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
               "Title": "DocumentService.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Infrastructure\\Services\\DocumentService.cs",
               "RelativeDocumentMoniker": "SupplementLand.Infrastructure\\Services\\DocumentService.cs",
@@ -1211,7 +1418,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 69,
               "Title": "DocumentDto.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Dtos\\DocumentDto.cs",
               "RelativeDocumentMoniker": "SupplementLand.Application\\Dtos\\DocumentDto.cs",
@@ -1223,7 +1430,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 71,
               "Title": "PIListDto.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Dtos\\PIListDto.cs",
               "RelativeDocumentMoniker": "SupplementLand.Application\\Dtos\\PIListDto.cs",
@@ -1235,19 +1442,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
-              "Title": "NewProductListDto.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Dtos\\NewProductListDto.cs",
-              "RelativeDocumentMoniker": "SupplementLand.Application\\Dtos\\NewProductListDto.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Dtos\\NewProductListDto.cs",
-              "RelativeToolTip": "SupplementLand.Application\\Dtos\\NewProductListDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-01T03:02:53.792Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 72,
               "Title": "IDocumentService.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Interfaces\\IDocumentService.cs",
               "RelativeDocumentMoniker": "SupplementLand.Application\\Interfaces\\IDocumentService.cs",
@@ -1259,7 +1454,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 73,
               "Title": "Document.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Domain\\Entities\\Document.cs",
               "RelativeDocumentMoniker": "SupplementLand.Domain\\Entities\\Document.cs",
@@ -1271,7 +1466,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 74,
               "Title": "ProductVariant.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Domain\\Entities\\ProductVariant.cs",
               "RelativeDocumentMoniker": "SupplementLand.Domain\\Entities\\ProductVariant.cs",
@@ -1283,7 +1478,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 75,
               "Title": "portfolioItemDto.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Dtos\\portfolioItemDto.cs",
               "RelativeDocumentMoniker": "SupplementLand.Application\\Dtos\\portfolioItemDto.cs",
@@ -1295,19 +1490,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
-              "Title": "Order.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Domain\\Entities\\Order.cs",
-              "RelativeDocumentMoniker": "SupplementLand.Domain\\Entities\\Order.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Domain\\Entities\\Order.cs",
-              "RelativeToolTip": "SupplementLand.Domain\\Entities\\Order.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-17T09:49:07.398Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 76,
               "Title": "PoListDto.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Dtos\\PoListDto.cs",
               "RelativeDocumentMoniker": "SupplementLand.Application\\Dtos\\PoListDto.cs",
@@ -1319,31 +1502,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
-              "Title": "Portfolio.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Domain\\Entities\\Portfolio.cs",
-              "RelativeDocumentMoniker": "SupplementLand.Domain\\Entities\\Portfolio.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Domain\\Entities\\Portfolio.cs",
-              "RelativeToolTip": "SupplementLand.Domain\\Entities\\Portfolio.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAowBYAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T20:09:08.845Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 63,
-              "Title": "PackageService.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Infrastructure\\Services\\PackageService.cs",
-              "RelativeDocumentMoniker": "SupplementLand.Infrastructure\\Services\\PackageService.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Infrastructure\\Services\\PackageService.cs",
-              "RelativeToolTip": "SupplementLand.Infrastructure\\Services\\PackageService.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAqwGwAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T19:33:54.986Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 77,
               "Title": "FactoryService.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Infrastructure\\Services\\FactoryService.cs",
               "RelativeDocumentMoniker": "SupplementLand.Infrastructure\\Services\\FactoryService.cs",
@@ -1355,19 +1514,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
-              "Title": "DiscountService.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Infrastructure\\Services\\DiscountService.cs",
-              "RelativeDocumentMoniker": "SupplementLand.Infrastructure\\Services\\DiscountService.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Infrastructure\\Services\\DiscountService.cs",
-              "RelativeToolTip": "SupplementLand.Infrastructure\\Services\\DiscountService.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAwGIAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T06:57:54.096Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 78,
               "Title": "ContactService.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Infrastructure\\Services\\ContactService.cs",
               "RelativeDocumentMoniker": "SupplementLand.Infrastructure\\Services\\ContactService.cs",
@@ -1379,7 +1526,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 79,
               "Title": "CatService.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Infrastructure\\Services\\CatService.cs",
               "RelativeDocumentMoniker": "SupplementLand.Infrastructure\\Services\\CatService.cs",
@@ -1391,7 +1538,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 80,
               "Title": "ProductFilter.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Filters\\ProductFilter.cs",
               "RelativeDocumentMoniker": "SupplementLand.Application\\Filters\\ProductFilter.cs",
@@ -1403,7 +1550,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 81,
               "Title": "ComListDto.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Dtos\\ComListDto.cs",
               "RelativeDocumentMoniker": "SupplementLand.Application\\Dtos\\ComListDto.cs",
@@ -1415,7 +1562,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 82,
               "Title": "ComUpdateDto.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Dtos\\ComUpdateDto.cs",
               "RelativeDocumentMoniker": "SupplementLand.Application\\Dtos\\ComUpdateDto.cs",
@@ -1427,7 +1574,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 83,
               "Title": "Comment.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Domain\\Entities\\Comment.cs",
               "RelativeDocumentMoniker": "SupplementLand.Domain\\Entities\\Comment.cs",
@@ -1439,7 +1586,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 84,
               "Title": "SupplementLandDb.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Infrastructure\\SupplementLandDb.cs",
               "RelativeDocumentMoniker": "SupplementLand.Infrastructure\\SupplementLandDb.cs",
@@ -1451,7 +1598,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 86,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Domain\\Entities\\Category.cs",
               "RelativeDocumentMoniker": "SupplementLand.Domain\\Entities\\Category.cs",
@@ -1463,7 +1610,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 85,
               "Title": "CategoryListDto.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Dtos\\CategoryListDto.cs",
               "RelativeDocumentMoniker": "SupplementLand.Application\\Dtos\\CategoryListDto.cs",
@@ -1475,7 +1622,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 87,
               "Title": "CategoryDto.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Dtos\\CategoryDto.cs",
               "RelativeDocumentMoniker": "SupplementLand.Application\\Dtos\\CategoryDto.cs",
@@ -1487,7 +1634,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 88,
               "Title": "CatDto.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Dtos\\CatDto.cs",
               "RelativeDocumentMoniker": "SupplementLand.Application\\Dtos\\CatDto.cs",
@@ -1499,7 +1646,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 77,
+              "DocumentIndex": 89,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand\\appsettings.json",
               "RelativeDocumentMoniker": "SupplementLand\\appsettings.json",
@@ -1511,7 +1658,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 134,
+              "DocumentIndex": 135,
               "Title": "20251008035905_M2.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Infrastructure\\Migrations\\20251008035905_M2.cs",
               "RelativeDocumentMoniker": "SupplementLand.Infrastructure\\Migrations\\20251008035905_M2.cs",
@@ -1523,7 +1670,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 78,
+              "DocumentIndex": 90,
               "Title": "FacListDto.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Dtos\\FacListDto.cs",
               "RelativeDocumentMoniker": "SupplementLand.Application\\Dtos\\FacListDto.cs",
@@ -1535,7 +1682,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 79,
+              "DocumentIndex": 91,
               "Title": "RelatedProduct.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Domain\\Entities\\RelatedProduct.cs",
               "RelativeDocumentMoniker": "SupplementLand.Domain\\Entities\\RelatedProduct.cs",
@@ -1547,7 +1694,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 80,
+              "DocumentIndex": 92,
               "Title": "ProductsListDto.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Dtos\\ProductsListDto.cs",
               "RelativeDocumentMoniker": "SupplementLand.Application\\Dtos\\ProductsListDto.cs",
@@ -1559,7 +1706,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 81,
+              "DocumentIndex": 93,
               "Title": "ProductListDto.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Dtos\\ProductListDto.cs",
               "RelativeDocumentMoniker": "SupplementLand.Application\\Dtos\\ProductListDto.cs",
@@ -1571,7 +1718,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 83,
+              "DocumentIndex": 95,
               "Title": "IDiscountService.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Interfaces\\IDiscountService.cs",
               "RelativeDocumentMoniker": "SupplementLand.Application\\Interfaces\\IDiscountService.cs",
@@ -1583,7 +1730,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 82,
+              "DocumentIndex": 94,
               "Title": "IFactoryService.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Interfaces\\IFactoryService.cs",
               "RelativeDocumentMoniker": "SupplementLand.Application\\Interfaces\\IFactoryService.cs",
@@ -1595,7 +1742,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 84,
+              "DocumentIndex": 96,
               "Title": "PListDto.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Dtos\\PListDto.cs",
               "RelativeDocumentMoniker": "SupplementLand.Application\\Dtos\\PListDto.cs",
@@ -1607,7 +1754,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 85,
+              "DocumentIndex": 97,
               "Title": "FacDto.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Dtos\\FacDto.cs",
               "RelativeDocumentMoniker": "SupplementLand.Application\\Dtos\\FacDto.cs",
@@ -1619,7 +1766,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 86,
+              "DocumentIndex": 98,
               "Title": "Factory.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Domain\\Entities\\Factory.cs",
               "RelativeDocumentMoniker": "SupplementLand.Domain\\Entities\\Factory.cs",
@@ -1631,7 +1778,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 87,
+              "DocumentIndex": 99,
               "Title": "FacImageDto.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Dtos\\FacImageDto.cs",
               "RelativeDocumentMoniker": "SupplementLand.Application\\Dtos\\FacImageDto.cs",
@@ -1643,7 +1790,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 88,
+              "DocumentIndex": 100,
               "Title": "20251005131015_M0.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Infrastructure\\Migrations\\20251005131015_M0.cs",
               "RelativeDocumentMoniker": "SupplementLand.Infrastructure\\Migrations\\20251005131015_M0.cs",
@@ -1655,7 +1802,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 89,
+              "DocumentIndex": 101,
               "Title": "OfferDetailDto.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Dtos\\OfferDetailDto.cs",
               "RelativeDocumentMoniker": "SupplementLand.Application\\Dtos\\OfferDetailDto.cs",
@@ -1667,7 +1814,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 90,
+              "DocumentIndex": 102,
               "Title": "Offer.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Domain\\Entities\\Offer.cs",
               "RelativeDocumentMoniker": "SupplementLand.Domain\\Entities\\Offer.cs",
@@ -1679,19 +1826,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 91,
-              "Title": "PUpdateDto.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Dtos\\PUpdateDto.cs",
-              "RelativeDocumentMoniker": "SupplementLand.Application\\Dtos\\PUpdateDto.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Dtos\\PUpdateDto.cs",
-              "RelativeToolTip": "SupplementLand.Application\\Dtos\\PUpdateDto.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAIA7wBYAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T06:11:21.285Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 92,
+              "DocumentIndex": 103,
               "Title": "OfferFilter.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Filters\\OfferFilter.cs",
               "RelativeDocumentMoniker": "SupplementLand.Application\\Filters\\OfferFilter.cs",
@@ -1703,7 +1838,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 93,
+              "DocumentIndex": 104,
               "Title": "OfferDto.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Dtos\\OfferDto.cs",
               "RelativeDocumentMoniker": "SupplementLand.Application\\Dtos\\OfferDto.cs",
@@ -1715,7 +1850,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 94,
+              "DocumentIndex": 105,
               "Title": "UpdateDto.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Dtos\\UpdateDto.cs",
               "RelativeDocumentMoniker": "SupplementLand.Application\\Dtos\\UpdateDto.cs",
@@ -1727,31 +1862,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 95,
-              "Title": "PortfolioItem.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Domain\\Entities\\PortfolioItem.cs",
-              "RelativeDocumentMoniker": "SupplementLand.Domain\\Entities\\PortfolioItem.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Domain\\Entities\\PortfolioItem.cs",
-              "RelativeToolTip": "SupplementLand.Domain\\Entities\\PortfolioItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-03T21:08:49.728Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 96,
-              "Title": "SupplementFact.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Domain\\Entities\\SupplementFact.cs",
-              "RelativeDocumentMoniker": "SupplementLand.Domain\\Entities\\SupplementFact.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Domain\\Entities\\SupplementFact.cs",
-              "RelativeToolTip": "SupplementLand.Domain\\Entities\\SupplementFact.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-03T20:24:21.279Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 97,
+              "DocumentIndex": 106,
               "Title": "ContactListDto.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Dtos\\ContactListDto.cs",
               "RelativeDocumentMoniker": "SupplementLand.Application\\Dtos\\ContactListDto.cs",
@@ -1763,7 +1874,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 98,
+              "DocumentIndex": 107,
               "Title": "ReplyDto.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Dtos\\ReplyDto.cs",
               "RelativeDocumentMoniker": "SupplementLand.Application\\Dtos\\ReplyDto.cs",
@@ -1775,7 +1886,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 99,
+              "DocumentIndex": 108,
               "Title": "Contact.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Domain\\Entities\\Contact.cs",
               "RelativeDocumentMoniker": "SupplementLand.Domain\\Entities\\Contact.cs",
@@ -1787,43 +1898,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 100,
-              "Title": "DiscountListDto.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Dtos\\DiscountListDto.cs",
-              "RelativeDocumentMoniker": "SupplementLand.Application\\Dtos\\DiscountListDto.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Dtos\\DiscountListDto.cs",
-              "RelativeToolTip": "SupplementLand.Application\\Dtos\\DiscountListDto.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAwwA0AAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T06:55:26.617Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 101,
-              "Title": "DiscountDto.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Dtos\\DiscountDto.cs",
-              "RelativeDocumentMoniker": "SupplementLand.Application\\Dtos\\DiscountDto.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Dtos\\DiscountDto.cs",
-              "RelativeToolTip": "SupplementLand.Application\\Dtos\\DiscountDto.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAgwAcAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T06:54:04.409Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 102,
-              "Title": "Discount.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Domain\\Entities\\Discount.cs",
-              "RelativeDocumentMoniker": "SupplementLand.Domain\\Entities\\Discount.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Domain\\Entities\\Discount.cs",
-              "RelativeToolTip": "SupplementLand.Domain\\Entities\\Discount.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAgwBAAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-27T06:38:30.386Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 103,
+              "DocumentIndex": 109,
               "Title": "RateListDto.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Dtos\\RateListDto.cs",
               "RelativeDocumentMoniker": "SupplementLand.Application\\Dtos\\RateListDto.cs",
@@ -1835,7 +1910,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 104,
+              "DocumentIndex": 110,
               "Title": "Rate.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Domain\\Entities\\Rate.cs",
               "RelativeDocumentMoniker": "SupplementLand.Domain\\Entities\\Rate.cs",
@@ -1847,7 +1922,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 105,
+              "DocumentIndex": 111,
               "Title": "UserListDto.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Dtos\\UserListDto.cs",
               "RelativeDocumentMoniker": "SupplementLand.Application\\Dtos\\UserListDto.cs",
@@ -1859,43 +1934,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 106,
-              "Title": "PackageListDto .cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Dtos\\PackageListDto .cs",
-              "RelativeDocumentMoniker": "SupplementLand.Application\\Dtos\\PackageListDto .cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Dtos\\PackageListDto .cs",
-              "RelativeToolTip": "SupplementLand.Application\\Dtos\\PackageListDto .cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-03T05:34:52.439Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 108,
-              "Title": "IPackageService.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Interfaces\\IPackageService.cs",
-              "RelativeDocumentMoniker": "SupplementLand.Application\\Interfaces\\IPackageService.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Interfaces\\IPackageService.cs",
-              "RelativeToolTip": "SupplementLand.Application\\Interfaces\\IPackageService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABLAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T06:00:56.647Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 107,
-              "Title": "PackageDto.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Dtos\\PackageDto.cs",
-              "RelativeDocumentMoniker": "SupplementLand.Application\\Dtos\\PackageDto.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Dtos\\PackageDto.cs",
-              "RelativeToolTip": "SupplementLand.Application\\Dtos\\PackageDto.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAwwBAAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T19:31:12.201Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 109,
+              "DocumentIndex": 112,
               "Title": "CategoryFilter.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Filters\\CategoryFilter.cs",
               "RelativeDocumentMoniker": "SupplementLand.Application\\Filters\\CategoryFilter.cs",
@@ -1907,7 +1946,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 110,
+              "DocumentIndex": 113,
               "Title": "Goal.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Domain\\Entities\\Goal.cs",
               "RelativeDocumentMoniker": "SupplementLand.Domain\\Entities\\Goal.cs",
@@ -1919,7 +1958,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 111,
+              "DocumentIndex": 114,
               "Title": "IContactService.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Interfaces\\IContactService.cs",
               "RelativeDocumentMoniker": "SupplementLand.Application\\Interfaces\\IContactService.cs",
@@ -1931,7 +1970,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 112,
+              "DocumentIndex": 115,
               "Title": "FUpdateDto.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Dtos\\FUpdateDto.cs",
               "RelativeDocumentMoniker": "SupplementLand.Application\\Dtos\\FUpdateDto.cs",
@@ -1943,7 +1982,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 113,
+              "DocumentIndex": 116,
               "Title": "ICatService.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Interfaces\\ICatService.cs",
               "RelativeDocumentMoniker": "SupplementLand.Application\\Interfaces\\ICatService.cs",
@@ -1955,7 +1994,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 114,
+              "DocumentIndex": 117,
               "Title": "CUpdateDto.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Dtos\\CUpdateDto.cs",
               "RelativeDocumentMoniker": "SupplementLand.Application\\Dtos\\CUpdateDto.cs",
@@ -1967,7 +2006,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 115,
+              "DocumentIndex": 118,
               "Title": "CatListDto.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Dtos\\CatListDto.cs",
               "RelativeDocumentMoniker": "SupplementLand.Application\\Dtos\\CatListDto.cs",
@@ -1979,7 +2018,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 116,
+              "DocumentIndex": 119,
               "Title": "RefreshTokenDto.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Dtos\\RefreshTokenDto.cs",
               "RelativeDocumentMoniker": "SupplementLand.Application\\Dtos\\RefreshTokenDto.cs",
@@ -1991,7 +2030,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 117,
+              "DocumentIndex": 120,
               "Title": "OperationResult.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Domain\\Entities\\OperationResult.cs",
               "RelativeDocumentMoniker": "SupplementLand.Domain\\Entities\\OperationResult.cs",
@@ -2003,7 +2042,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 118,
+              "DocumentIndex": 121,
               "Title": "DataResult.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Domain\\Entities\\DataResult.cs",
               "RelativeDocumentMoniker": "SupplementLand.Domain\\Entities\\DataResult.cs",
@@ -2015,7 +2054,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 119,
+              "DocumentIndex": 122,
               "Title": "UserFilter.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Filters\\UserFilter.cs",
               "RelativeDocumentMoniker": "SupplementLand.Application\\Filters\\UserFilter.cs",
@@ -2027,7 +2066,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 120,
+              "DocumentIndex": 123,
               "Title": "ForgetPasswordDto.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Dtos\\ForgetPasswordDto.cs",
               "RelativeDocumentMoniker": "SupplementLand.Application\\Dtos\\ForgetPasswordDto.cs",
@@ -2039,7 +2078,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 121,
+              "DocumentIndex": 124,
               "Title": "UPackageDto.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Dtos\\UPackageDto.cs",
               "RelativeDocumentMoniker": "SupplementLand.Application\\Dtos\\UPackageDto.cs",
@@ -2051,31 +2090,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 122,
-              "Title": "Package.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Domain\\Entities\\Package.cs",
-              "RelativeDocumentMoniker": "SupplementLand.Domain\\Entities\\Package.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Domain\\Entities\\Package.cs",
-              "RelativeToolTip": "SupplementLand.Domain\\Entities\\Package.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAswA8AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-27T06:43:09.109Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 123,
-              "Title": "UDiscountDto.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Dtos\\UDiscountDto.cs",
-              "RelativeDocumentMoniker": "SupplementLand.Application\\Dtos\\UDiscountDto.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Dtos\\UDiscountDto.cs",
-              "RelativeToolTip": "SupplementLand.Application\\Dtos\\UDiscountDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAIBZwBIAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-29T06:54:48.395Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 124,
+              "DocumentIndex": 125,
               "Title": "HomePage.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Domain\\Entities\\HomePage.cs",
               "RelativeDocumentMoniker": "SupplementLand.Domain\\Entities\\HomePage.cs",
@@ -2087,7 +2102,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 125,
+              "DocumentIndex": 126,
               "Title": "PackageFilter.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Filters\\PackageFilter.cs",
               "RelativeDocumentMoniker": "SupplementLand.Application\\Filters\\PackageFilter.cs",
@@ -2099,7 +2114,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 126,
+              "DocumentIndex": 127,
               "Title": "Filter.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Filters\\Filter.cs",
               "RelativeDocumentMoniker": "SupplementLand.Application\\Filters\\Filter.cs",
@@ -2111,7 +2126,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 127,
+              "DocumentIndex": 128,
               "Title": "FactoryFilter.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Filters\\FactoryFilter.cs",
               "RelativeDocumentMoniker": "SupplementLand.Application\\Filters\\FactoryFilter.cs",
@@ -2123,7 +2138,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 128,
+              "DocumentIndex": 129,
               "Title": "DiscountFilter.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Filters\\DiscountFilter.cs",
               "RelativeDocumentMoniker": "SupplementLand.Application\\Filters\\DiscountFilter.cs",
@@ -2135,7 +2150,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 129,
+              "DocumentIndex": 130,
               "Title": "CatChildernFilter.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Filters\\CatChildernFilter.cs",
               "RelativeDocumentMoniker": "SupplementLand.Application\\Filters\\CatChildernFilter.cs",
@@ -2147,7 +2162,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 130,
+              "DocumentIndex": 131,
               "Title": "UOfferDto.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Dtos\\UOfferDto.cs",
               "RelativeDocumentMoniker": "SupplementLand.Application\\Dtos\\UOfferDto.cs",
@@ -2159,7 +2174,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 131,
+              "DocumentIndex": 132,
               "Title": "OfferListDto.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Dtos\\OfferListDto.cs",
               "RelativeDocumentMoniker": "SupplementLand.Application\\Dtos\\OfferListDto.cs",
@@ -2171,7 +2186,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 132,
+              "DocumentIndex": 133,
               "Title": "URateDto.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Dtos\\URateDto.cs",
               "RelativeDocumentMoniker": "SupplementLand.Application\\Dtos\\URateDto.cs",
@@ -2183,7 +2198,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 133,
+              "DocumentIndex": 134,
               "Title": "LoginDto.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\SuppLand\\SupplementLand\\SupplementLand.Application\\Dtos\\LoginDto.cs",
               "RelativeDocumentMoniker": "SupplementLand.Application\\Dtos\\LoginDto.cs",

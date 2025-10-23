@@ -27,6 +27,7 @@ namespace SupplementLand.Application.Dtos
         public string Status { get; set; }
         public int UserId { get; set; }
         public DateTime OrderDate { get; set; }
-       
+        
+
     }
 }

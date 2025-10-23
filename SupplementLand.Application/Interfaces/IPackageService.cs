@@ -16,5 +16,6 @@ namespace SupplementLand.Application.Interfaces
         Task<OperationResult> DeletePackage(int id);
         Task<Package> GetPackageById(int id);
         Task<DataResult<PackageListDto>> GetPackages(PackageFilter filter);
+       // Task<OperationResult> ApplyPackageDiscount(string code,int packageId)
     }
 }

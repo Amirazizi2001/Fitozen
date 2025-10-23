@@ -14,11 +14,13 @@ public class UserService :IUserService
 {
     private readonly SupplementLandDb _context;
     private readonly IPasswordHasher<User> _passwordHasher;
+    private readonly IPortfolioService _portfolioService;
 
-    public UserService(SupplementLandDb context, IPasswordHasher<User> passwordHasher)
+    public UserService(SupplementLandDb context, IPasswordHasher<User> passwordHasher,IPortfolioService portfolioService)
     {
         _context = context;
         _passwordHasher = passwordHasher;
+        _portfolioService = portfolioService;
     }
 
     
@@ -221,7 +223,7 @@ public class UserService :IUserService
         if (portfolio.UserId != userId) { throw new NotImplementedException(); }
 
 
-        var product = await _context.portfolioItems.Include(pi => pi.Product).ThenInclude(p => p.ProductVariants).Include(pi => pi.Product)
+        var products = await _context.portfolioItems.Include(pi => pi.Product).ThenInclude(p => p.ProductVariants).Include(pi => pi.Product)
         .ThenInclude(p => p.Discount)
         .Where(pi => pi.PortfolioId == portfolioId).
             Select(pi => new OrderProductDto
@@ -241,7 +243,7 @@ public class UserService :IUserService
                 }).FirstOrDefault(),
                 DisCount = pi.Product.Discount.Percentage
 
-            }).FirstOrDefaultAsync();
+            }).ToListAsync();
 
 
 
@@ -254,7 +256,8 @@ public class UserService :IUserService
             Status = portfolio.Order.Status.ToString(),
             PortfolioId = portfolio.Id,
             UserId = portfolio.UserId,
-            ProductsDetail = product
+            ProductsDetail = products,
+            TotalAmount=await _portfolioService.PortfolioTotalSum(portfolio.Id),
 
 
         };
