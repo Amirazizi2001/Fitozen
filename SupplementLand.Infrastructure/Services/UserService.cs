@@ -258,6 +258,7 @@ public class UserService :IUserService
             UserId = portfolio.UserId,
             ProductsDetail = products,
             TotalAmount=await _portfolioService.PortfolioTotalSum(portfolio.Id),
+            DeliveryType=portfolio.Order.DeliveryType.ToString(),
 
 
         };

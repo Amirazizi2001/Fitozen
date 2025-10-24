@@ -1646,6 +1646,35 @@
         }
       }
     },
+    "/api/Order/ApplyOrderDiscount": {
+      "put": {
+        "tags": [
+          "Order"
+        ],
+        "parameters": [
+          {
+            "name": "code",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "orderId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Package/GetPackages": {
       "get": {
         "tags": [
@@ -1755,6 +1784,75 @@
             "name": "id",
             "in": "path",
             "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Payment/create/{orderId}": {
+      "post": {
+        "tags": [
+          "Payment"
+        ],
+        "parameters": [
+          {
+            "name": "orderId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Payment/callback": {
+      "get": {
+        "tags": [
+          "Payment"
+        ],
+        "parameters": [
+          {
+            "name": "trackId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int64"
+            }
+          },
+          {
+            "name": "success",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "status",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "orderId",
+            "in": "query",
             "schema": {
               "type": "integer",
               "format": "int32"
@@ -2368,6 +2466,35 @@
             "name": "id",
             "in": "path",
             "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Product/ApplyProductDiscount": {
+      "put": {
+        "tags": [
+          "Product"
+        ],
+        "parameters": [
+          {
+            "name": "code",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "productId",
+            "in": "query",
             "schema": {
               "type": "integer",
               "format": "int32"
@@ -3073,6 +3200,14 @@
         },
         "additionalProperties": false
       },
+      "Delivery": {
+        "enum": [
+          0,
+          1
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
       "DiscountDto": {
         "required": [
           "code",
@@ -3104,9 +3239,9 @@
             "type": "string",
             "format": "date-time"
           },
-          "discountedPrice": {
-            "type": "number",
-            "format": "double",
+          "countUsed": {
+            "type": "integer",
+            "format": "int32",
             "nullable": true
           }
         },
@@ -3255,6 +3390,9 @@
           "userId": {
             "type": "integer",
             "format": "int32"
+          },
+          "deliveryType": {
+            "$ref": "#/components/schemas/Delivery"
           }
         },
         "additionalProperties": false
@@ -3295,14 +3433,6 @@
             "maxLength": 60,
             "type": "string",
             "nullable": true
-          },
-          "catId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "facId": {
-            "type": "integer",
-            "format": "int32"
           },
           "discountId": {
             "type": "integer",
@@ -3571,6 +3701,11 @@
           "endDate": {
             "type": "string",
             "format": "date-time"
+          },
+          "countUsed": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
           }
         },
         "additionalProperties": false

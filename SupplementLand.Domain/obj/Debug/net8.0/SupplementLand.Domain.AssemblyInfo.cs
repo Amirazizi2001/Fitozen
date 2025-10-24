@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SupplementLand.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+64a81c7365341927852c3f5c72743f8eff417046")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+29e3e1013af078af453a5e819c5a32fc533eb40b")]
 [assembly: System.Reflection.AssemblyProductAttribute("SupplementLand.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SupplementLand.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

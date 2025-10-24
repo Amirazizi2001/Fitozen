@@ -367,7 +367,7 @@ public class ProductService : IProductService
         var percentage = discount.Percentage;
         var product = await _context.products.FirstOrDefaultAsync(p => p.Id == productId);
 
-        if (product == null && product.DiscountId != discount.Id) { return new OperationResult { Success = false, Message = "this code isn't for this product or product doesn't exist" }; }
+        if (product == null || product.DiscountId != discount.Id) { return new OperationResult { Success = false, Message = "this code isn't for this product or product doesn't exist" }; }
         var price = product.Price;
        
         decimal newPrice = price - ((price * percentage) / 100);

@@ -638,6 +638,9 @@ namespace SupplementLand.Infrastructure.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<int>("DeliveryType")
+                        .HasColumnType("int");
+
                     b.Property<DateTime>("OrderDate")
                         .HasColumnType("datetime2");
 
@@ -649,6 +652,9 @@ namespace SupplementLand.Infrastructure.Migrations
 
                     b.Property<decimal?>("TotalPrice")
                         .HasColumnType("decimal(18,2)");
+
+                    b.Property<long?>("TrackId")
+                        .HasColumnType("bigint");
 
                     b.HasKey("Id");
 

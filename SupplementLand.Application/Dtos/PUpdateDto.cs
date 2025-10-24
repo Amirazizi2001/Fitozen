@@ -21,8 +21,7 @@ namespace SupplementLand.Application.Dtos
        
         [MaxLength(60)]
         public string Size { get; set; }
-        public int CatId { get; set; }
-        public int FacId { get; set; }
+
         public int? DiscountId { get; set; }
         public string Description { get; set; }
         public List<string> Goals { get; set; }

@@ -14,6 +14,7 @@ public class OrderDto
     public StatusO Status { get; set; }
  
     public int UserId { get; set; }
+    public Delivery DeliveryType { get; set; }
 }
 public class OrdersDetailDto
 {
@@ -26,12 +27,14 @@ public class OrdersDetailDto
     public DateTime OrderDate { get; set; }
     public List<OrderProductDto>? ProductsDetail { get; set; }
     public decimal? TotalAmount { get; set; }
+    public string DeliveryType { get; set; }
 }
 public class OrdersDto
 {
     public int PortfolioId { get; set; }
     public DateTime OrderDate { get; set; }
     public StatusO Status { get; set; }
+    
 
     
 }

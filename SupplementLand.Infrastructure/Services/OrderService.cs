@@ -32,6 +32,7 @@ public class OrderService : IOrderService
                 OrderDate = dto.OrderDate,
                 Status = dto.Status,
                 TotalPrice = totalPrice,
+                DeliveryType=dto.DeliveryType
             };
 
 
@@ -70,15 +71,14 @@ public class OrderService : IOrderService
             .Select(o => new OrderListDto
             {
                 Id = o.Id,
+                DeliveryType=o.DeliveryType.ToString(),
                 PortfolioId = o.PortfolioId,
                 PortfolioName = o.Portfolio.Name ?? string.Empty,
                 Status = o.Status.ToString(),
                 OrderDate = o.OrderDate,
                 UserId = o.Portfolio.UserId,
                 CustomerName = o.Portfolio.User.FullName,
-                TotalPrice = o.Portfolio.PortfolioItems!= null
-                             ? o.Portfolio.PortfolioItems.Sum(p => p.Product.Price * p.Quantity)
-                             : 0,
+                TotalPrice = o.TotalPrice,
                 Quantity = o.Portfolio.PortfolioItems != null
                            ? o.Portfolio.PortfolioItems.Sum(p => p.Quantity)
                            : 0
@@ -109,7 +109,8 @@ public class OrderService : IOrderService
             PortfolioId = order.PortfolioId,
             OrderDate = order.OrderDate,
             Status = order.Status.ToString(),
-            UserId = order.Portfolio.UserId
+            UserId = order.Portfolio.UserId,
+            DeliveryType=order.DeliveryType.ToString(),
         };
     }
 
@@ -169,6 +170,7 @@ public class OrderService : IOrderService
                 UserId = portfolio.UserId,
                 ProductsDetail = products,
                 TotalAmount=portfolio.Order.TotalPrice,
+                DeliveryType=portfolio.Order.DeliveryType.ToString(),
                 
 
 
@@ -194,11 +196,11 @@ public class OrderService : IOrderService
        var discount=await _context.discounts.FirstOrDefaultAsync(d=>d.Code == code);
         if (discount == null) {return new OperationResult { Success = false,Message="discount doesn't exist"};}
         var order=await _context.orders.FirstOrDefaultAsync(o=>o.Id == orderId);
-        if (order == null || order.Status.ToString() == "NotPaid") { return new OperationResult { Success = false, Message = "order doesn't exist" }; }
+        if (order == null || order.Status.ToString() == "CheckOut") { return new OperationResult { Success = false, Message = "order doesn't exist or order check outed" }; }
         var percentage = discount.Percentage;
         var oldTotalPrice = order.TotalPrice;
         var newPrice = oldTotalPrice - ((oldTotalPrice * percentage) / 100);
-        if (discount.EndDate >= DateTime.UtcNow||discount.CountUsed==0) { return new OperationResult { Success = false, Message = "discount has been expired" }; }
+        if (discount.EndDate< DateTime.UtcNow||discount.CountUsed==0) { return new OperationResult { Success = false, Message = "discount has been expired" }; }
         order.TotalPrice = newPrice;
         discount.CountUsed--;
         _context.SaveChanges();

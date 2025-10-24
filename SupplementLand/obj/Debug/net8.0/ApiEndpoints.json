@@ -977,6 +977,27 @@
   },
   {
     "ContainingType": "SupplementLand.Controllers.OrderController",
+    "Method": "ApplyOrderDiscount",
+    "RelativePath": "api/Order/ApplyOrderDiscount",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "code",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "orderId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SupplementLand.Controllers.OrderController",
     "Method": "CancelOrder",
     "RelativePath": "api/Order/CancelOrder/{orderId}",
     "HttpMethod": "PUT",
@@ -1118,6 +1139,53 @@
       {
         "Name": "dto",
         "Type": "SupplementLand.Application.Dtos.UPackageDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SupplementLand.Controllers.PaymentController",
+    "Method": "Callback",
+    "RelativePath": "api/Payment/callback",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "trackId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "success",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "status",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "orderId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SupplementLand.Controllers.PaymentController",
+    "Method": "CreatePayment",
+    "RelativePath": "api/Payment/create/{orderId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orderId",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],
@@ -1341,6 +1409,27 @@
         "Name": "dto",
         "Type": "SupplementLand.Application.Dtos.ProductsVariantDto",
         "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SupplementLand.Controllers.ProductController",
+    "Method": "ApplyProductDiscount",
+    "RelativePath": "api/Product/ApplyProductDiscount",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "code",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "productId",
+        "Type": "System.Int32",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []

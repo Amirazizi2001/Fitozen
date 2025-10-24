@@ -16,8 +16,9 @@ namespace SupplementLand.Application.Dtos
         public string PortfolioName { get; set; }
         public int UserId { get; set; }
         public string CustomerName { get; set; }    
-        public decimal TotalPrice { get; set; }     
+        public decimal? TotalPrice { get; set; }     
         public int Quantity { get; set; }
+        public string DeliveryType { get; set; }
     }
 
     public class OrderDetailDto
@@ -27,7 +28,8 @@ namespace SupplementLand.Application.Dtos
         public string Status { get; set; }
         public int UserId { get; set; }
         public DateTime OrderDate { get; set; }
-        
+        public string DeliveryType { get; set; }
+
 
     }
 }

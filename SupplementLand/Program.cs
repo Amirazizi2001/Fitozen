@@ -34,6 +34,7 @@ builder.Services.AddScoped<IPackageService, PackageService>();
 builder.Services.AddScoped<IContactService, ContactService>();
 builder.Services.AddScoped<IPasswordHasher<User>, PasswordHasher<User>>();
 builder.Services.AddScoped<IDocumentService, DocumentService>();
+builder.Services.AddHttpClient<IZibalService,ZibalService>();
 
 
 

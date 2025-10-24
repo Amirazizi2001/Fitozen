@@ -14,8 +14,16 @@ namespace SupplementLand.Domain.Entities
         public StatusO Status { get; set; }
         public DateTime OrderDate { get; set; }
         public decimal? TotalPrice { get; set; }
+        public long? TrackId { get; set; }
+        public Delivery DeliveryType { get; set; }
 
 
+
+    }
+    public enum Delivery
+    {
+        PostPishtaz,
+        Snapp
     }
     public enum StatusO
     {

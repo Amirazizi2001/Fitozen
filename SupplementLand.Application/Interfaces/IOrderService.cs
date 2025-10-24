@@ -18,5 +18,6 @@ namespace SupplementLand.Application.Interfaces
         Task<OrdersDetailDto> GetOrderProductDetail(int portfolioId);
         Task<OrdersDto> GetOrder(int id);
         Task<OperationResult> ApplyOrderdiscount(string code, int orderId);
+        
     }
 }
