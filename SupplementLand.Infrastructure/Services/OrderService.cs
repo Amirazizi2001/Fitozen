@@ -120,7 +120,7 @@ public class OrderService : IOrderService
         if (order == null)
             return new OperationResult { Success = false, Message = "Order not found" };
 
-        if (order.Status != StatusO.CheckOut)
+        if (order.Status == StatusO.CheckOut)
             return new OperationResult { Success = false, Message = "Order cannot be canceled" };
 
         order.Status = StatusO.Canceled;
